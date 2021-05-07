@@ -1,0 +1,61 @@
+<div class="popinContactForm bxrow">
+    <div class="bxd6 divStructure">
+        <h2 class="bxd12 titreSection">Contactez-nous</h2>
+        <form id="formcontact" class="formStructure bxrow bxd7 bxt12" action="/json/sendMail" method="post">
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][nom]" id="contactDemo_nom" placeholder="Nom *" required>
+            </div>
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][prenom]" id="contactDemo_prenom" placeholder="Prénom *" required>
+            </div>
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][societe]" id="contactDemo_societe" placeholder="Société *" required>
+            </div>
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][email]" id="contactDemo_email" placeholder="Email *" required>
+            </div>
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][telephone]" id="contactDemo_telephone" placeholder="Téléphone *" required>
+            </div>
+            <div class="formContent bxd6 bxm12">
+                <input class="inputForm transition250" type="text" name="data[contact][cp]" id="contactDemo_cp" placeholder="Code postal" required>
+            </div>
+            <div class="formContent bxd12">
+                <input class="inputForm textareaForm transition250" type="text" name="data[contact][message]" id="contactDemo_message" placeholder="Votre message">
+            </div>
+            <div class="formContent bxd6">
+                <div class="labelForm">
+                    <input class="checkboxForm" type="checkbox" name="data[contact][cudd]" id="contactDemo_cudd_1">
+                    <label class="checkboxVue" for="contactDemo_cudd_1"></label>
+                    <p class="textLabel">Je souhaite m'inscrire à la newsletter</p>
+                </div>
+            </div>
+            <div class="formContent bxd6">
+                <div class="labelForm">
+                    <input class="checkboxForm" type="checkbox" name="data[contact][cudd]" id="contactDemo_cudd_2">
+                    <label class="checkboxVue" for="contactDemo_cudd_2"></label>
+                    <p class="textLabel">Je souhaite recevoir la brochure</p>
+                </div>
+            </div>
+            <div class="formContent ColumnStructure bxd8">
+                <div class="labelForm">
+                    <input class="checkboxForm" type="checkbox" name="data[contact][cudd]" id="contactDemo_cudd_3">
+                    <label class="checkboxVue" for="contactDemo_cudd_3"></label>
+                    <p class="textLabel">J'accepte les conditions d'utilisations des données *</p>
+                </div>
+                <p class="textConsigne">* Champs obligatoire de remplir</p>
+            </div>
+            <div class="formContent bxd4">
+                <button class="btnDefault transition250" type="submit">Envoyer</button>
+            </div>
+            <div class="formContent bxd12">
+                <p class="textConsigne">Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par La Boite Immo pour La gestion de sa clientèle/prospects. Elles sont conservées jusqu'à demande de suppression et sont destinées à La Boite Immo. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d'accès aux données vous concernant et les faire rectifier en contactant rgpd@la-boite-immo.com. Nous vous informons de l’existence de la liste d'opposition au démarchage téléphonique « Bloctel », sur laquelle vous pouvez vous inscrire ici : https://conso.bloctel.fr/</p>
+            </div>
+        </form>
+    </div>
+    <div class="bxd6 mapStructure">
+        <div class="divContent">
+            <p>Service Client</p>
+        </div>
+    </div>
+</div>

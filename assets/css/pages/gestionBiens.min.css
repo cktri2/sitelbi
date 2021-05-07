@@ -1,0 +1,808 @@
+.moduleDefault._introductionGestionBiensContainer {
+    min-height: 100vh;
+    z-index: 1;
+    position: relative;
+    max-width: 1920px;
+}
+
+.moduleDefault._introductionGestionBiensContainer .shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.moduleDefault._introductionGestionBiensContainer .shape:before {
+    width: 100%;
+    height: 110%;
+    content: url('/assets/img/modules/gestionBiens/module_gererVosBiens/shape_section_1.svg');
+}
+
+.moduleDefault._introductionGestionBiensContainer .shape:after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 125px;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure .sousTitreSection_2 {
+    padding-right: 75px;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+    max-height: 800px;
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 25px;
+    }
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure .sousTitreSection_2 {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        padding: 0;
+        order: -1;
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+        padding: 75px 25px 0 25px;
+    }
+    .moduleDefault._introductionGestionBiensContainer .shape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._introductionGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 30px 15px;
+    }
+}
+
+
+/* deep flow realty */
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer {
+    max-width: 1620px;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    justify-content: flex-end;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 100px;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding-right: 50px;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._deepFlowRealtyGestionBiensContainer {
+        margin-bottom: 0;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        height: auto;
+        padding: 0;
+        justify-content: center;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 75%;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding-right: 0;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._deepFlowRealtyGestionBiensContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* rapprochements auto */
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer {
+    max-width: 1620px;
+    padding-bottom: 100px;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 150px;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: -1;
+    padding: 0 100px 0 0;
+}
+
+.moduleDefault._rapprochementsAutoGestionBiensContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px 0 0 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure {
+        padding-left: 75px;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .imageStructure {
+        padding-right: 75px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._rapprochementsAutoGestionBiensContainer {
+        min-height: auto;
+        margin-bottom: 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure {
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+        padding: 25px 0 0 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .imageStructure {
+        height: auto;
+        padding-right: 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .imageStructure .image {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._rapprochementsAutoGestionBiensContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* diffusion portail */
+
+.moduleDefault._diffusionPortailsGestionBiensContainer {
+    z-index: 2;
+    max-width: 1520px;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer {
+    background: #f59a00;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 75px 100px 0 100px;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .titreSection {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .titreSection .textColor {
+    display: block;
+    color: #fff;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .textParagraphe {
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure {
+    align-items: center;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure .imageContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure .imageContent .image {
+    opacity: 0;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure .imageContent .image.active {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    position: initial;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems {
+    padding-left: 10px;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+    padding: 25px;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item:before {
+    content: '';
+    width: 5px;
+    background: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.active,
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item:hover {
+    background: rgba(255, 255, 0, 0.25);
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.active:before,
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item:hover:before {
+    opacity: 1;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.active:before {
+    content: '';
+    width: 5px;
+    background: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .sousTitreSection_2 {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .sousTitreSection_2 .textColor {
+    display: block;
+    color: #fff;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textContent {
+    overflow: hidden;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textContent .textItem {
+    margin-top: -100%;
+    color: #fff;
+}
+
+.moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.active .textContent .textItem {
+    margin-top: 0;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._diffusionPortailsGestionBiensContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px 50px 0 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._diffusionPortailsGestionBiensContainer {
+        padding: 0;
+    }
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer {
+        border-radius: 0;
+        padding: 50px;
+    }
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure {
+        justify-content: center;
+    }
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .imageStructure .image {
+        width: 75%;
+    }
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer .divStructure .divContent .listItems {
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._diffusionPortailsGestionBiensContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* fiches impressions */
+
+.moduleDefault._fichesImpressionsGestionBiensContainer {
+    width: 100%;
+    background: #f4f4f4;
+    max-width: 1620px;
+    position: relative;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer:before {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    right: 100%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer:after {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    left: 100%;
+    height: 100%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer {
+    width: 100%;
+    padding: 100px 0 50px;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 150px;
+    margin-top: -50px;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._fichesImpressionsGestionBiensContainer {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 0 25px 0 0;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        padding-right: 0;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._fichesImpressionsGestionBiensContainer {
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0 0 0;
+        order: 2;
+        margin-top: 0;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding-right: 0;
+        text-align: center;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        justify-content: center;
+    }
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._fichesImpressionsGestionBiensContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* pige integree */
+
+.moduleDefault._pigeIntegreeGestionBiensContainer {
+    background: #f4f4f4;
+    max-width: 1620px;
+    position: relative;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer:before {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    right: 100%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer:after {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    left: 100%;
+    height: 100%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer {
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 50px 0 25px;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px 0;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0 0 0;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        height: auto;
+        padding: 0;
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+    .moduleDefault._pigeIntegreeGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+}
+
+
+/* liveVisit */
+
+.moduleDefault._liveVisitGestionBiensContainer {
+    max-width: 1620px;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer:before {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    z-index: -1;
+    width: 100vw;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    height: 100%;
+    content: url(/assets/img/modules/gestionBiens/module_liveVisit/shape_section_2.svg);
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer {
+    width: 100%;
+    margin: auto;
+    padding: 50px 50px 100px 50px;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 50px 150px 100px;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    width: calc(100% + 150px);
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._liveVisitGestionBiensContainer {
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure {
+        padding: 0 25px 0 0;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding-right: 0;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .imageStructure .image {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._liveVisitGestionBiensContainer {
+        margin: 0;
+        padding: 50px;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer {
+        padding: 0;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure {
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px 0 0 0;
+        order: 2;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .imageStructure {
+        padding: 0;
+        max-width: 400px;
+        margin: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._liveVisitGestionBiensContainer {
+        padding: 30px 15px;
+    }
+    .moduleDefault._liveVisitGestionBiensContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding: 0 0 15px 0;
+    }
+}

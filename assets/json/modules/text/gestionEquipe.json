@@ -1,0 +1,96 @@
+{
+  "introductionGestionEquipe": {
+    "titre": "Gérez <span class='textColor'>votre équipe</span>",
+    "text": "Hektor permet une gestion sans faille de votre équipe et votre activité !",
+    "altImg": ""
+  },
+  "reportingGestionEquipe": {
+    "titre": "Reporting <span class='textColor'>d'activité</span>",
+    "text": "Suivez les performances de votre agence et de votre équipe avec le Reporting Hektor.<br>Connecté à l’ensemble de votre logiciel, le reporting s’incrémente automatiquement ! Un vrai gain de temps et de performance !",
+    "altImg": "",
+    "sousTitre": "<span class='textColor'>Le reporting Hektor</span> vous permettra de visualiser :",
+    "textBottom": "Des statistiques calculées <span class='textColor'>automatiquement pour l’agence</span><br> mais aussi <span class='textColor'>pour chaque négociateur !</span>",
+    "listItems": [
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_1.svg",
+        "altIcon": "",
+        "text": "Chiffre d'affaires généré par mois et par an"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_2.svg",
+        "altIcon": "",
+        "text": "Comparatif des mandats entrés et vendus"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_3.svg",
+        "altIcon": "",
+        "text": "Tableau des ventes"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_4.svg",
+        "altIcon": "",
+        "text": "Typologie des biens entrés et vendus"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_5.svg",
+        "altIcon": "",
+        "text": "Suivi des compromis"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_6.svg",
+        "altIcon": "",
+        "text": "Temps moyen passé sur les dossiers"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_7.svg",
+        "altIcon": "",
+        "text": "Taux d'honoraires moyen"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_8.svg",
+        "altIcon": "",
+        "text": "Répartition géographique des mandats"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_9.svg",
+        "altIcon": "",
+        "text": "Comparatif des mandats exclusifs et simples"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_reporting/reporting_10.svg",
+        "altIcon": "",
+        "text": "Analyse de la provenance de vos contacts"
+      }
+    ]
+  },
+  "agendaGestionEquipe": {
+    "titre": "Un vrai <span class='textColor'>agenda métier</span>",
+    "text": "Fonctionnalité de base d'un vrai logiciel immobilier pour professionnels, votre agenda Hektor est connecté à l’ensemble du logiciel ! Ainsi, vous optimisez l'activité de chacun de vos collaborateurs grâce à un agenda partagé directement relié à vos portefeuilles de biens, d'acquéreurs et de mandants. <br><br>L'agenda Hektor vous permet de suivre sans contrainte le planning de chacun de vos négociateurs immobiliers, et bien plus encore...",
+    "listItems": [
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_agenda/agenda_1.svg",
+        "altIcon": "",
+        "titre": "Mise à jour en temps réel",
+        "text": "Disponible depuis n'importe quel poste de travail ou depuis l’application mobile et tablette, toutes vos mises à jour s'effectuent en temps réel !"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_agenda/agenda_2.svg",
+        "altIcon": "",
+        "titre": "Synchronisation des agendas",
+        "text": "Synchronisez vos agendas Google, Outlook, Thunderbird et Apple (iCal) avec Hektor, en temps réel. Ne ratez plus aucun rendez-vous !"
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_agenda/agenda_3.svg",
+        "altIcon": "",
+        "titre": "Confirmer des rendez-vous",
+        "text": "Depuis l’agenda vous pourrez envoyer un sms de confirmation de rendez-vous à vos contacts."
+      },
+      {
+        "icon": "/assets/img/modules/gestionEquipe/module_agenda/agenda_4.svg",
+        "altIcon": "",
+        "titre": "Editer des documents",
+        "text": "L’agenda vous permet d'éditer différents documents comme vos bons de visites, les fiches publiques..."
+      }
+    ]
+  }
+}

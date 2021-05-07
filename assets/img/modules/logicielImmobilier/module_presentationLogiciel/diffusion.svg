@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <clipPath id="clip-diffusion">
+      <rect width="105" height="105"/>
+    </clipPath>
+  </defs>
+  <g id="diffusion" clip-path="url(#clip-diffusion)">
+    <g id="Groupe_19562" data-name="Groupe 19562" transform="translate(-1611.141 -103.614)">
+      <path id="Tracé_16496" data-name="Tracé 16496" d="M1700.229,183.833a1.5,1.5,0,0,0,2.094-.315,20.105,20.105,0,1,0-32.379,0,1.5,1.5,0,1,0,2.409-1.777,17.111,17.111,0,1,1,27.561,0,1.5,1.5,0,0,0,.316,2.092Zm0,0" transform="translate(-22.082 -22.073)" fill="#333"/>
+      <path id="Tracé_16497" data-name="Tracé 16497" d="M1647.288,173.071a1.5,1.5,0,0,0,1.74-2.436,25.913,25.913,0,1,1,30.05,0,1.5,1.5,0,0,0,1.735,2.436,28.906,28.906,0,1,0-33.525,0Zm0,0" transform="translate(0)" fill="#333"/>
+      <path id="Tracé_16498" data-name="Tracé 16498" d="M1691.472,296.336H1672.5v0h-6.941V272.676a1.5,1.5,0,0,0-2.993,0v8.2h0l0,15.469h-6.945v0h-18.969a1.5,1.5,0,1,0,0,2.993h54.819A1.5,1.5,0,0,0,1691.472,296.336Z" transform="translate(-0.01 -107.642)" fill="#333"/>
+      <path id="Tracé_16499" data-name="Tracé 16499" d="M1717.71,196.738a11.894,11.894,0,1,0-10.989,7.343A11.893,11.893,0,0,0,1717.71,196.738Z" transform="translate(-42.671 -42.666)" fill="#f59a00"/>
+    </g>
+  </g>
+</svg>

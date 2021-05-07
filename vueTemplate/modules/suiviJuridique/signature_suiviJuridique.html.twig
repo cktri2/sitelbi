@@ -1,0 +1,26 @@
+<section id="signatureSuiviJuridique_anchorId" class="moduleDefault _signatureSuiviJuridiqueContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="imageStructure bxd6 bxt12">
+            <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique.png" alt="{{ signatureSuiviJuridique.altImg }}">
+        </div>
+        <div class="divStructure bxd6 bxt12">
+            <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ signatureSuiviJuridique.titre|raw }}</h2>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ signatureSuiviJuridique.text|raw }}</p>
+            {% for items in signatureSuiviJuridique.listItems %}
+                <div class="divContent">
+                    <p class="sousTitreSection BxAnim animBxFadeBottom__Out">{{ items.sousTitre|raw }}</p>
+                    <ul class="listItems bxrow">
+                        {% for items in items.list %}
+                            <li class="item {{ items.classResponsive }} BxAnim animBxFadeBottom__Out">
+                                <div class="imgContent">
+                                    <img class="imageItem" src="{{ items.icon }}" alt="{{ items.altIcon }}">
+                                </div>
+                                <p class="textParagraphe">{{ items.text|raw }}</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,70 @@
+{
+    "introductionGestionBiens": {
+        "titre": "Gérez <span class='textColor'>vos biens</span>",
+        "text": "Ergonomique, facile d'utilisation, avec des fonctionnalités aussi efficaces qu'indispensables, Hektor est un gestionnaire de bien idéal pour les professionnels de l'immobilier.",
+        "altImg": "illustration gérez vos biens"
+    },
+    "deepFlowRealtyGestionBiens": {
+        "titre": "Générez <br>vos annonces en 1 clic <span class='textColor'>avec Deep Flow Realty</span>",
+        "text": "A partir des caractéristiques du bien renseignées dans le logiciel Hektor, la technologie Deep Flow Realty rédige un texte de 300 mots à l'orthographe et à la syntaxe parfaites.<br><br>L'Intelligence Artificielle de Deep Flow Realty permet de générer en seulement quelques secondes : le titre de l'annonce, une description complète du bien, une traduction en anglais et une description spécifique pour l'export sur les portails immobiliers.",
+        "altImg": ""
+    },
+    "rapprochementsAutoGestionBiens": {
+        "titre": "Rapprochements <span class='textColor'>automatiques</span>",
+        "text": "Ne perdez pas une seconde et soyez la première agence, le premier réseau, à décrocher des visites avec les acquéreurs les plus sérieux grâce aux rapprochements automatiques ! Notre logiciel immobilier vous offre un rapprochement acquéreurs/vendeurs automatique dès l'enregistrement d'un nouveau mandat. En 1 clic, un email prédéfini est envoyé avec les informations principales du bien ainsi que sa fiche. Vous pouvez également ajouter manuellement d'autres biens présentant selon vous un intérêt pour l'acquéreur.<br><br>Chez nous, vos rapprochements ont la valeur qu'ils méritent, ils sont partout ! Plus question d'utiliser ces outils sans maitriser leurs portées et puissances. Parce qu'ils représentent vos opportunités d'affaires, nous avons voulu qu'Hektor les mettent en avant sur le listing de biens, les fiches de biens, le tableau de bord, les fiches vendeurs, les fiches acquéreurs…",
+        "altImg": ""
+    },
+    "diffusionPortailsGestionBiens": {
+        "titre": "Diffusez vos annonces <span class='textColor'>sur les portails</span>",
+        "text": "Configurez vos passserelles en toute autonomie et diffusez vos annonces immobilières de manière simplifiée et sans contraintes !",
+        "slider": {
+            "imgSlide": [{
+                    "img": "/assets/img/modules/gestionBiens/module_diffusionPortails/diffusionPortailPayant.png",
+                    "altImg": ""
+                },
+                {
+                    "img": "/assets/img/modules/gestionBiens/module_diffusionPortails/diffusionPortailInternationnaux.png",
+                    "altImg": ""
+                },
+                {
+                    "img": "/assets/img/modules/gestionBiens/module_diffusionPortails/diffusionBouquetGratuit.png",
+                    "altImg": ""
+                }
+            ],
+            "infos": [{
+                    "titre": "Sur les portails <span class='textColor'>payants</span>",
+                    "text": "Partagez automatiquement vos annonces sur les principaux portails de diffusion immobiliers."
+                },
+                {
+                    "titre": "Sur les portails <span class='textColor'>payants</span>",
+                    "text": "Partagez automatiquement vos annonces sur les principaux portails de diffusion immobiliers."
+                },
+                {
+                    "titre": "Sur les portails <span class='textColor'>payants</span>",
+                    "text": "Partagez automatiquement vos annonces sur les principaux portails de diffusion immobiliers."
+                }
+            ]
+        }
+    },
+    "demoLogicielGenerique": {
+        "type": "blackType",
+        "text": "Demandez <span class='textColor'>votre démo offerte !</span>",
+        "textBtn": "Démo Hektor !",
+        "href": "orangeType"
+    },
+    "fichesImpressionsGestionBiens": {
+        "titre": "Créez vos <span class='textColor'>fiches d'impressions</span>",
+        "text": "Adaptées à vos couleurs et logos, vos fiches de biens deviennent le prolongement de votre image !<br><br>Conscient que vos impressions reflètent l'image de votre vitrine, web ou physique, notre logiciel immobilier vous propose de créer vos propres fiches d'impression de A à Z ou de choisir parmi une multitude de modèles ayant fait l'objet d'une réelle recherche graphique.<br><br>Hektor vous propose 4 types de fiches, qui à coup sûr retiendront l'attention de vos prospects : fiche vitrine, fiche publique, fiche privée ou fiche photo.",
+        "altImg": ""
+    },
+    "pigeIntegreeGestionBiens": {
+        "titre": "La Pige intégrée <span class='textColor'>à votre logiciel !</span>",
+        "text": "La pige est absolument essentielle, puisqu’elle vous permet de visualiser l’offre de biens de manière globale et de suivre ses fluctuations. Plus besoin de vous connecter sur deux outils à la fois : tout est dans Hektor ! Vous contrôlez tout le processus de vente du bien dans un seul outil : la pige en amont, l’entrée de mandat, le traitement des rapprochements, les visites, et l’offre d’achat jusqu’à la vente.<br><br>Les logiciels de pige Pigimmo et Directannonces sont directement intégrés à Hektor ! Un vrai gain de temps ! Vous pourrez notamment obtenir les coordonnées du propriétaire, effectuer des rapprochements automatiques, ajouter le bien dans votre listing, visualiser les évolutions de prix…",
+        "altImg": ""
+    },
+    "liveVisitGestionBiens": {
+        "titre": "Organisez des visites à distance <span class='textColor'>avec Live Visite</span>",
+        "text": "Hektor est le seul logiciel du marché qui dispose d’un système de visioconférence ! Totalement inclus, Live Visit permet, via un système de visioconférence, de présenter une sélection de biens à un acquéreur tout en restant en agence.<br><br>Pour les clients Virtual Visit, Live Visit permet de présenter de la même manière la visite virtuelle du bien : une découverte encore plus immersive et convaincante !",
+        "altImg": ""
+    }
+}

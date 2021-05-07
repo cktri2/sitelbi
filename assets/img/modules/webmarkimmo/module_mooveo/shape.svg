@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2893" height="1273" viewBox="0 0 2893 1273">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8b500"/>
+      <stop offset="1" stop-color="#f27f00"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4665" data-name="Rectangle 4665" width="2893" height="1273" transform="translate(-16044 -8816.838)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <filter id="Tracé_32280" x="1287.151" y="-893.301" width="1579.638" height="1934.283" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32281" x="1476.812" y="-564.024" width="1091.328" height="1325.849" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-2"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32282" x="1621.352" y="-339.899" width="746.692" height="896.431" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-3"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32280-2" x="16.771" y="-459.055" width="1514.4" height="1791.795" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-4"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32281-2" x="295.365" y="-204.91" width="1048.188" height="1231.623" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-5"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_32282-2" x="483.328" y="-17.535" width="719.147" height="836.269" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-6"/>
+      <feFlood flood-color="#40527c" flood-opacity="0.298"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Shape_6_Mooveo" data-name="Shape 6 Mooveo" transform="translate(16044 8816.837)" clip-path="url(#clip-path)">
+    <g id="Groupe_20348" data-name="Groupe 20348">
+      <g id="Groupe_20346" data-name="Groupe 20346" transform="translate(-16525.465 -2710.46) rotate(-151)" opacity="0.47">
+        <g transform="matrix(-0.87, 0.48, -0.48, -0.87, 2539.33, 5574.18)" filter="url(#Tracé_32280)">
+          <path id="Tracé_32280-3" data-name="Tracé 32280" d="M1707.791,688.955s18.671,372.036-329.82,547.281c-267.3,134.422-1063.052,167.925-1306.878-265.9s191.746-545.86,518.493-606.781C804.389,323.5,797.184,8.645,1141.063.2,1530.98-9.385,1687.187,331.111,1707.791,688.955Z" transform="translate(1475.29 971.98) rotate(-94)" fill="#fff"/>
+        </g>
+        <g transform="matrix(-0.87, 0.48, -0.48, -0.87, 2539.33, 5574.18)" filter="url(#Tracé_32281)">
+          <path id="Tracé_32281-3" data-name="Tracé 32281" d="M1129.33,455.593s12.347,246.02-218.1,361.907C734.464,906.39,208.25,928.545,47.012,641.664S173.811,280.7,389.882,240.411C531.927,213.925,527.163,5.717,754.565.131,1012.409-6.206,1115.706,218.958,1129.33,455.593Z" transform="translate(1624.6 692.82) rotate(-94)" fill="#fff"/>
+        </g>
+        <g transform="matrix(-0.87, 0.48, -0.48, -0.87, 2539.33, 5574.18)" filter="url(#Tracé_32282)">
+          <path id="Tracé_32282-3" data-name="Tracé 32282" d="M721.067,290.892S728.95,447.974,581.81,521.967c-112.861,56.756-448.845,70.9-551.793-112.27s80.959-230.474,218.919-256.2C339.631,136.589,336.589,3.65,481.783.083,646.414-3.962,712.368,139.8,721.067,290.892Z" transform="translate(1740.66 487.53) rotate(-94)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Groupe_20347" data-name="Groupe 20347" transform="translate(-13184.295 -14434.871) rotate(24)" opacity="0.47">
+        <g transform="matrix(0.91, -0.41, 0.41, 0.91, -327.41, 6295.48)" filter="url(#Tracé_32280-2)">
+          <path id="Tracé_32280-4" data-name="Tracé 32280" d="M1490.944,601.475s16.3,324.8-287.941,477.79C969.64,1196.619,274.932,1225.867,62.066,847.126s167.4-476.549,452.657-529.735C702.252,282.424,695.962,7.548,996.177.172,1336.583-8.193,1472.956,289.068,1490.944,601.475Z" transform="matrix(0.16, 0.99, -0.99, 0.16, 1228.91, -390.06)" fill="#fff"/>
+        </g>
+        <g transform="matrix(0.91, -0.41, 0.41, 0.91, -327.41, 6295.48)" filter="url(#Tracé_32281-2)">
+          <path id="Tracé_32281-4" data-name="Tracé 32281" d="M985.933,397.744S996.712,612.526,795.524,713.7C641.206,791.3,181.807,810.643,41.043,560.189s110.7-315.133,299.333-350.3C464.386,186.762,460.226,4.991,658.754.114,883.859-5.418,974.039,191.155,985.933,397.744Z" transform="matrix(0.16, 0.99, -0.99, 0.16, 1120.3, -135.91)" fill="#fff"/>
+        </g>
+        <g transform="matrix(0.91, -0.41, 0.41, 0.91, -327.41, 6295.48)" filter="url(#Tracé_32282-2)">
+          <path id="Tracé_32282-4" data-name="Tracé 32282" d="M629.509,253.956s6.882,137.136-121.574,201.734c-98.531,49.549-391.853,61.9-481.729-98.014s70.68-201.21,191.122-223.666C296.506,119.246,293.851,3.187,420.608.073,564.336-3.459,621.915,122.051,629.509,253.956Z" transform="matrix(0.16, 0.99, -0.99, 0.16, 1034.99, 51.46)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

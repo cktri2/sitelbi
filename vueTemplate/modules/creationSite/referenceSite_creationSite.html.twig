@@ -1,0 +1,36 @@
+<section id="referenceSiteCreationSite_anchorId" class="moduleDefault _referenceSiteCreationSiteContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="imgStructure">
+            <img class="imageBck BxAnim animBxFadeBottom__Out" src="/assets/img/modules/creationSite/module_referenceSite/referenceSite.png" alt="">
+        </div>
+        <div class="divStructure">
+            <div class="divContent">
+                <h2 class="titreSection BxAnim animBxFadeBottom__Out">Nos références</h2>
+                <div class="filtreContent BxAnim animBxFadeBottom__Out">
+                    <p class="sousTitreSection_3">filtrer par modèle :</p>
+                    <select class="selectFiltre">
+                        <option value="0">Tous</option>
+                        <option value="0">Moderne</option>
+                        <option value="0">Ancien</option>
+                    </select>
+                </div>    
+            </div>
+        </div>
+        <ul class="listModel bxrow">
+            {% for model in listModels %}
+                <li class="elementModelStructure bxd3 bxt6 bxm12 BxAnim animBxFadeBottom__Out">
+                    <div class="elementModel">
+                        <div class="imgModelStructure">
+                            {% for i in 1..3 %}
+                                <div class="imgModelContent_{{ i }} transition250">
+                                    <img class="imgModel" src="/assets/img/modules/creationSite/module_referenceSite/model/{{ model.type }}/img_{{ i }}.jpg" alt="">
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <p class="titreModel">{{ model.nom }} <strong>{{ model.type }}</strong></p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.786" height="83.035" viewBox="0 0 63.786 83.035">
+  <g id="Espace_pro" data-name="Espace pro" transform="translate(6122.254 -57.874)">
+    <path id="Tracé_27320" data-name="Tracé 27320" d="M-6025.426,95.231V81.836a23.962,23.962,0,0,0-23.96-23.962,23.963,23.963,0,0,0-23.963,23.962V95.231m8.641,0V81.836a15.339,15.339,0,0,1,15.322-15.321,15.337,15.337,0,0,1,15.319,15.321V95.231" transform="translate(-40.974 0)" fill="#d3dae0"/>
+    <g id="Groupe_17035" data-name="Groupe 17035" transform="translate(-6114.322 57.874)">
+      <path id="Tracé_27321" data-name="Tracé 27321" d="M-6047.988,57.916c-.463-.027-.929-.042-1.4-.042a23.963,23.963,0,0,0-23.963,23.962V95.231h2.8V81.836A23.962,23.962,0,0,1-6047.988,57.916Z" transform="translate(6073.349 -57.874)" fill="#899ea8"/>
+      <path id="Tracé_27322" data-name="Tracé 27322" d="M-5915.579,111.154c-.471,0-.937.023-1.4.064a15.34,15.34,0,0,1,13.922,15.257V139.87h2.795V126.475A15.337,15.337,0,0,0-5915.579,111.154Z" transform="translate(5942.336 -102.513)" fill="#899ea8"/>
+    </g>
+    <rect id="Rectangle_3164" data-name="Rectangle 3164" width="63.786" height="45.678" transform="translate(-6122.254 95.231)" fill="#f79f00"/>
+    <rect id="Rectangle_3165" data-name="Rectangle 3165" width="5.591" height="45.678" transform="translate(-6122.254 95.231)" fill="#e48900"/>
+    <path id="Tracé_27323" data-name="Tracé 27323" d="M-5954.185,367.164a6.862,6.862,0,0,0-6.861-6.862,6.861,6.861,0,0,0-6.861,6.862,6.861,6.861,0,0,0,3.6,6.039l-1.1,8.446h8.726l-1.1-8.446A6.859,6.859,0,0,0-5954.185,367.164Z" transform="translate(-129.315 -253.381)" fill="#3e3d4c"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+{
+  "introductionAppMobile": {
+    "titre": "Soyez <span class=\"textColor\">Mobiles</span>",
+    "sousTitre": "Parce que vote métier est une métier de terrain où chaque opportunité est à saisir, ne repassez plus systématiquement à l'agence !<br>Où que vous soyez, votre portefeuilleet vos contacts vous suivent partout !",
+    "text": "Les apllications mobile et tablette sont totalement incluses dans votre abonnement",
+    "altImg": ""
+  },
+  "winTimeAppMobile": {
+    "titre": "Gagnez du temps, <span class=\"textColor\">c'est gagner en performance !</span>",
+    "altImg": "",
+    "listItems": [
+      {
+        "titre": "<span class=\"textColor\">Mode</span> hors connecté",
+        "text": "<strong>Pas de réseau ? Pas de souci !</strong><br>Même lorsque vous ne captez pas, vous pouvez accéder à vos données et saisir de nouvelles informations. Dès que vous disposerez de nouveau d'un réseau ou d'une connexion, les informations saisies seront enregistrées dans votre logiciel."
+      },
+      {
+        "titre": "<span class=\"textColor\">Accédez</span> à vos biens et contacts",
+        "text": "Où que vous soyez les applications mobiles et tablettes vous donnent la possibilité de créer et d'accéder à vos biens à tout moment. Vous pouvez également contacter en 1 clic vos acquéreurs, vos propriétaires…"
+      },
+      {
+        "titre": "<span class=\"textColor\">Gérez</span> vos rapprochements",
+        "text": "Consultez vos rapprochements et lorsque vous êtes en rendez-vous, proposez directement à vos acquéreurs vos derniers biens."
+      }
+    ]
+  },
+  "pixHdrAppMobile": {
+    "titre": "<span class=\"textColor\">Prenez des photos</span> avec Pix HDR",
+    "text": "L'application mobile et tablette d'Hektor inclus le module de prise de photos Pix HDR ! Et cela en illimité !<br><br>Toutes les caractéristiques indispensables d'une photo réussie sont automatiquement optimisées par votre application mobile pour un rendu nettement amélioré !",
+    "altImg": "",
+    "listItems": [
+      {
+        "icon": "/assets/img/modules/appMobile/module_pixHDR/pixHDR_1.png",
+        "altIcon": "",
+        "text": "Couleurs"
+      },
+      {
+        "icon": "/assets/img/modules/appMobile/module_pixHDR/pixHDR_2.png",
+        "altIcon": "",
+        "text": "Luminosité"
+      },
+      {
+        "icon": "/assets/img/modules/appMobile/module_pixHDR/pixHDR_3.png",
+        "altIcon": "",
+        "text": "Contraste"
+      },
+      {
+        "icon": "/assets/img/modules/appMobile/module_pixHDR/pixHDR_4.png",
+        "altIcon": "",
+        "text": "Nuances"
+      }
+    ]
+  },
+  "agendaAppMobile": {
+    "titre": "Consultez <span class=\"textColor\">votre agenda</span>",
+    "text": "Vous êtes en déplacement à l'extérieur ?<br><br>Pas de soucis, accédez à votre agenda avec vos outils mobiles !",
+    "altImg": ""
+  },
+  "dispoAppAppMobile": {
+    "titre": "Les applications Hektor sont <span class=\"textColor\">totalement incluses dans votre abonnement !</span>"
+  }
+}

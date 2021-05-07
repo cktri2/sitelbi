@@ -1,0 +1,25 @@
+{% set count = 0 %}
+{% block sliderDefaultContainer %}
+    <div class="sliderDefaultContainer {% block addClass %}{% endblock %}" data-slider="{% block sliderParamsValue %}{{ sliderParams }}{% endblock %}">
+        <div class="sliderDefaultStructure" {% block addStyle %}{% endblock %}>
+            <ul class="sliderDefaultContent transition500">
+                {% block foreachSliderContent %}
+                    {% for key,element in sliderContent %}
+                        <li class="slide transition500{% if count == 0 %} active{% endif %}">
+                            {% block elementSlide %}
+                                {{ element }}
+                            {% endblock %}
+                        </li>
+                        {% set count = count + 1 %}
+                    {% endfor %}
+                {% endblock %}
+            </ul>
+        </div>
+        <div class="sliderDefaultControls">
+            <span class="iconArrow transition250 {% block arrowLeftIcon %}{{ arrowLeft }}{% endblock %}"></span>
+            <ul class="dotControl">
+            </ul>
+            <span class="iconArrow transition250 {% block arrowRightIcon %}{{ arrowRight }}{% endblock %}"></span>
+        </div>
+    </div>
+{% endblock %}

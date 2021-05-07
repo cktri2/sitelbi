@@ -1,0 +1,8 @@
+@import "/assets/fonts/font/font.css";
+@import "/assets/fonts/fontIcon/fontIcon.css";
+
+@import "colorPrimary.css";
+@import "reset.css";
+@import "uikit/uikit.css";
+@import "uikit/header.css";
+@import "uikit/footer.css";

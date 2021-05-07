@@ -1,0 +1,505 @@
+.moduleDefault._introductionSuiviJuridiqueContainer {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    max-width: 1920px;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: url('/assets/img/modules/\suiviJuridique/module_introductionJuridique/shape_section_1.svg') no-repeat 100% 0%;
+    background-size: contain;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer:after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer {
+    width: 100%;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._introductionSuiviJuridiqueContainer {
+        min-height: 100vh;
+        padding: 0;
+    }
+    .moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 25px;
+    }
+    .moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        padding: 0;
+        order: -1;
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+        padding: 75px 25px 0 25px;
+    }
+}
+
+
+/* gestino docs types */
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer {
+    margin: auto;
+    max-width: 1620px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .imageStructure {
+    align-items: center;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems {
+    padding: 100px 50px 0 50px;
+    width: 100%;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item {
+    padding-right: 20px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 10px 30px 40px 0 rgba(174, 194, 216, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .numbreItem {
+    background: #333;
+    color: #fff;
+    font-size: 60px;
+    min-width: 75px;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .numbreItem .icon {
+    font-size: 40px;
+    display: block;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .textItem {
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .textItem .textStrong {
+    display: block;
+    font-size: 35px;
+    position: relative;
+}
+
+.moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .textItem .textStrong:before {
+    background: #333;
+    width: 40px;
+    height: 40px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: rotate(45deg) translate(-50%);
+    -webkit-transform: rotate(45deg) translate(-50%);
+    -moz-transform: rotate(45deg) translate(-50%);
+    -ms-transform: rotate(45deg) translate(-50%);
+    -o-transform: rotate(45deg) translate(-50%);
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent {
+        padding: 0;
+        padding-left: 50px;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems {
+        padding: 50px 0 0 0;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item .itemContent .textItem .textStrong {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer {
+        margin-bottom: 0;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        padding: 0;
+        justify-content: center;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 400px;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent {
+        padding: 50px 0;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding-right: 0;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .textParagraphe {
+        text-align: center;
+        padding-right: 0;
+    }
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer .listItems .item {
+        padding: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._gestionDocsTypesSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+}
+
+
+/* documents */
+
+.moduleDefault._documentsSuiviJuridiqueContainer {
+    margin: auto;
+    max-width: 1620px;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 150px;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding: 0 25px 0 0;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        padding-right: 0;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._documentsSuiviJuridiqueContainer {
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0 0 0;
+        order: 2;
+        margin-top: 0;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding-right: 0;
+        text-align: center;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        justify-content: center;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._documentsSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        font-size: 15px;
+    }
+}
+
+
+/* signature */
+
+.moduleDefault._signatureSuiviJuridiqueContainer {
+    padding-bottom: 150px;
+    max-width: 1670px;
+    margin: auto;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer {
+    padding: 100px 0 50px 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+    padding-left: 100px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    max-width: 500px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems {
+    width: 90%;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+    padding-bottom: 20px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.bxd4 {
+    padding-right: 20px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .imgContent {
+    border-radius: 5px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .imgContent .imageItem {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textParagraphe {
+    text-transform: uppercase;
+    width: calc(100% - 60px);
+    padding-left: 15px;
+    font-family: 'OpenSans-Bold';
+}
+
+.moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item.bxd8 .textParagraphe {
+    text-transform: uppercase;
+    width: calc(50% - 60px);
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._signatureSuiviJuridiqueContainer {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems {
+        width: 100%;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+        width: 50%;
+        padding-right: 10px !important;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        width: 100%;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure {
+        padding: 0;
+        justify-content: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 500px;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0;
+        width: 100%;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        max-width: 100%;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems {
+        width: 100%;
+        justify-content: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+        padding: 20px !important;
+        width: 33.33%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textParagraphe {
+        padding: 0;
+        text-align: center;
+        padding-top: 15px;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._signatureSuiviJuridiqueContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112" height="106" viewBox="0 0 112 106">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3872" data-name="Rectangle 3872" width="112" height="106" transform="translate(0.308 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="postionnement" transform="translate(-0.237 0.362)">
+    <g id="Groupe_18632" data-name="Groupe 18632" transform="translate(-0.071 -0.362)">
+      <g id="Groupe_18631" data-name="Groupe 18631" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_29854" data-name="Tracé 29854" d="M90,94.844,92.487,93.6l5.2-2.6h7.688v5.766a3.841,3.841,0,0,1-3.844,3.844L90,104.455Z" transform="translate(-61.175 -61.57)" fill="#ffbfa1"/>
+        <path id="Tracé_29855" data-name="Tracé 29855" d="M32.522,108.739l-3.69,1.23v17.3H7.688V111.891H0v-5.766a5.768,5.768,0,0,1,5.766-5.766H28.832l2.487-1.245Z" transform="translate(-0.006 -67.084)" fill="#bed000"/>
+        <rect id="Rectangle_3868" data-name="Rectangle 3868" width="22" height="44" transform="translate(7.308 59)" fill="#7f7f7f"/>
+        <path id="Tracé_29856" data-name="Tracé 29856" d="M57.5,74.471,37.015,111.012l-6.706-3.76,20.4-36.382Z" transform="translate(-20.606 -47.89)" fill="#333"/>
+        <path id="Tracé_29857" data-name="Tracé 29857" d="M66,304.844,73.688,301l9.611,5.766v3.844H66Z" transform="translate(-44.863 -204.297)" fill="#aaa"/>
+        <path id="Tracé_29858" data-name="Tracé 29858" d="M50.941,244.32l-3.836-.255L49.19,212.78a1.922,1.922,0,1,1,3.836.257Z" transform="translate(-32.021 -143.119)" fill="#686868"/>
+        <path id="Tracé_29859" data-name="Tracé 29859" d="M168.52,79.754H135.844A3.844,3.844,0,0,1,132,75.909V52.844A3.844,3.844,0,0,1,135.844,49H168.52Z" transform="translate(-89.72 -33.025)" fill="#efefef"/>
+        <path id="Tracé_29860" data-name="Tracé 29860" d="M246,49h28.832a3.844,3.844,0,0,1,3.844,3.844V75.909a3.844,3.844,0,0,1-3.844,3.844H246Z" transform="translate(-167.2 -33.025)" fill="#bed000"/>
+        <path id="Tracé_29861" data-name="Tracé 29861" d="M299.533,78.766A5.766,5.766,0,1,1,293.766,73a5.766,5.766,0,0,1,5.766,5.766" transform="translate(-195.745 -49.337)" fill="#efefef"/>
+        <path id="Tracé_29862" data-name="Tracé 29862" d="M278.65,67a7.682,7.682,0,0,0-6.621,11.59l-6.271,6.272,2.718,2.718,6.272-6.271A7.687,7.687,0,1,0,278.65,67m0,11.533a3.844,3.844,0,1,1,3.844-3.844,3.843,3.843,0,0,1-3.844,3.844" transform="translate(-180.629 -45.259)" fill="#333"/>
+        <rect id="Rectangle_3869" data-name="Rectangle 3869" width="4" height="4" transform="translate(49.308 37)" fill="#333"/>
+        <rect id="Rectangle_3870" data-name="Rectangle 3870" width="3" height="4" transform="translate(58.308 37)" fill="#333"/>
+        <rect id="Rectangle_3871" data-name="Rectangle 3871" width="4" height="13" transform="translate(65.308 28)" fill="#bed000"/>
+        <path id="Tracé_29863" data-name="Tracé 29863" d="M53.766,85v8.649a2.883,2.883,0,0,1-5.766,0V85Z" transform="translate(-32.63 -57.493)" fill="#ffceb6"/>
+        <path id="Tracé_29864" data-name="Tracé 29864" d="M57.844,85v7.688A3.846,3.846,0,0,1,54,88.844V85Z" transform="translate(-36.708 -57.493)" fill="#ffbfa1"/>
+        <path id="Tracé_29865" data-name="Tracé 29865" d="M55.688,79H49.922L48,80.922v1.922a3.844,3.844,0,1,0,7.688,0Z" transform="translate(-32.63 -53.415)" fill="#ffceb6"/>
+        <path id="Tracé_29866" data-name="Tracé 29866" d="M48,68.688V64.844A3.844,3.844,0,0,1,51.844,61h3.048a2.718,2.718,0,0,1,1.922,4.64l-1.126,1.126H49.922Z" transform="translate(-32.63 -41.181)" fill="#c47220"/>
+        <path id="Tracé_29867" data-name="Tracé 29867" d="M33.611,301l7.688,5.766v3.844H24v-5.766Z" transform="translate(-16.318 -204.297)" fill="#cecece"/>
+        <path id="Tracé_29868" data-name="Tracé 29868" d="M7.688,134.922v1.922h17.3l3.446-3.446a1.359,1.359,0,0,1,2.32.961v2.485H36.52v3.844a3.844,3.844,0,0,1-3.844,3.844H5.766A5.766,5.766,0,0,1,0,138.766v-3.844Z" transform="translate(-0.006 -90.116)" fill="#ffceb6"/>
+        <path id="Tracé_29869" data-name="Tracé 29869" d="M21.844,132.766H18v-3.844a1.922,1.922,0,1,1,3.844,0Z" transform="translate(-12.24 -86.038)" fill="#aab204"/>
+      </g>
+    </g>
+    <g id="Groupe_18634" data-name="Groupe 18634" transform="translate(-0.071 -0.362)">
+      <g id="Groupe_18633" data-name="Groupe 18633" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_29870" data-name="Tracé 29870" d="M104.909,20.455A13.455,13.455,0,1,1,91.455,7a13.455,13.455,0,0,1,13.455,13.455" transform="translate(-53.019 -4.48)" fill="#8be0e8"/>
+        <path id="Tracé_29871" data-name="Tracé 29871" d="M87.375,31.752a15.377,15.377,0,1,1,15.377-15.377A15.378,15.378,0,0,1,87.375,31.752m0-26.909A11.532,11.532,0,1,0,98.908,16.375,11.53,11.53,0,0,0,87.375,4.843" transform="translate(-48.94 -0.4)" fill="#4f4f4f"/>
+      </g>
+    </g>
+    <g id="Groupe_18636" data-name="Groupe 18636" transform="translate(-0.071 -0.362)">
+      <g id="Groupe_18635" data-name="Groupe 18635" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_29872" data-name="Tracé 29872" d="M109.455,88.844h-1.922L104.086,85.4a1.359,1.359,0,0,0-2.32.961v2.485H96v3.844a3.844,3.844,0,0,0,3.844,3.844h5.766a3.844,3.844,0,0,0,3.844-3.844Z" transform="translate(-65.253 -57.493)" fill="#ffceb6"/>
+      </g>
+    </g>
+  </g>
+</svg>

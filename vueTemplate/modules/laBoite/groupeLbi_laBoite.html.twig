@@ -1,0 +1,32 @@
+<section id="groupeLbiLaBoite_anchorId" class="moduleDefault _groupeLbiLaBoiteContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="bxd12 topStructure">
+            <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/laBoite/module_groupeLaBoiteImmo/logo_lbi.svg">
+            <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ groupeLbiLaBoite.titre|raw }}</h2>
+        </div>
+        <div class="bxd4 bxt12 divStructure_1">
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ groupeLbiLaBoite.text|raw }}</p>
+            <a class="linkText BxAnim animBxFadeBottom__Out" href="{{ groupeLbiLaBoite.hrefLink }}">{{ groupeLbiLaBoite.textLink|raw }}</a>
+        </div>
+        <div class="bxd8 bxt12 bxrow listCompany">
+            {% for item in groupeLbiLaBoite.listItems %}
+                <div class="bxd6 BxAnim animBxFadeBottom__Out bxm12 infoStructure {{ item.class }}">
+                    <div class="infoContent">
+                        <img class="image" src="{{ item.icon }}" alt="{{ item.altIcon }}">
+                        <p class="textInfo textParagraphe">{{ item.text|raw }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="bxd12 bxrow divContainerBottom">
+            <div class="bxd4 bxt0 imageStructure">
+                <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/laBoite/module_groupeLaBoiteImmo/imgLaBoite.jpg">
+            </div>
+            <div class="bxd8 bxt12 BxAnim animBxFadeBottom__Out divStructure_2">
+                <h2 class="titreSection">{{ groupeLbiLaBoite.titre2|raw }}</h2>
+                <p class="textParagraphe">{{ groupeLbiLaBoite.text2|raw }}</p>
+                <a href="{{ groupeLbiLaBoite.href|raw }}" class="btnDefault">{{ groupeLbiLaBoite.textBtn|raw }}</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+<section id="fonctionnalitesCreationSite_anchorId" class="moduleDefault _fonctionnalitesCreationSiteContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="divStructure bxd12">
+            <h2 class="titreSection BxAnim animBxFadeBottom__Out">Des fonctionnalités adaptées <span class="textColor_2">à vos besoins</span></h2>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out"><strong>Nos sites ont été pensés pour répondre à tous les besoins du secteur immobilier !</strong></p>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">Choisissez parmi un panel de fonctionnalités indispensables à votre activité mais également différents modules qui nous permettent de nous adapter à toutes les configurations !</p>
+        </div>
+        <div class="bxrow listElemsContainer">
+            {% for key,elem in listElems %}
+                <div class="bxd3 bxt6 bxm12 elementStructure BxAnim animBxFadeBottom__Out">
+                    <div class="elementContent">
+                        <img class="iconPicto" src="/assets/img/modules/creationSite/module_fonctionnalites/picto_{{ key + 1 }}.svg" alt="">
+                        <p class="textParagraphe"><strong>{{ elem.titre|raw}}</strong> {{ elem.text }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="bottomStructure bxd12">
+            <p class="textBottom titreSection_2 BxAnim animBxFadeBottom__Out">Et bien d'autres fonctionnalités ! <span class="textColor_2">Nous nous adaptons à votre besoin et vos demandes !</span></p>
+            <button class="btnDefault BxAnim animBxFadeBottom__Out lbiHover hoverTranslate transition250">En savoir plus</button>
+        </div>
+    </div>
+</section>

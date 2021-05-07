@@ -1,0 +1,37 @@
+<section id="groupeLbiAccueil_anchorId" class="moduleDefault _groupeLbiAccueilContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <div class="titreStructure">
+            <div class="titreContent">
+                <img class="image BxAnim animBxFadeBottom2__Out" src="/assets/img/modules/accueil/module_GroupeLBI/la_Boite_groupeLbi.png" alt="{{ groupeLbiAccueil.altImg|raw }}">
+                <h2 class="titrePage BxAnim animBxFadeBottom__Out">{{ groupeLbiAccueil.titre|raw }}</h2>
+            </div>
+            <img class="imageContent bxt0 BxAnim animBxFadeRight__Out" src="/assets/img/modules/accueil/module_GroupeLBI/locauxLbi_groupeLbi.png" alt="{{ groupeLbiAccueil.altImg2|raw }}">
+            <span class="dot BxAnim animBxFadeRight__Out"></span>
+            <span class="dot3 BxAnim animBxFadeScale__Out"></span>
+            <span class="dot4 BxAnim animBxFadeScale__Out"></span>
+            <span class="dot5 BxAnim animBxFadeScale__Out"></span>
+        </div>
+        <div class="textStructure bxrow">
+            <div class="sectionDataStructure bxld15 bxt12 bxrow">
+                {% for element in groupeLbiAccueil.elements %}
+                    <div class="{{ element.classResponsive }} sectionDataContent BxAnim animBxFadeBottom2__Out">
+                        <div class="sectionDataValue">
+                            <img class="imageIcon" src="{{ element.img }}" alt="{{ element.altImg|raw }}">
+                            <p class="dataValue">
+                                <span class="titreSection_2"><span class="textColor_2">{{ element.value|raw }}</span></span>
+                                <span class="sousTitreSection_4">{{ element.text|raw }}</span>
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+                <span class="dot2 BxAnim animBxFade__Out"></span>
+            </div>
+            <div class="btnContent bxld9 bxt12">
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ groupeLbiAccueil.text|raw }}</p>
+                <div class="btnContent BxAnim animBxFadeBottom2__Out">
+                    <a href="/la-boite" class="btnDefault hoverTranslate transition250">{{ groupeLbiAccueil.textBtn|raw }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

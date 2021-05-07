@@ -1,0 +1,528 @@
+{
+    "module_accueil_introduction_accueil": {
+        "file": "accueil/introductionAccueil.php",
+        "css": "accueil/introductionAccueil.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionAccueil",
+        "bxrow": false
+    },
+    "module_accueil_logiciel_hektor": {
+        "file": "accueil/logicielHektor.php",
+        "css": "accueil/logicielHektor.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "logicielHektor",
+        "bxrow": false
+    },
+    "module_accueil_fabrik_site": {
+        "file": "accueil/fabrikSite.php",
+        "css": "accueil/fabrikSite.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "fabrikSite",
+        "bxrow": true
+    },
+    "module_accueil_referencement": {
+        "file": "accueil/referencement.php",
+        "css": "accueil/referencement.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "referencement",
+        "bxrow": true
+    },
+    "module_accueil_webmarkImmo": {
+        "file": "accueil/webmarkImmo.php",
+        "css": "accueil/webmarkImmo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "webmarkImmo",
+        "bxrow": true
+    },
+    "module_accueil_accueilInterkab": {
+        "file": "accueil/accueilInterkab.php",
+        "css": "accueil/accueilInterkab.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "accueilInterkab",
+        "bxrow": true
+    },
+    "module_accueil_lbiAcademy": {
+        "file": "accueil/lbiAcademy.php",
+        "css": "accueil/lbiAcademy.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "lbiAcademy",
+        "bxrow": true
+    },
+    "module_accueil_groupeLBI": {
+        "file": "accueil/groupeLBI.php",
+        "css": "accueil/groupeLBI.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "groupeLBI",
+        "bxrow": false
+    },
+    "module_accueil_actuBlog": {
+        "file": "accueil/actuBlog.php",
+        "css": "accueil/actuBlog.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "actuBlog",
+        "bxrow": true
+    },
+    "module_accueil_newsletter": {
+        "file": "accueil/newsletter.php",
+        "css": "accueil/newsletter.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "newsletter",
+        "bxrow": true
+    },
+    "module_logicielImmobilier_interkab": {
+        "file": "logicielImmobilier/interkab.php",
+        "css": "logicielImmobilier/interkab.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "interkab",
+        "bxrow": true
+    },
+    "module_logicielImmobilier_hektor": {
+        "file": "logicielImmobilier/hektor.php",
+        "css": "logicielImmobilier/hektor.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "hektor",
+        "bxrow": true
+    },
+    "module_logicielImmobilier_presentationLogiciel": {
+        "file": "logicielImmobilier/presentationLogiciel.php",
+        "css": "logicielImmobilier/presentationLogiciel.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "presentationLogiciel",
+        "bxrow": false
+    },
+    "module_logicielImmobilier_hektorAdapt": {
+        "file": "logicielImmobilier/hektorAdapt.php",
+        "css": "logicielImmobilier/hektorAdapt.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "hektorAdapt",
+        "bxrow": false
+    },
+    "module_logicielImmobilier_appMobileTab": {
+        "file": "logicielImmobilier/appMobileTab.php",
+        "css": "logicielImmobilier/appMobileTab.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "appMobileTab",
+        "bxrow": true
+    },
+    "module_accueil_formationsLbiAcademy": {
+        "file": "logicielImmobilier/formationsLbiAcademy.php",
+        "css": "logicielImmobilier/formationsLbiAcademy.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "formationsLbiAcademy",
+        "bxrow": true
+    },
+    "module_gestionBiens_gererVosBiens": {
+        "file": "gestionBiens/gererVosBiens.php",
+        "css": "gestionBiens/gererVosBiens.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "gererVosBiens",
+        "bxrow": true
+    },
+    "module_gestionBiens_deepFlowRealty": {
+        "file": "gestionBiens/deepFlowRealty.php",
+        "css": "gestionBiens/deepFlowRealty.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "deepFlowRealty",
+        "bxrow": true
+    },
+    "module_gestionBiens_rapprochementsAutos": {
+        "file": "gestionBiens/rapprochementsAutos.php",
+        "css": "gestionBiens/rapprochementsAutos.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "rapprochementsAutos",
+        "bxrow": true
+    },
+    "module_gestionBiens_diffusionPortails": {
+        "file": "gestionBiens/diffusionPortails.php",
+        "css": "gestionBiens/diffusionPortails.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "diffusionPortails",
+        "bxrow": false
+    },
+    "module_gestionBiens_fichesImpressions": {
+        "file": "gestionBiens/fichesImpressions.php",
+        "css": "gestionBiens/fichesImpressions.css",
+        "responsive": "",
+        "id": "fichesImpressions",
+        "bxrow": true
+    },
+    "module_gestionBiens_pigeIntegree": {
+        "file": "gestionBiens/pigeIntegree.php",
+        "css": "gestionBiens/pigeIntegree.css",
+        "responsive": "",
+        "id": "pigeIntegree",
+        "bxrow": true
+    },
+    "module_gestionBiens_liveVisit": {
+        "file": "gestionBiens/liveVisit.php",
+        "css": "gestionBiens/liveVisit.css",
+        "responsive": "",
+        "id": "gestionLiveVisit",
+        "bxrow": true
+    },
+    "module_gestionContacts_gererVosContacts": {
+        "file": "gestionContacts/gererVosContacts.php",
+        "css": "gestionContacts/gererVosContacts.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "gererVosContacts",
+        "bxrow": true
+    },
+    "module_gestionContacts_rapprochementsAutosContacts": {
+        "file": "gestionContacts/rapprochementsAutosContacts.php",
+        "css": "gestionContacts/rapprochementsAutosContacts.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "rapprochementsAutosContacts",
+        "bxrow": true
+    },
+    "module_gestionContacts_espacePersoProp": {
+        "file": "gestionContacts/espacePersoProp.php",
+        "css": "gestionContacts/espacePersoProp.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "espacePersoProp",
+        "bxrow": false
+    },
+    "module_gestionContacts_demandeRecu": {
+        "file": "gestionContacts/demandeRecu.php",
+        "css": "gestionContacts/demandeRecu.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "demandeRecu",
+        "bxrow": true
+    },
+    "module_gestionContacts_envoiSMS": {
+        "file": "gestionContacts/envoiSMS.php",
+        "css": "gestionContacts/envoiSMS.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "envoiSMS",
+        "bxrow": false
+    },
+    "module_gestionEquipe_gererVotreEquipe": {
+        "file": "gestionEquipe/gererVotreEquipe.php",
+        "css": "gestionEquipe/gererVotreEquipe.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "gererVotreEquipe",
+        "bxrow": true
+    },
+    "module_gestionEquipe_reporting": {
+        "file": "gestionEquipe/reporting.php",
+        "css": "gestionEquipe/reporting.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "reporting",
+        "bxrow": false
+    },
+    "module_gestionEquipe_agenda": {
+        "file": "gestionEquipe/agenda.php",
+        "css": "gestionEquipe/agenda.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "agenda",
+        "bxrow": false
+    },
+    "module_suiviJuridique_introductionJuridique": {
+        "file": "suiviJuridique/introductionJuridique.php",
+        "css": "suiviJuridique/introductionJuridique.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionJuridique",
+        "bxrow": true
+    },
+    "module_suiviJuridique_documentJuridique": {
+        "file": "suiviJuridique/documentJuridique.php",
+        "css": "suiviJuridique/documentJuridique.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "documentJuridique",
+        "bxrow": true
+    },
+    "module_suiviJuridique_signatureElectronique": {
+        "file": "suiviJuridique/signatureElectronique.php",
+        "css": "suiviJuridique/signatureElectronique.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "signatureElectronique",
+        "bxrow": true
+    },
+    "module_suiviJuridique_gestionDocumentsTypes": {
+        "file": "suiviJuridique/gestionDocumentsTypes.php",
+        "css": "suiviJuridique/gestionDocumentsTypes.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "gestionDocumentsTypes",
+        "bxrow": false
+    },
+    "module_appMobile_introductionAppMobile": {
+        "file": "appMobile/introductionAppMobile.php",
+        "css": "appMobile/introductionAppMobile.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionAppMobile",
+        "bxrow": true
+    },
+    "module_appMobile_gagnerTempsPerf": {
+        "file": "appMobile/gagnerTempsPerf.php",
+        "css": "appMobile/gagnerTempsPerf.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "gagnerTempsPerf",
+        "bxrow": true
+    },
+    "module_appMobile_pixHDR": {
+        "file": "appMobile/pixHDR.php",
+        "css": "appMobile/pixHDR.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "pixHDR",
+        "bxrow": true
+    },
+    "module_appMobile_consulterAgenda": {
+        "file": "appMobile/consulterAgenda.php",
+        "css": "appMobile/consulterAgenda.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "consulterAgenda",
+        "bxrow": true
+    },
+    "module_appMobile_dispoApp": {
+        "file": "appMobile/dispoApp.php",
+        "css": "appMobile/dispoApp.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "dispoApp",
+        "bxrow": false
+    },
+    "module_creationSite_introductionFabrikSite": {
+        "file": "creationSite/introductionFabrikSite.php",
+        "css": "creationSite/introductionFabrikSite.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionFabrikSite",
+        "bxrow": true
+    },
+    "module_creationSite_fonctionnalites": {
+        "file": "creationSite/fonctionnalites.php",
+        "css": "creationSite/fonctionnalites.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "fonctionnalites",
+        "bxrow": true
+    },
+    "module_creationSite_siteFacile": {
+        "file": "creationSite/siteFacile.php",
+        "css": "creationSite/siteFacile.css",
+        "responsive": "",
+        "id": "siteFacile",
+        "bxrow": true
+    },
+    "module_creationSite_siteRGPD": {
+        "file": "creationSite/siteRGPD.php",
+        "css": "creationSite/siteRGPD.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "siteRGPD",
+        "bxrow": true
+    },
+    "module_creationSite_referencementIV": {
+        "file": "creationSite/referencementIV.php",
+        "css": "creationSite/referencementIV.css",
+        "responsive": "",
+        "id": "referencementIV",
+        "bxrow": true
+    },
+    "module_creationSite_expertiseAccompagnement": {
+        "file": "creationSite/expertiseAccompagnement.php",
+        "css": "creationSite/expertiseAccompagnement.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "expertiseAccompagnement",
+        "bxrow": true
+    },
+    "module_creationSite_hebergement": {
+        "file": "creationSite/hebergement.php",
+        "css": "creationSite/hebergement.css",
+        "responsive": "",
+        "id": "hebergement",
+        "bxrow": true
+    },
+    "module_creationSite_identiteVisuelle": {
+        "file": "creationSite/identiteVisuelle.php",
+        "css": "creationSite/identiteVisuelle.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "identiteVisuelle",
+        "bxrow": true
+    },
+    "module_creationSite_referenceSite": {
+        "file": "creationSite/referenceSite.php",
+        "css": "creationSite/referenceSite.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "referenceSite",
+        "bxrow": true
+    },
+    "module_identiteVisuelle_introduction": {
+        "file": "identiteVisuelle/introduction.php",
+        "css": "identiteVisuelle/introduction.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionIdentiteVisuelle",
+        "bxrow": true
+    },
+    "module_identiteVisuelle_explication": {
+        "file": "identiteVisuelle/explication.php",
+        "css": "identiteVisuelle/explication.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "explicationIdentiteVisuelle",
+        "bxrow": true
+    },
+    "module_identiteVisuelle_creationLogo": {
+        "file": "identiteVisuelle/creationLogo.php",
+        "css": "identiteVisuelle/creationLogo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "creationLogo",
+        "bxrow": true
+    },
+    "module_identiteVisuelle_valorisationMarque": {
+        "file": "identiteVisuelle/valorisationMarque.php",
+        "css": "identiteVisuelle/valorisationMarque.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "valorisationMarque",
+        "bxrow": true
+    },
+    "module_referencement_introductionReferencement": {
+        "file": "referencement/introductionReferencement.php",
+        "css": "referencement/introductionReferencement.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionReferencement",
+        "bxrow": true
+    },
+    "module_referencement_faq": {
+        "file": "referencement/faq.php",
+        "css": "referencement/faq.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "fasReferencement",
+        "bxrow": true
+    },
+    "module_referencement_referencementNaturel": {
+        "file": "referencement/referencementNaturel.php",
+        "css": "referencement/referencementNaturel.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "referencementNaturel",
+        "bxrow": true
+    },
+    "module_referencement_googleAnalytics": {
+        "file": "referencement/googleAnalytics.php",
+        "css": "referencement/googleAnalytics.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "googleAnalytics",
+        "bxrow": true
+    },
+    "module_referencement_adwords": {
+        "file": "referencement/adwords.php",
+        "css": "referencement/adwords.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "referencementAdwords",
+        "bxrow": true
+    },
+
+    "module_referencement_investisseursEtrangers": {
+        "file": "referencement/investisseursEtrangers.php",
+        "css": "referencement/investisseursEtrangers.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "investisseursEtrangers",
+        "bxrow": true
+    },
+    "module_webmarkimmo_introductionWebmarkimmo": {
+        "file": "webmarkimmo/introductionWebmarkimmo.php",
+        "css": "webmarkimmo/introductionWebmarkimmo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionWebmarkimmo",
+        "bxrow": true
+    },
+    "module_webmarkimmo_virtualVisit": {
+        "file": "webmarkimmo/virtualVisit.php",
+        "css": "webmarkimmo/virtualVisit.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "virtualVisit",
+        "bxrow": true
+    },
+    "module_webmarkimmo_liveVisit": {
+        "file": "webmarkimmo/liveVisit.php",
+        "css": "webmarkimmo/liveVisit.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "liveVisit",
+        "bxrow": true
+    },
+    "module_webmarkimmo_mooveo": {
+        "file": "webmarkimmo/mooveo.php",
+        "css": "webmarkimmo/mooveo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "mooveo",
+        "bxrow": true
+    },
+    "module_webmarkimmo_spotVideo": {
+        "file": "webmarkimmo/spotVideo.php",
+        "css": "webmarkimmo/spotVideo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "spotVideo",
+        "bxrow": true
+    },
+    "module_webmarkimmo_socialConnect": {
+        "file": "webmarkimmo/socialConnect.php",
+        "css": "webmarkimmo/socialConnect.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "socialConnect",
+        "bxrow": true
+    },
+    "module_webmarkimmo_pixHdr": {
+        "file": "webmarkimmo/pixHdr.php",
+        "css": "webmarkimmo/pixHdr.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "pixHdr",
+        "bxrow": true
+    },
+    "module_laBoite_introductionLaBoite": {
+        "file": "laBoite/introductionLaBoite.php",
+        "css": "laBoite/introductionLaBoite.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "introductionLaBoite",
+        "bxrow": true
+    },
+    "module_laBoite_infosEntreprise": {
+        "file": "laBoite/infosEntreprise.php",
+        "css": "laBoite/infosEntreprise.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "infosEntreprise",
+        "bxrow": true
+    },
+    "module_laBoite_groupeLaBoiteImmo": {
+        "file": "laBoite/groupeLaBoiteImmo.php",
+        "css": "laBoite/groupeLaBoiteImmo.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "groupeLaBoiteImmo",
+        "bxrow": true
+    },
+    "module_laBoite_nouveauProjet": {
+        "file": "laBoite/nouveauProjet.php",
+        "css": "laBoite/nouveauProjet.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "nouveauProjet",
+        "bxrow": true
+    },
+    "module_generique_demoLogiciel": {
+        "file": "generique/demoLogiciel.php",
+        "css": "generique/demoLogiciel.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "demoLogiciel",
+        "bxrow": false
+    },
+    "module_generique_demoLogiciel_orange": {
+        "file": "generique/demoLogiciel.php",
+        "css": "generique/demoLogiciel.css",
+        "responsive": "BxAnim animBxFade__Out orangeType",
+        "id": "demoLogiciel",
+        "bxrow": false
+    },
+    "module_generique_formulaireContact": {
+        "file": "generique/formulaireContact.php",
+        "css": "generique/formulaireContact.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "formulaireContact",
+        "bxrow": true
+    },
+    "module_generique_formulaireContactBlack": {
+        "file": "generique/formulaireContact.php",
+        "css": "generique/formulaireContact.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "formulaireContactBlack",
+        "bxrow": true
+    },
+    "module_generique_formulaireContactGreen": {
+        "file": "generique/formulaireContact.php",
+        "css": "generique/formulaireContact.css",
+        "responsive": "BxAnim animBxFade__Out",
+        "id": "formulaireContactGreen",
+        "bxrow": true
+    }
+}

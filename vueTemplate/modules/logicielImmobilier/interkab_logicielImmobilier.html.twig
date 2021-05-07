@@ -1,0 +1,22 @@
+<section id="interkabLogicielImmobilier_anchorId" class="moduleDefault _interkabLogicielImmobilierContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="bxd6 bxt12 divStructure_1">
+            <img class="logo BxAnim animBxFadeBottom__Out" src="/assets/img/modules/logicielImmobilier/module_Interkab/logoInterkab.svg" alt="{{ interkabLogicielImmobilier.altImg|raw }}">
+            <h2 class="sousTitreSection BxAnim animBxFadeBottom__Out">{{ interkabLogicielImmobilier.titre|raw }}</h2>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ interkabLogicielImmobilier.sousTitre|raw }}</p>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ interkabLogicielImmobilier.text|raw }}</p>
+            <a href="https://www.interkab.fr/" class="btnDefault BxAnim animBxFadeBottom__Out hektorHover hoverTranslate transition250">{{ interkabLogicielImmobilier.textBtn|raw }}</a>
+        </div>
+        <div class="bxd6 bxt12 divStructure_2 bxrow">
+            {% for element in interkabLogicielImmobilier.elements %}
+                <div class="bxd6 bxm12 divStructure BxAnim animBxFadeBottom__Out">
+                    <div class="divContent">
+                        <img class="image" src="{{ element.img }}" alt="{{ element.altImg }}">
+                        <h3 class="sousTitreSection_3">{{ element.titre|raw }}</h3>
+                        <p class="textParagraphe">{{ element.text|raw }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

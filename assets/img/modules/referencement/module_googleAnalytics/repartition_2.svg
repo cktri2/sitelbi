@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="106" viewBox="0 0 104 106">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3853" data-name="Rectangle 3853" width="104" height="106" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="répartition" transform="translate(-0.311 -0.282)">
+    <g id="Groupe_18625" data-name="Groupe 18625" transform="translate(0.311 0.282)">
+      <g id="Groupe_18624" data-name="Groupe 18624" clip-path="url(#clip-path)">
+        <path id="Tracé_29821" data-name="Tracé 29821" d="M41.431,76.421v16.29l-10.806,5.4v8.1H7.213L3.329,92.628A12.247,12.247,0,0,1,12.253,72h21.2a7.216,7.216,0,0,1,4.561,1.627Z" transform="translate(-0.151 -50.517)" fill="#bed000"/>
+      </g>
+    </g>
+    <g id="Groupe_18627" data-name="Groupe 18627" transform="translate(0.311 0.282)">
+      <g id="Groupe_18626" data-name="Groupe 18626" clip-path="url(#clip-path)">
+        <path id="Tracé_29822" data-name="Tracé 29822" d="M27.678,145.615a17.14,17.14,0,0,1-7.628-1.8L9.664,138.622a1.8,1.8,0,0,1,1.611-3.222l10.385,5.192a13.456,13.456,0,0,0,12.037,0L48,133.441l1.611,3.221-14.3,7.152a17.165,17.165,0,0,1-7.63,1.8" transform="translate(-6.209 -93.516)" fill="#aab204"/>
+        <path id="Tracé_29823" data-name="Tracé 29823" d="M160.806,112.577l-7.037-5.757H150v9.359h10.806Z" transform="translate(-105.117 -74.885)" fill="#bed000"/>
+        <rect id="Rectangle_3854" data-name="Rectangle 3854" width="27" height="23" transform="translate(4 83)" fill="#ffceb6"/>
+        <path id="Tracé_29824" data-name="Tracé 29824" d="M53.354,84.116l-8.237,3.09,3.127-3.125a1.8,1.8,0,0,0-.469-2.887l-2.849-1.422,2.48-.622A1.8,1.8,0,0,0,48.77,77.4V72h-3.6v4L39.545,77.4H36.384L30.761,76V72H28.6a12.065,12.065,0,0,0-1.439.086V77.4a1.8,1.8,0,0,0,1.365,1.747l2.48.622-2.849,1.422a1.8,1.8,0,0,0-.469,2.887l1.157,1.157L25.975,83.8a1.8,1.8,0,1,0-1.612,3.223l12.8,6.4A1.808,1.808,0,0,0,38.6,93.5l16.021-6.008Zm-17.19,3.348L32,83.3l4.165-2.083Zm3.6,0V81.216L43.93,83.3Z" transform="translate(-16.495 -50.517)" fill="#aab204"/>
+        <path id="Tracé_29825" data-name="Tracé 29825" d="M67.2,60v3.6L66,67.2l-2.4,7.2L60,63.6V60Z" transform="translate(-42.132 -42.119)" fill="#ffceb6"/>
+        <path id="Tracé_29826" data-name="Tracé 29826" d="M126.607,91.214l7.2-21.612L121.2,66,114,87.612Z" transform="translate(-79.923 -46.318)" fill="#efefef"/>
+        <path id="Tracé_29827" data-name="Tracé 29827" d="M162.607,123.6l-3.229-3.229a1.273,1.273,0,0,0-2.174.9V123.6H150V129a3.6,3.6,0,0,0,3.6,3.6H159a3.6,3.6,0,0,0,3.6-3.6Z" transform="translate(-105.118 -84.109)" fill="#ffceb6"/>
+        <path id="Tracé_29828" data-name="Tracé 29828" d="M54.166,275.736l-2.58,23.215H47.961l2.6-23.413.022-.2,1.793.2Z" transform="translate(-33.707 -192.822)" fill="#ffbfa1"/>
+        <path id="Tracé_29829" data-name="Tracé 29829" d="M15.6,186H39.015v34.219H12V201.258A34.119,34.119,0,0,1,15.6,186" transform="translate(-8.54 -130.298)" fill="#333"/>
+        <path id="Tracé_29830" data-name="Tracé 29830" d="M193.233,189H151.811L141,180v9h-5.4a3.6,3.6,0,0,0-3.6,3.6v32.418a3.6,3.6,0,0,0,3.6,3.6h57.631a3.6,3.6,0,0,0,3.6-3.6V192.607a3.6,3.6,0,0,0-3.6-3.6" transform="translate(-92.521 -126.099)" fill="#bed000"/>
+        <path id="Tracé_29831" data-name="Tracé 29831" d="M243.622,37.821H223.811l-10.806,9v-9h-5.4a3.6,3.6,0,0,1-3.6-3.6V3.6A3.6,3.6,0,0,1,207.6,0h36.02a3.6,3.6,0,0,1,3.6,3.6V34.219a3.6,3.6,0,0,1-3.6,3.6" transform="translate(-142.909 -0.129)" fill="#efefef"/>
+        <rect id="Rectangle_3855" data-name="Rectangle 3855" width="5" height="3" transform="translate(70 74)" fill="#333"/>
+        <rect id="Rectangle_3856" data-name="Rectangle 3856" width="18" height="3" transform="translate(79 74)" fill="#efefef"/>
+        <rect id="Rectangle_3857" data-name="Rectangle 3857" width="11" height="4" transform="translate(70 81)" fill="#7f7f7f"/>
+        <rect id="Rectangle_3858" data-name="Rectangle 3858" width="3" height="4" transform="translate(85 81)" fill="#333"/>
+        <rect id="Rectangle_3859" data-name="Rectangle 3859" width="5" height="4" transform="translate(92 81)" fill="#333"/>
+        <rect id="Rectangle_3860" data-name="Rectangle 3860" width="7" height="4" transform="translate(70 88)" fill="#333"/>
+        <rect id="Rectangle_3861" data-name="Rectangle 3861" width="16" height="4" transform="translate(81 88)" fill="#7f7f7f"/>
+        <path id="Tracé_29832" data-name="Tracé 29832" d="M174.01,255a8.976,8.976,0,1,1-2.629-6.376A9,9,0,0,1,174.01,255" transform="translate(-109.316 -172.288)" fill="#efefef"/>
+        <path id="Tracé_29833" data-name="Tracé 29833" d="M195,255h-9v-9a9.006,9.006,0,0,1,9,9" transform="translate(-130.312 -172.289)" fill="#7f7f7f"/>
+        <rect id="Rectangle_3862" data-name="Rectangle 3862" width="7" height="10" transform="translate(72 21)" fill="#aab204"/>
+        <rect id="Rectangle_3863" data-name="Rectangle 3863" width="7" height="17" transform="translate(79 14)" fill="#bed000"/>
+        <rect id="Rectangle_3864" data-name="Rectangle 3864" width="8" height="24" transform="translate(86 7)" fill="#d4dd2a"/>
+        <path id="Tracé_29834" data-name="Tracé 29834" d="M67.2,60v3.6L66,67.2h-.6A5.4,5.4,0,0,1,60,61.8V60Z" transform="translate(-42.132 -42.119)" fill="#ffbfa1"/>
+        <path id="Tracé_29835" data-name="Tracé 29835" d="M44.408,13.2A7.2,7.2,0,1,1,37.2,6a7.2,7.2,0,0,1,7.2,7.2" transform="translate(-21.137 -4.328)" fill="#b66514"/>
+        <path id="Tracé_29836" data-name="Tracé 29836" d="M64.806,34.806V29.4A5.4,5.4,0,0,0,54,29.4v5.4Z" transform="translate(-37.933 -16.925)" fill="#c47220"/>
+        <path id="Tracé_29837" data-name="Tracé 29837" d="M59.4,52.806A5.4,5.4,0,0,1,54,47.4V45.6h1.375A6.516,6.516,0,0,0,61.2,42l3.6,3.6v1.8a5.4,5.4,0,0,1-5.4,5.4" transform="translate(-37.933 -29.522)" fill="#ffceb6"/>
+        <path id="Tracé_29838" data-name="Tracé 29838" d="M195,276a8.982,8.982,0,0,1-2.638,6.367L186,276Z" transform="translate(-130.312 -193.284)" fill="#333"/>
+        <rect id="Rectangle_3865" data-name="Rectangle 3865" width="32" height="3" transform="translate(67 29)" fill="#333"/>
+      </g>
+    </g>
+  </g>
+</svg>

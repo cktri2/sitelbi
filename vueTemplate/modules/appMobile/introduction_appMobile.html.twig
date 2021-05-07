@@ -1,0 +1,13 @@
+<section id="introductionAppMobile_anchorId" class="moduleDefault _introductionAppMobileContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="bxd6 bxt12 divStructure">
+            <h1 class="titrePage BxAnim animBxFadeBottom__Out">{{ introductionAppMobile.titre|raw }}</h1>
+            <p class="sousTitreSection BxAnim animBxFadeBottom__Out">{{ introductionAppMobile.sousTitre|raw }}</p>
+            {% include 'modules/generique/boutonApp.html.twig' %}
+            <p class="textBtnConsigne BxAnim animBxFadeBottom__Out">{{ introductionAppMobile.text|raw }}</p>
+        </div>
+        <div class="bxd6 bxt12 imageStructure">
+            <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/appMobile/module_introductionAppMobile/introductionAppMobile.png" alt="{{ introductionAppMobile.altImg }}">
+        </div>
+    </div>
+</section>

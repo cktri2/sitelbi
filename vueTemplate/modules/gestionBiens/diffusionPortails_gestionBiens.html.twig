@@ -1,0 +1,27 @@
+<section id="diffusionPortailsGestionBiens_anchorId" class="moduleDefault _diffusionPortailsGestionBiensContainer">
+    <div class="moduleDefaultContainer BxAnim animBxFadeBottom__Out bxrow">
+        <h2 class="titreSection_2 BxAnim animBxFadeBottom2__Out">{{ diffusionPortailsGestionBiens.titre|raw }}</h2>
+        <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ diffusionPortailsGestionBiens.text|raw }}</p>
+        <div class="divStructure bxrow">
+            <div class="imgStructure bxld15 bxt12 BxAnim animBxFadeBottom__Out" id="js_ContentImageDiffusions">
+                <div class="imageContent">
+                    {% for key, slide in diffusionPortailsGestionBiens.slider.imgSlide %}
+                        <img class="image transition500{% if loop.first %} active{% endif %}" src="{{ slide.img }}" id="portails_{{ key }}" alt="{{ slide.altImg }}">
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="divContent bxld9 bxt12">
+                <ul class="listItems" id="js_ContentMenuDiffusions">
+                    {% for key, info in diffusionPortailsGestionBiens.slider.infos %}
+                        <li class="item{% if loop.first %} active{% endif %} BxAnim animBxFadeRight__Out" data-value-id="portails_{{ key }}">
+                            <h3 class="sousTitreSection_3">{{ info.titre|raw }}</h3>
+                            <div class="textContent">
+                                <p class="textItem transition500">{{ info.text|raw }}</p>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

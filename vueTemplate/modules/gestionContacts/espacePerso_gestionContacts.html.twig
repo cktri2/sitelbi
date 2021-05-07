@@ -1,0 +1,26 @@
+ <section id="espacePersoGestionContacts_anchorId" class="moduleDefault _espacePersoGestionContactsContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <div class="divStructure_1 bxrow">
+            <div class="bxd6 bxt12 divContent">
+                <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ espacePersoGestionContacts.titre|raw }}</h2>
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ espacePersoGestionContacts.text|raw }}</p>
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out secondType">{{ espacePersoGestionContacts.text2|raw }}</p>
+            </div>
+            <div class="bxd6 bxt12 imgStructure">
+                <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/gestionContacts/module_espacePersoProp/espacePersoProp.png" alt="{{ espacePersoGestionContacts.altImg }}">
+            </div>
+        </div>
+        <ul class="listItems bxrow BxAnim animBxFadeBottom__Out">
+            {% for item in espacePersoGestionContacts.listItems %}
+                <li class="item bxd4 bxt6 bxm12">
+                    <div class="itemContent transition500">
+                        <div class="iconContent transition500">
+                            <span class="icon {{ item.icon }}"></span>
+                        </div>
+                        <p class="textParagraphe transition250"><span class="titreParagraphe">{{ item.titre|raw }}</span> {{ item.text|raw }}</p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

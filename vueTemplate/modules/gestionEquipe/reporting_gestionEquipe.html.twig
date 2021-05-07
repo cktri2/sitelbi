@@ -1,0 +1,25 @@
+<section id="reportingGestionEquipe_anchorId" class="moduleDefault _reportingGestionEquipeContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ reportingGestionEquipe.titre|raw }}</h2>
+        <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ reportingGestionEquipe.text|raw }}</p>
+        <div class="divStructure bxrow">
+            <div class="imageStructure bxd6 bxt12">
+                <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/gestionEquipe/module_reporting/reporting.png" alt="{{ reportingGestionEquipe.altImg }}">
+            </div>
+            <div class="divContent bxd6 bxt12">
+                <p class="sousTitreSection BxAnim animBxFadeBottom__Out"></p>
+                <ul class="listItems bxrow">
+                    {% for item in reportingGestionEquipe.listItems %}
+                        <li class="item bxd6 bxm12 BxAnim animBxFadeBottom__Out">
+                            <div class="imgContent">
+                                <img class="imageItem" src="{{ item.icon }}" alt="{{ item.altIcon }}">
+                            </div>
+                            <p class="textParagraphe">{{ item.text|raw }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <p class="textBottom sousTitreSection BxAnim animBxFadeBottom__Out">{{ reportingGestionEquipe.textBottom|raw }}</p>
+    </div>
+</section>

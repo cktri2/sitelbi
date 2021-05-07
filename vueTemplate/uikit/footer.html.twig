@@ -1,0 +1,43 @@
+<footer class="footerContainer BxAnim animBxFade__Out">
+    {% if partenaire is defined and partenaire == true %}
+        {% include '/uikit/partenaires.html.twig' %}
+    {% endif %}
+    <div class="footerStructureContent">
+        <div class="footerStructure bxrow">
+            <div class="bxld8 bxt12 footerContent">
+                <div class="footerContentElement">
+                    <img class="imgLogo" src="assets/img/logo/logo_lbi.svg" alt="logo la Boite Immo">
+                    <ul class="menuSocialNetwork">
+                        <li class="element"><a href="/facebook" class="elementLink transition250 icon-facebook"></a></li>
+                        <li class="element"><a href="/twitter" class="elementLink transition250 icon-twitter"></a></li>
+                        <li class="element"><a href="/linkedin" class="elementLink transition250 icon-linkedin"></a></li>
+                        <li class="element"><a href="/youtube" class="elementLink transition250 icon-youtube"></a></li>
+                        <li class="element"><a href="/instagram" class="elementLink transition250 icon-insta"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bxld8 bxt12 footerContent">
+                <p class="titreFooter">Contactez-<span class="textColor">nous</span></p>
+                <a class="textParagraphe textLink transition250" href="mailto:contact@la-boite-immo.com">contact@la-boite-immo.com</a>
+                <address class="textParagraphe">57 Chemin de la Maunière<br>83400 Hyères</address>
+                <a class="textParagraphe textLink transition250" href="tel:0812050011">0812 05 00 11</a>
+            </div>
+            <div class="bxld8 bxt12 footerContent">
+                <p class="titreFooter">Suivez-<span class="textColor">nous</span></p>
+                <p class="textParagraphe">Recevez chaque mois, notre actualité et celle des pros de l'immobilier</p>
+                <div class="inputContent">
+                    <input class="inputForm" type="text" placeholder="Votre e-mail">
+                    <button class="btnEnvoi icon-newsletter"></button>
+                </div>
+            </div>
+            <div class="footerStructureBottom bxd12">
+                <ul class="listLinkNavBottom">
+                    <li class="element"><a href="/blog" class="link transition250">Blog</a></li>
+                    <li class="element"><a href="/mentions-légales" class="link transition250">Mentions légales</a></li>
+                    <li class="element"><a href="plan-du-site" class="link transition250">Plan du site</a></li>
+                </ul>
+                <p class="textBottom">©2020 | Tous droits réservés</p>
+            </div>
+        </div>    
+    </div>
+</footer>

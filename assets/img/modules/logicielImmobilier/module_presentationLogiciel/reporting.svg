@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <clipPath id="clip-reporting">
+      <rect width="105" height="105"/>
+    </clipPath>
+  </defs>
+  <g id="reporting" clip-path="url(#clip-reporting)">
+    <g id="Groupe_19568" data-name="Groupe 19568" transform="translate(-433 -277.891)">
+      <path id="Tracé_20570" data-name="Tracé 20570" d="M524.166,310.473v7.75H457v-7.75a2.591,2.591,0,0,1,2.583-2.583h62a2.591,2.591,0,0,1,2.583,2.583Zm0,0" transform="translate(-4.708 -4.708)" fill="#f59a00"/>
+      <rect id="Rectangle_2543" data-name="Rectangle 2543" width="4.642" height="4.642" transform="translate(496.319 318.703)" fill="#f59a00"/>
+      <rect id="Rectangle_2545" data-name="Rectangle 2545" width="5.802" height="20.888" transform="translate(475.431 329.147)" fill="#f59a00"/>
+      <rect id="Rectangle_2546" data-name="Rectangle 2546" width="5.802" height="16.246" transform="translate(464.986 333.789)" fill="#f59a00"/>
+      <path id="Tracé_20571" data-name="Tracé 20571" d="M484.583,301.89H454.875A3.887,3.887,0,0,0,451,305.765v49.083a3.887,3.887,0,0,0,3.875,3.875h62a3.887,3.887,0,0,0,3.875-3.875V305.765a3.887,3.887,0,0,0-3.875-3.875H484.583Zm33.583,52.958a1.292,1.292,0,0,1-1.292,1.292h-62a1.292,1.292,0,0,1-1.292-1.292V314.807h64.582Zm0-42.624H453.583v-6.458a1.292,1.292,0,0,1,1.292-1.292h62a1.292,1.292,0,0,1,1.292,1.292Zm0,0" fill="#333"/>
+      <rect id="Rectangle_2547" data-name="Rectangle 2547" width="3.481" height="2.321" rx="1.16" transform="translate(455.703 307.098)" fill="#333"/>
+      <rect id="Rectangle_2548" data-name="Rectangle 2548" width="2.321" height="2.321" rx="1.16" transform="translate(461.505 307.098)" fill="#333"/>
+      <rect id="Rectangle_2549" data-name="Rectangle 2549" width="3.481" height="2.321" rx="1.16" transform="translate(466.147 307.098)" fill="#333"/>
+      <rect id="Rectangle_2550" data-name="Rectangle 2550" width="3.481" height="2.321" rx="1.16" transform="translate(512.565 307.098)" fill="#333"/>
+      <path id="Tracé_20572" data-name="Tracé 20572" d="M520.583,404.89V377.765a1.292,1.292,0,0,0-1.292-1.292h-5.167a1.292,1.292,0,0,0-1.292,1.292V404.89H510.25V385.515a1.292,1.292,0,0,0-1.292-1.292h-5.167a1.292,1.292,0,0,0-1.292,1.292V404.89h-2.583V390.681a1.292,1.292,0,0,0-1.292-1.292h-5.167a1.292,1.292,0,0,0-1.292,1.292V404.89h-2.583V375.182a1.292,1.292,0,0,0-1.292-1.292h0A1.292,1.292,0,0,0,487,375.182v31a1.292,1.292,0,0,0,1.292,1.292h51.666a1.292,1.292,0,0,0,1.292-1.292h0a1.292,1.292,0,0,0-1.292-1.292Zm-23.25,0H494.75V391.973h2.583Zm10.333,0h-2.583V386.807h2.583Zm10.333,0h-2.583V379.057H518Zm0,0" transform="translate(-28.25 -56.5)" fill="#333"/>
+      <path id="Tracé_20573" data-name="Tracé 20573" d="M661.458,373.89h-5.167A1.292,1.292,0,0,0,655,375.182v5.167a1.292,1.292,0,0,0,1.292,1.292h5.167a1.292,1.292,0,0,0,1.292-1.292v-5.167a1.292,1.292,0,0,0-1.292-1.292Zm-1.292,5.167h-2.583v-2.583h2.583Zm0,0" transform="translate(-160.084 -56.5)" fill="#333"/>
+      <path id="Tracé_20574" data-name="Tracé 20574" d="M661.458,421.89h-5.167A1.292,1.292,0,0,0,655,423.182v5.167a1.292,1.292,0,0,0,1.292,1.292h5.167a1.292,1.292,0,0,0,1.292-1.292v-5.167a1.292,1.292,0,0,0-1.292-1.292Zm-1.292,5.167h-2.583v-2.583h2.583Zm0,0" transform="translate(-160.084 -94.167)" fill="#333"/>
+      <path id="Tracé_20575" data-name="Tracé 20575" d="M661.458,469.89h-5.167A1.292,1.292,0,0,0,655,471.182v5.167a1.292,1.292,0,0,0,1.292,1.292h5.167a1.292,1.292,0,0,0,1.292-1.292v-5.167a1.292,1.292,0,0,0-1.292-1.292Zm-1.292,5.167h-2.583v-2.583h2.583Zm0,0" transform="translate(-160.084 -131.834)" fill="#333"/>
+      <rect id="Rectangle_2551" data-name="Rectangle 2551" width="2.321" height="2.321" rx="1.16" transform="translate(505.602 317.542)" fill="#f59a00"/>
+      <rect id="Rectangle_2552" data-name="Rectangle 2552" width="2.321" height="2.321" rx="1.16" transform="translate(510.244 317.542)" fill="#f59a00"/>
+      <rect id="Rectangle_2553" data-name="Rectangle 2553" width="6.963" height="3.481" rx="1.741" transform="translate(505.602 322.184)" fill="#333"/>
+      <rect id="Rectangle_2554" data-name="Rectangle 2554" width="6.963" height="2.321" rx="1.16" transform="translate(505.602 327.986)" fill="#333"/>
+      <rect id="Rectangle_2555" data-name="Rectangle 2555" width="6.963" height="2.321" rx="1.16" transform="translate(505.602 332.628)" fill="#f59a00"/>
+      <rect id="Rectangle_2556" data-name="Rectangle 2556" width="6.963" height="2.321" rx="1.16" transform="translate(505.602 338.43)" fill="#f59a00"/>
+      <rect id="Rectangle_2557" data-name="Rectangle 2557" width="2.321" height="2.321" rx="1.16" transform="translate(505.602 343.072)" fill="#333"/>
+      <rect id="Rectangle_2558" data-name="Rectangle 2558" width="2.321" height="2.321" rx="1.16" transform="translate(510.244 343.072)" fill="#f59a00"/>
+    </g>
+  </g>
+</svg>

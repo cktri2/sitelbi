@@ -1,0 +1,81 @@
+{
+    "index": {
+        "id": "accueil",
+        "type": "vue",
+        "name": "Accueil",
+        "url": "/"
+    },
+    "logiciel-immobilier": {
+        "id": "logicielImmobilier",
+        "type": "vue",
+        "name": "Logiciel Immobilier",
+        "url": "/logiciel-immobilier"
+    },
+    "gestion-des-biens": {
+        "id": "gestionBiens",
+        "type": "vue",
+        "name": "Gestion des biens",
+        "url": "/gestion-des-biens"
+    },
+    "gestion-des-contacts": {
+        "id": "gestionContacts",
+        "type": "vue",
+        "name": "Gestion des contacts",
+        "url": "/gestion-des-contacts"
+    },
+    "gestion-equipe": {
+        "id": "gestionEquipe",
+        "type": "vue",
+        "name": "Gestion d'équipe",
+        "url": "/gestion-equipe"
+    },
+    "suivi-juridique": {
+        "id": "suiviJuridique",
+        "type": "vue",
+        "name": "Suivi juridique",
+        "url": "/suivi-juridique"
+    },
+    "application-mobile": {
+        "id": "appMobile",
+        "type": "vue",
+        "name": "Application mobile & tablette",
+        "url": "/application-mobile"
+    },
+    "creation-de-site": {
+        "id": "creationSite",
+        "type": "vue",
+        "name": "Création de site",
+        "url": "/creation-site"
+    },
+    "identite-visuelle": {
+        "id": "identiteVisuelle",
+        "type": "vue",
+        "name": "Identité visuelle",
+        "url": "/identite-visuelle"
+    },
+    "referencement": {
+        "id": "referencement",
+        "type": "vue",
+        "name": "Référencement",
+        "url": "/referencement"
+    },
+    "webmark-immo": {
+        "id": "webmarkImmo",
+        "type": "vue",
+        "name": "Webmark'Immo",
+        "url": "/webmark-immo"
+    },
+    "la-boite": {
+        "id": "laBoite",
+        "type": "vue",
+        "name": "La boite ",
+        "url": "/la-boite"
+    },
+    "popin_contactForm": {
+        "id": "popinContactForm",
+        "type": "popin",
+        "name": "Contactez-nous",
+        "url": "/contactez-nous",
+        "file": "popin_contactForm.php"
+    }
+}

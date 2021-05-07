@@ -1,0 +1,30 @@
+<section id="lbiAcademyAccueil_anchorId" class="moduleDefault _lbiAcademyAccueilContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="imgStructure bxd6 bxt12">
+            <img class="image BxAnim animBxFadeRight__Out" src="/assets/img/modules/accueil/module_lbiAcademy/lbiAcademy.png" alt="{{ lbiAcademyAccueil.altImg|raw }}">
+        </div>
+        <div class="divStructure bxd6 bxt12">
+            <div class="logoContent">
+                <img class="logoLBIAcademy BxAnim animBxFadeLeft__Out" src="/assets/img/modules/accueil/module_lbiAcademy/logo_lbiAcademy.svg" alt="{{ lbiAcademyAccueil.altImg2|raw }}">
+                <span class="barHorizontal BxAnim animBxFadeRight3__Out"></span>
+            </div>
+            <h2 class="titrePage BxAnim animBxFadeBottom2__Out">{{ lbiAcademyAccueil.titre|raw }}</h2>
+            <p class="sousTitreSection_2">
+                <span class="BxAnim animBxFadeBottom2__Out">{{ lbiAcademyAccueil.sousTitre|raw }}</span>
+                <span class="barHorizontal BxAnim animBxFadeLeft2__Out"></span>
+            </p>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ lbiAcademyAccueil.text|raw }}</p>
+            <div class="btnContent BxAnim animBxFadeBottom2__Out">
+                <button class="btnDefault lbiHover hoverTranslate transition250">{{ lbiAcademyAccueil.textBtn|raw }}</button>
+            </div>
+        </div>
+        <ul class="bxd12 bxrow listItems">
+            {% for element in lbiAcademyAccueil.elements %}
+                <li class="item BxAnim animBxFadeBottom2__Out">
+                    <img class="logoItem" src="{{ element.img }}" alt="{{ element.altImg|raw }}">
+                    <p class="nameItem sousTitreSection_3">{{ element.text|raw }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

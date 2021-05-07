@@ -1,0 +1,15 @@
+{
+    "name": "jugab/hektor-front",
+    "authors": [
+        {
+            "name": "Julien Gabrielli",
+            "email": "julien.gabrielli.fr@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "swiftmailer/swiftmailer": "^6.2",
+        "devscreencast/json-response": "^1.1",
+        "alexstack/google-recaptcha-to-any-form": "^1.4"
+    }
+}

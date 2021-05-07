@@ -1,0 +1,1528 @@
+.moduleDefault._introductionWebmarkImmoContainer {
+    padding-bottom: 200px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    min-height: 90vh;
+    align-items: center;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 150px 0 0;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 50px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    max-width: 80%;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor {
+    overflow: hidden;
+    border: none;
+    background: none;
+    height: 150px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor .textBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+    text-align: left;
+    margin-top: -30px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor .textBtn:before {
+    content: '';
+    width: 2px;
+    height: 60px;
+    background: #f59a00;
+    margin-bottom: 10px;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor .textBtn:hover {
+    color: #f59a00;
+    margin-top: 0;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-start;
+}
+
+.moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 120%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .titrePage {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        order: -1;
+        padding-top: 100px;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0 0;
+        align-items: center;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        max-width: 100%;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor {
+        justify-content: center;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor .textBtn {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._introductionWebmarkImmoContainer .moduleDefaultContainer .divStructure .listButtonAnchor .btnAnchor {
+        height: 100px;
+        font-size: 12px;
+    }
+    .moduleDefault._introductionWebmarkImmoContainer {
+        padding-bottom: 100px;
+    }
+}
+
+
+/* virtual visit */
+
+.moduleDefault._virtualVisitWebmarkImmoContainer {
+    background: #333;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer:before {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    bottom: calc(100% - 2px);
+    right: 0;
+    content: '';
+    background: url('/assets/img/modules/webmarkimmo/module_virtualVisit/shape_1.svg') no-repeat 50% 0;
+    background-size: cover;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer:after {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: calc(100% - 1px);
+    right: 0;
+    content: '';
+    background: url('/assets/img/modules/webmarkimmo/module_virtualVisit/shape_2.svg') no-repeat 50% 0;
+    background-size: cover;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+    padding: 0 50px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-end;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 120%;
+    object-fit: contain;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .topLine {
+    color: #fff;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    text-transform: lowercase;
+    font-family: 'RalewayLight';
+    display: block;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    color: #fff;
+    width: 90%;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe strong {
+    color: #fff;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+    padding: 0 25px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection {
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection strong {
+    display: block;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .textParagraphe {
+    color: #fff;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .textParagraphe strong {
+    color: #fff;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom {
+    height: 100px;
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom .btnAppMobilTab {
+    white-space: nowrap;
+    margin-right: 50px;
+    border: none;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom:after {
+    content: '';
+    background: #f59a00;
+    height: 2px;
+    width: 100%;
+}
+
+.moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom:before {
+    content: '';
+    background: #f59a00;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 100%;
+    order: 1;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 110%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        justify-content: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 700px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding-top: 25px;
+        align-items: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection,
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+        text-align: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        width: 100%;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+        max-width: 400px;
+        width: 100%;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+        align-items: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection,
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection strong {
+        text-align: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom {
+        justify-content: center;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom .btnAppMobilTab {
+        margin-left: 50px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom:after,
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom:before {
+        display: none;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent.difussionContainer .btnBottom {
+        display: none;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 10px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+        padding: 25px 0;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom .btnAppMobilTab {
+        padding: 5px 10px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom .btnAppMobilTab .textButton {
+        padding: 0 15px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+        padding: 0;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer:after {
+        height: 100px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer:before {
+        height: 100px;
+    }
+    .moduleDefault._virtualVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+}
+
+
+/* live visit */
+
+.moduleDefault._liveVisitWebmarkImmoContainer {
+    padding-top: 200px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+    padding: 50px 50px 0;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-start;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 120%;
+    object-fit: contain;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    padding-left: 15px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    text-transform: lowercase;
+    font-family: 'RalewayLight';
+    display: block;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure {
+    background: #f1f1f1;
+    border-radius: 10px;
+    border-right: 10px solid #000;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .imgContent .image {
+    width: 100%;
+    object-fit: contain;
+    margin-top: -75px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent {
+    padding: 25px 75px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent .titrePack {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent .textParagraphe strong {
+    display: block;
+    padding: 10px 0;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent .absoluteText {
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    color: #9c9c9c;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+    justify-content: space-between;
+    align-items: center;
+    padding: 325px 25px 75px;
+    margin-top: -250px;
+    position: relative;
+    z-index: -1;
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:before {
+    width: 100vw;
+    height: 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: linear-gradient(135deg, #f8b400, #da7400);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+    color: #fff;
+}
+
+@media screen and (max-width: 1720px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 50px 50px 0;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        order: -1;
+        justify-content: center;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 700px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding-top: 50px;
+        align-items: center;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 300px 25px 50px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure {
+        border: none;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .imgContent {
+        justify-content: center;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .imgContent .image {
+        width: 80%;
+        max-width: 400px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent {
+        align-items: center;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: block;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure {
+        margin-top: 75px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 10px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .imgContent .image {
+        margin-top: -50px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent {
+        padding: 25px 15px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .packStructure .divContent .absoluteText {
+        position: initial;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 300px 0 50px;
+        flex-direction: column;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer {
+        padding-top: 100px;
+    }
+    .moduleDefault._liveVisitWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+}
+
+
+/* mooveo */
+
+.moduleDefault._mooveoWebmarkImmoContainer {
+    background: url('/assets/img/modules/webmarkimmo/module_mooveo/shape.svg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-end;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 110%;
+    object-fit: contain;
+    margin-top: -100px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    padding-left: 15px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    text-transform: lowercase;
+    font-family: 'RalewayLight';
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 90%;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection {
+    font-family: 'OpenSans-Extrabold';
+    padding-bottom: 25px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom {
+    height: 100px;
+    padding-top: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure {
+    padding: 50px 0 100px;
+    margin-top: -100px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent {
+    padding: 25px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem {
+    background: #fff;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .image {
+    max-width: 175px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .sousTitreSection_2,
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .sousTitreSection_2 .textColor {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .sousTitreSection_2 .textColor {
+    display: block;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 25px;
+    margin-bottom: -200px;
+    position: relative;
+}
+
+.moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:before {
+    width: calc(100% + 150px);
+    height: 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -75px;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1720px) {
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 50px 50px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+        margin-top: 0;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure {
+        margin-top: 0;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        margin-bottom: 0;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .image {
+        max-width: 150px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 600px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding-top: 0;
+        align-items: center;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        width: 100%;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 0 0 50px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 0 0 50px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent {
+        padding: 10px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem {
+        padding: 25px 15px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: block;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        margin: 0;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .infoItemStructure .infoItemContent .infoItem .image {
+        max-width: 100px;
+        margin-bottom: 25px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        flex-direction: column;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection,
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        text-align: center;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._mooveoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+}
+
+
+/* spot video */
+
+.moduleDefault._spotVideoWebmarkImmoContainer {
+    background: #f1f1f1;
+    z-index: -1;
+    padding-top: 200px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-end;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 120%;
+    object-fit: contain;
+    margin-top: -100px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    padding-left: 15px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    text-transform: lowercase;
+    display: block;
+    font-family: 'RalewayLight';
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection strong {
+    display: block;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom {
+    height: 100px;
+    padding-top: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 25px;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._spotVideoWebmarkImmoContainer {
+        padding-top: 50px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 110%;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        margin-top: 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 100px 25px 0;
+        height: auto;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        justify-content: center;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 500px;
+        margin-top: -50px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding-top: 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        align-items: center;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 100px 0;
+        margin: 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: block;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._spotVideoWebmarkImmoContainer {
+        padding: 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 10px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        margin-top: 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection,
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        text-align: center;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+    .moduleDefault._spotVideoWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+}
+
+
+/* social connect */
+
+.moduleDefault._socialConnectWebmarkImmoContainer {
+    background: #333;
+    z-index: 99;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    margin-top: -175px;
+    margin-bottom: -175px;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 75px 0;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    display: block;
+    font-family: 'RalewayLight';
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 90%;
+    color: #fff;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe strong {
+    color: #fff;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+    justify-content: space-between;
+    z-index: -1;
+    align-items: center;
+    padding: 155px 25px 0;
+    position: relative;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+    color: #fff;
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:before {
+    width: 100vw;
+    height: 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background: #1e1e1e;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:after {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    content: '';
+    background: url('/assets/img/modules/webmarkimmo/module_socialConnect/shape.svg') no-repeat 50% 100%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1720px) {
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        margin: 0;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 100px 25px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        order: -1;
+        justify-content: center;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 600px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        align-items: center;
+        padding-top: 0;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection,
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+        text-align: center;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe,
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe strong {
+        text-align: center;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 75px 0;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: block;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        padding-top: 25px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        flex-direction: column;
+        padding: 50px 0 0;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection,
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection strong {
+        text-align: center;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:after {
+        height: 100px;
+    }
+    .moduleDefault._socialConnectWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+}
+
+
+/* pix hdr */
+
+.moduleDefault._pixHdrWebmarkImmoContainer {
+    width: 100vw;
+    background: linear-gradient(90deg, #e57802, #f8b500);
+    overflow: hidden;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer:before {
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    content: '';
+    background: url('/assets/img/modules/webmarkimmo/module_pixHdr/shape.svg') no-repeat 50% 100%;
+    background-size: cover;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer {
+    max-width: 1440px;
+    padding: 50px 25px 0;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+    justify-content: flex-end;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+    width: 140%;
+    object-fit: contain;
+    padding-top: 200px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 200px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+    width: 90px;
+    object-fit: contain;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection {
+    text-transform: lowercase;
+    padding-left: 15px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .titreSection .textColor {
+    text-transform: lowercase;
+    display: block;
+    font-family: 'RalewayLight';
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .bottomContent {
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .bottomContent .imgBottom {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .bottomContent .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .bottomContent .btnBottom {
+    height: 100px;
+    padding-top: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer {
+    margin-top: -200px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent {
+    padding: 50px 25px 100px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .image {
+    width: 100%;
+    object-fit: contain;
+    max-height: 250px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .sousTitreSection_2 {
+    padding: 25px 0 10px;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .sousTitreSection_2 {
+    color: #fff;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .sousTitreSection_2 .textColor {
+    color: #000;
+    display: block;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .textParagraphe {
+    color: #fff;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .textParagraphe strong {
+    color: #fff;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 25px;
+    position: relative;
+}
+
+.moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure:before {
+    background: #f1f1f1;
+    width: 100vw;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1720px) {
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 50px 50px 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        width: 100%;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 100px 25px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .moduleDefault._pixHdrWebmarkImmoContainer:before {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        order: -1;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer:before {
+        background: url('/assets/img/modules/webmarkimmo/module_pixHdr/shape.svg') no-repeat 100% 30%;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: block;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .imageStructure {
+        display: none;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer {
+        margin-top: 0;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .sousTitreSection_2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        margin-top: 100px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 75px 0;
+        height: auto;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure {
+        padding-bottom: 125px;
+        padding-top: 150px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .titreAppli {
+        padding-top: 10px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent {
+        padding: 25px 0;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        margin-top: 50px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure {
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .infosAppliContainer .infosAppliStructure .infosAppliContent .image {
+        max-height: 150px;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .discoverStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer:before {
+        background: url('/assets/img/modules/webmarkimmo/module_pixHdr/shape.svg') no-repeat 100% -20%;
+    }
+    .moduleDefault._pixHdrWebmarkImmoContainer .moduleDefaultContainer .divStructure .titreContent .logo {
+        width: 50px;
+    }
+}

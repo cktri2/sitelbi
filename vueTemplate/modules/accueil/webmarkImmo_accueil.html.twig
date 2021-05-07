@@ -1,0 +1,34 @@
+<section id="webmarkImmoAccueil_anchorId" class="moduleDefault _webmarkImmoAccueilContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <img class="shapeRight BxAnim animBxFadeRight3__Out" src="/assets/img/modules/accueil/module_WebmarkImmo/shape.svg">
+        <img class="mobile BxAnim animBxFadeLeft3__Out" src="/assets/img/modules/accueil/module_WebmarkImmo/mobile.png">
+        <div class="slideStructure bxd6 bxt12 BxAnim animBxFadeRight__Out">
+            <div class="slideImgContainer js_SliderWebmark">
+                <div class="slideImg">
+                    {% for key, slide in webmarkImmoAccueil.slider.slideImg %}
+                        {% set key = key + 1 %}
+                        <img class="image transition500{% if loop.first %} active{% endif %}" id="webmarkSlide_{{ key }}" src="{{ slide.img|raw }}" alt="{{ slide.altImg|raw }}">
+                    {% endfor %}
+                </div>
+                <ul class="anchorImgList">
+                    {% for key, anchor in webmarkImmoAccueil.slider.slideAnchor %}
+                        {% set key = key + 1 %}
+                        <li class="element transition500{% if loop.first %} active{% endif %}" data-anchor="webmarkSlide_{{ key }}"><p class="sousTitreSection_2"><span class='number transition500'>0{{ key }}</span> <span class='textAnchor transition250'>{{ anchor|raw }}</span></p></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="divStructure bxd6 bxt12">
+            <img class="dotLeft BxAnim animBxFade__Out" src="/assets/img/modules/accueil/module_WebmarkImmo/dot.png">
+            <h2 class="titrePage BxAnim animBxFadeBottom2__Out">{{ webmarkImmoAccueil.titre|raw }}</h2>
+            <p class="sousTitreSection_2">
+                <span class="BxAnim animBxFadeBottom2__Out">{{ webmarkImmoAccueil.sousTitre|raw }}</span>
+                <span class="barHorizontal BxAnim animBxFadeLeft2__Out"></span>
+            </p>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ webmarkImmoAccueil.text|raw }}</p>
+            <div class="btnContent BxAnim animBxFadeBottom2__Out">
+                <a href="/webmark-immo" class="btnDefault hektorHover hoverTranslate transition250">{{ webmarkImmoAccueil.textBtn|raw }}</a>
+            </div>
+        </div>
+    </div>
+</section>

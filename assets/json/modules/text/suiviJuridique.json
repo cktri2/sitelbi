@@ -1,0 +1,88 @@
+{
+  "introductionSuiviJuridique": {
+    "titre": "Assurez un <span class=\"textColor\">suivi juridique</span>",
+    "altImg": ""
+  },
+  "gestionDocsTypesSuiviJuridique": {
+    "titre": "Gérez & imprimez <span class=\"textColor\">des documents types</span>",
+    "text": "Hektor vous propose également une bibliothèque de documents déjà créés et personnalisés à vos couleurs.<br><br>Vous souhaitez un outil permettant de créer de A à Z ou personnaliser des modèles pour vos bons de visite, mandat simple, compromis de vente… Hektor est fait pour vous !<br><br>Votre logiciel immobilier Hektor vous permet de gagner du temps et de réaliser, depuis son interface, chacun de vos documents administratifs, à destination des vendeurs et acquéreurs.<br><br>En un clic, vos documents se génèrent et se remplissent automatiquement grâce aux informations renseignées dans votre logiciel.",
+    "altImg": "",
+    "listItems": [
+      {
+        "titre": "Inspirez-vous",
+        "text": "de nos dizaines<br>de modèles"
+      },
+      {
+        "titre": "Créez",
+        "text": "vos documents types<br>de A à Z"
+      },
+      {
+        "titre": "Générez",
+        "text": "automatiquement vos documents complétés"
+      }
+    ]
+  },
+  "documentsSuiviJuridique": {
+    "titre": "Vos documents <span class=\"textColor\">juridiques</span>",
+    "text": "Hektor met également à votre disposition une bibliothèque de documents juridiques rédigés par un avocat spécialisé en immobilier : bon de visite, mandat de vente, délégation de mandat, mandant de recherche etc.<br><br>Pour les agences membres FNAIM, vous accédez directement à votre compte FNAIM Légal by Modelo depuis Hektor ! Retrouvez l’intégralité de vos outils juridiques.<br><br>Un vrai gain de temps !",
+    "altImg": ""
+  },
+  "signatureSuiviJuridique": {
+    "titre": "Signature <span class=\"textColor\">électronique</span>",
+    "text": "Envoyez et faites signer l’ensemble de vos documents directement depuis votre logiciel Hektor avec la signature électronique.<br><br>En quelques clics vous générez vos documents et les transmettez à vos contacts acquéreurs, vendeurs etc.",
+    "listItems": [
+      {
+        "sousTitre": "<span class=\"textColor\">Diminuez</span> vos dépenses",
+        "list": [
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_1.svg",
+            "altIcon": "",
+            "text": "en impressions",
+            "classResponive": "bxd4"
+          },
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_2.svg",
+            "altIcon": "",
+            "text": "en envois",
+            "classResponive": ""
+          },
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_3.svg",
+            "altIcon": "",
+            "text": "en temps passé",
+            "classResponive": "bxd4"
+          }
+        ]
+      },
+      {
+        "sousTitre": "<span class=\"textColor\">Gagnez</span> en efficasité pour vos",
+        "list": [
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_4.svg",
+            "altIcon": "",
+            "text": "Mandats de vente et de location",
+            "classResponive": "bxd4"
+          },
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_5.svg",
+            "altIcon": "",
+            "text": "Estimations Immobilières",
+            "classResponive": "bxd8"
+          },
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_6.svg",
+            "altIcon": "",
+            "text": "Bons de vente",
+            "classResponive": "bxd4"
+          },
+          {
+            "icon": "/assets/img/modules/suiviJuridique/module_signatureElectronique/signatureElectronique_7.svg",
+            "altIcon": "",
+            "text": "Offre d'achat",
+            "classResponive": "bxd8"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "introductionLaBoite": {
+    "titre": "<span class=\"textColor_2\">Le partenaire digital </span>des pros de l'imm<span class=\"textColor_2\">o</span>bilier",
+    "text": "<strong>Actrice reconnue et engagée du monde de l'immobilier depuis 2009</strong>, La Boîte Immo est l'une des rares agences webmarketing à s'être totalement et exclusivement spécialisée dans les métiers de l'immobilier.",
+    "altImg": "",
+    "textBottom": "Nous avons à coeur de démocratiser les technologies web les plus pointues, afin de les rendre accessibles aux professionnels de l'immoblier <strong>qui doivent s'adapter face aux enjeux du digital et aux nouveaux comportements des consommateurs</strong>"
+  },
+  "infosEntrepriseLaBoite": {
+    "titre": "La Boite Immo c'est",
+    "listItems": [
+      {
+        "icon": "/assets/img/modules/laBoite/module_infosEntreprise/technologique.svg",
+        "titre": "Une entreprise <strong class=\"textColor_2\">technologique</strong>",
+        "text": "La Boite Immo affirme son positionnement innovant et différenciateur grâce à <strong>la mise en place d'outils \"nouvelle génération\"</strong> dans le secteur de l'immobilier."
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_infosEntreprise/internationale.svg",
+        "titre": "Une implantation <strong class=\"textColor_2\">internationale</strong>",
+        "text": "La Boîte Immo s'est distinguée <strong>en prenantune dimension nationale très remarquée</strong> notamment via l'ouverture de bureaux en région, à Paris, Bordeaux et Lyon. Nous avons également ouvert un pôle tecnhique à Tunis."
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_infosEntreprise/vraisGens.svg",
+        "titre": "Des vrais gens <strong class=\"textColor_2\">dans une vrai boîte</strong>",
+        "text": "Notre équipe de <strong>150 collaborateurs compétents et passionnés</strong> est à votre disposition ! Pour plus de proximité, ils sont repartis entre notre siège social situé à Hyères et nos différentes implantations nationales et internationales."
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_infosEntreprise/happyWork.svg",
+        "titre": "Une boîte ou il fait <strong class=\"textColor_2\">bon travailler</strong>",
+        "text": "Avec une note globale de 4.5/5, La Boîte Immo obtient le label Happy Index, une entreprise où il fait bon travailler d'après ses collaborateurs. Une réjouissance pour le groupe qui souhaite offrir les meilleurs conditions de travail à ses salariés."
+      }
+    ]
+  },
+  "groupeLbiLaBoite": {
+    "titre": "La force <span class=\"textColor_2\">d'un Groupe</span>",
+    "text": "Après 11 années de croissance et de multiples acquisitions de sociétés complémentaires ou  concurrentes, <strong>le Groupe La Boite Immo naît</strong>. Il est aujourd'hui composé de 4 entités :",
+    "textLink": "Tout savoir sur le groupe la Boîte Immo",
+    "hrefLink": "",
+    "listItems": [
+      {
+        "icon": "/assets/img/modules/laBoite/module_groupeLaBoiteImmo/logo_lbi.svg",
+        "altIcon": "",
+        "text": "Spécialiste de la transation, elle propose la créatiion de site, du référencement et est éditrice du logiciel Hektor : N°1 des agences immobilières indépendantes !",
+        "class": "lbiContent"
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_groupeLaBoiteImmo/logo_lbi_neuf.svg",
+        "altIcon": "",
+        "text": "Entités spécialisée à l'immobilier neuf, avec des sites adaptés aux promoteurs et programmes neufs.",
+        "class": "lbiNeufContent"
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_groupeLaBoiteImmo/logo_lbi_academy.svg",
+        "altIcon": "",
+        "text": "Organisme de formation datadocké, La Boite Immo Academy délivre des formations en webinar, présentiel et e-learning.",
+        "class": "lbiAcademyContent"
+      },
+      {
+        "icon": "/assets/img/modules/laBoite/module_groupeLaBoiteImmo/logo_prev.svg",
+        "altIcon": "",
+        "text": "Pionnier dans le secteur du webmarketing immobilier, Previsite propose des outils innovants sur le marché : visite virtuelle, photo et vidéo immobilière...",
+        "class": "previsiteContent"
+      }
+    ],
+    "titre2": "La Boîte Immo <span class=\"textColor_2\">éleveur de talents</span>",
+    "text2": "Dans le cadre de notre développement constant, <strong>nous recherchons en permanence de nouveaux talents</strong>.<br>Que vous soyez développeur, marketer, hotliner, référenceur, commercial, assistant(e) administrative... nous avons forcément un poste fait pour vous !",
+    "href": "",
+    "textBtn": "Voir toutes nos offres"
+  },
+  "nouveauProjetLaBoite": {
+    "titre": "Vous avez un projet ?",
+    "textBtn": "Contactez-nous"
+  }
+}

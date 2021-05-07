@@ -1,0 +1,35 @@
+<section id="hektorAdaptLogicielImmobilier_anchorId" class="moduleDefault _hektorAdaptLogicielImmobilierContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ hektorAdaptLogicielImmobilier.titre|raw }}</h2>
+        <div class="divStructure BxAnim animBxFadeBottom__Out">
+            <div class="menuStructure bxrow">
+                {% for key, anchor in hektorAdaptLogicielImmobilier.slider.slideAnchor %}
+                    <button class="btnMenuContent transition500{% if loop.first %} active{% endif %} bxd6 bxm12 js_btnMenu" data-id="section_{{ key }}_HektorAdapt">
+                        <img class="imageMenu" src="{{ anchor.img }}" alt="{{ anchor.altImg|raw }}">
+                        <span class="sousTitreSection_2 textMenu transition500">{{ anchor.text|raw }}</span>
+                    </button>
+                {% endfor %}
+            </div>
+            <div class="listItemStructure bxrow">
+                {% for key, item in hektorAdaptLogicielImmobilier.slider.slideItems %}
+                    <div class="listItemContent transition500 bxrow{% if loop.first %} active{% endif %}" id="section_{{ key }}_HektorAdapt">
+                        {% if item.titre is defined %}
+                            <p class="textTopSection">{{ item.titre|raw }}</p>
+                        {% endif %}
+                        <div class="bxrow itemStructure">
+                            {% for element in item.elements %}
+                                <div class="{{ element.classResponsive|raw }} itemContent">
+                                    <div class="item">
+                                        <img class="imageItem" src="{{ element.img }}" alt="{{ element.altImg|raw }}">
+                                        <p class="textItem">{{ element.text|raw }}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <p class="sousTitreSection_4 textBottom BxAnim animBxFadeBottom__Out">{{ hektorAdaptLogicielImmobilier.textBottom|raw }}</p>
+    </div>
+</section>

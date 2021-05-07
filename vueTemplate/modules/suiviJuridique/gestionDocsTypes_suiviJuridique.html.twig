@@ -1,0 +1,23 @@
+<section id="gestionDocsTypesSuiviJuridique_anchorId" class="moduleDefault _gestionDocsTypesSuiviJuridiqueContainer BxAnim animBxFade__Out">
+    <ul class="moduleDefaultContainer bxrow">
+        <div class="divStructure bxrow">
+            <div class="bxd6 bxt12 imageStructure">
+                <img class="image transition500 BxAnim animBxFadeBottom__Out" src="/assets/img/modules/suiviJuridique/module_gestionDocumentsTypes/gestionDocumentsTypes.png" alt="{{ gestionDocsTypesSuiviJuridique.altImg }}">
+            </div>
+            <div class="bxd6 bxt12 divContent">
+                <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ gestionDocsTypesSuiviJuridique.titre|raw }}</h2>
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ gestionDocsTypesSuiviJuridique.text|raw }}</p>
+            </div>
+        </div>
+        <ul class="listItems bxrow">
+            {% for key, item in gestionDocsTypesSuiviJuridique.listItems %}
+                {% set key = key + 1 %}
+                <li class="item bxd4 bxt12 BxAnim animBxFadeBottom__Out">
+                    <div class="itemContent">
+                        <span class="numbreItem">{{ key }}<span class="icon">@</span></span><p class="textItem"><strong>{{ item.titre|raw }}</strong> {{ item.text|raw }}</p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+/* SIMPLE */
+
+.colorPrimary_ColorBefore:before,
+.colorPrimary_ColorAfter:after,
+.colorPrimary_Color {
+    color: #1aab73;
+    fill: #1aab73;
+    stroke: #1aab73;
+}
+
+.colorPrimary_BackgroundBefore:before,
+.colorPrimary_BackgroundAfter:after,
+.colorPrimary_Background {
+    background: #1aab73;
+}
+
+.colorPrimary_Border {
+    border-color: #1aab73;
+}
+
+/* ACTIVE HOVER */
+
+.colorPrimary_Parent:hover .colorPrimary_ColorHover,
+.colorPrimary_Parent:hover .colorPrimary_ColorBeforeHover:before,
+.colorPrimary_Parent:hover .colorPrimary_ColorAfterHover:after,
+.colorPrimary_ColorHover:hover,
+.colorPrimary_ColorBeforeHover:hover:before,
+.colorPrimary_ColorAfterHover:hover:after,
+
+.active.colorPrimary_Parent .colorPrimary_ColorActive,
+.active.colorPrimary_Parent .colorPrimary_ColorBeforeActive:before,
+.active.colorPrimary_Parent .colorPrimary_ColorAfterActive:after,
+.active.colorPrimary_ColorActive,
+.active.colorPrimary_ColorBeforeActive:before,
+.active.colorPrimary_ColorAfterActive:after {
+    color: #1aab73 !important;
+    fill: #1aab73 !important;
+    stroke: #1aab73 !important;
+}
+
+.colorPrimary_Parent:hover .colorPrimary_BackgroundHover,
+.colorPrimary_Parent.active .colorPrimary_BackgroundActive,
+.colorPrimary_BackgroundActive.active,
+.colorPrimary_BackgroundHover:hover {
+    background: #1aab73 !important;
+}
+
+.colorPrimary_BorderHover:hover {
+    border-color: #1aab73 !important;
+}

@@ -1,0 +1,517 @@
+/* Correction lié à la page */
+
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu:before,
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu:after,
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu .bar {
+    background: #fff;
+}
+
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu:hover:before,
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu:hover:after,
+#appMobile .headerContainer .headerStructure .buttonContent .icon.burgerMenu:hover .bar {
+    background: #bed000;
+}
+
+#appMobile .headerContainer .headerStructure .buttonContent .icon {
+    color: #fff;
+}
+
+#appMobile .headerContainer.fixedMenu .headerStructure .buttonContent .icon.burgerMenu:before,
+#appMobile .headerContainer.fixedMenu .headerStructure .buttonContent .icon.burgerMenu:after,
+#appMobile .headerContainer.fixedMenu .headerStructure .buttonContent .icon.burgerMenu .bar {
+    background: #333333;
+}
+
+#appMobile .headerContainer.fixedMenu .headerStructure .buttonContent .icon {
+    color: #333;
+}
+
+
+/* --------------------------------------------------- */
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer {
+    width: 100%;
+    background: #333;
+    position: relative;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer:after {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    z-index: -10;
+    width: 100vw;
+    height: 100%;
+    content: '';
+    background: url('/assets/img/modules/appMobile/module_introductionAppMobile/shape_app.svg') 0 0 no-repeat;
+    background-size: contain;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 200px 0 200px 180px;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-right: 70px;
+    color: #fff;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure .image {
+    width: 125%;
+    object-fit: contain;
+    position: absolute;
+    top: 100px;
+    right: -25%;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure .background {
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .btnAppMobilTab {
+    margin-top: 75px;
+}
+
+.moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .textBtnConsigne {
+    margin-top: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure .image {
+        width: 150%;
+        top: 50%;
+        transform: translateY(-40%);
+        -webkit-transform: translateY(-40%);
+        -moz-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        -o-transform: translateY(-40%);
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 200px 0 100px 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer {
+        min-height: 100vh;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 25px;
+        align-items: center;
+        margin-top: -75px;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        padding: 0;
+        order: -1;
+        max-width: 500px;
+        margin: 0 auto;
+        height: auto;
+        padding-top: 75px;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .imageStructure .image {
+        position: initial;
+        width: 100%;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .textBtnConsigne {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 30px 15px 100px 15px;
+    }
+    .moduleDefault._introductionAppMobileContainer .moduleDefaultContainer .divStructure .textBtnConsigne {
+        font-size: 14px;
+    }
+}
+
+
+/* winTime */
+
+.moduleDefault._winTimeAppMobileContainer {
+    padding: 300px 0 100px 0;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer {
+    max-width: 1820px;
+    margin: auto;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .titreSection {
+    text-align: center;
+    flex-direction: column;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    padding-right: 250px;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 50px;
+}
+
+.moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe .textStrong.titreParagraphe {
+    display: block;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._winTimeAppMobileContainer {
+        padding: 200px 0 100px 0;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .titreSection {
+        padding-bottom: 25px;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._winTimeAppMobileContainer {
+        padding: 150px 0 100px 0;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding-top: 25px;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._winTimeAppMobileContainer {
+        padding: 100px 25px 50px 25px;
+    }
+    .moduleDefault._winTimeAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0;
+    }
+}
+
+
+/* pixHdr */
+
+.moduleDefault._pixHdrAppMobileContainer {
+    background: linear-gradient(90deg, orange, #f59a00);
+    background-size: cover;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer {
+    max-width: 1520px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px 50px 50px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .titreSection {
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    color: #fff;
+    display: block;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item {
+    padding: 1px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+    min-height: 90px;
+    overflow: hidden;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent .svg {
+    padding-right: 10px;
+    width: 60px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent .textStrong {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .imgStructure {
+    align-items: center;
+}
+
+.moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 50px;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure {
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 50px 50px 0;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent .textStrong {
+        font-size: 20px;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent {
+        min-height: 75px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure {
+        order: 1;
+        padding: 50px 0;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 400px;
+        margin: auto;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer {
+        padding: 0 25px;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent {
+        padding-left: 0;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .moduleDefault._pixHdrAppMobileContainer .moduleDefaultContainer .divStructure .listItems .item .itemContent .svg {
+        padding-right: 0;
+        width: 40px;
+    }
+}
+
+
+/* agenda */
+
+.moduleDefault._agendaAppMobileContainer {
+    padding: 50px 0;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer {
+    width: 100%;
+    max-width: 1720px;
+    margin: auto;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .titreSection {
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .titreSection {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 50px;
+    }
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding-right: 0;
+    }
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._agendaAppMobileContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 15px;
+    }
+}
+
+
+/* dispoApp */
+
+.moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(90deg, #333, #202020);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .imgBackground {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    z-index: -1;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .textParagraphe {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+    font-size: 22px;
+    text-align: center;
+}
+
+.moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .textParagraphe .textColor {
+    color: #f59a00;
+}
+
+.moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .btnAppMobilTab {
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer {
+        padding: 0 25px;
+    }
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .imgBackground {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .imgBackground {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .imgBackground {
+        display: none;
+    }
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer {
+        min-height: 250px;
+    }
+    .moduleDefault._dispoAppAppMobileContainer .moduleDefaultContainer .textParagraphe {
+        font-size: 18px;
+    }
+}

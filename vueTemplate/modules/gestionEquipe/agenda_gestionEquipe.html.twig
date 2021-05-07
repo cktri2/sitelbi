@@ -1,0 +1,25 @@
+<section id="agendaGestionEquipe_anchorId" class="moduleDefault _agendaGestionEquipeContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <div class="divStructure_1 bxrow">
+            <div class="bxd6 bxt12 divStructure">
+                <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ agendaGestionEquipe.titre|raw }}</h2>
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ agendaGestionEquipe.text|raw }}</p>
+            </div>
+            <div class="bxd6 bxt12 imageStructure">
+                <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/gestionEquipe/module_agenda/agenda.png" alt="{{ agendaGestionEquipe.altImg }}">
+            </div>
+        </div>
+        <div class="divStructure_2 bxrow">
+            {% for item in agendaGestionEquipe.listItems %}
+                <div class="divStructure bxd6 bxt12 BxAnim animBxFadeBottom__Out">
+                    <div class="imageStructure">
+                        <img class="image" src="{{ item.icon }}" alt="{{ item.altIcon }}">
+                    </div>
+                    <h3 class="sousTitreSection">{{ item.titre|raw }}</h3>
+                    <p class="textParagraphe">{{ item.text|raw }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,1021 @@
+.btnDefault {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    border: none;
+    display: block;
+    z-index: 1;
+    font-size: 18px;
+    font-family: 'RalewayExtraLight';
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btnDefaultMin {
+    font-size: 16px;
+}
+
+.btnDefault:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 50px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btnDefault.lbiHoverWhite:before,
+.btnDefault.lbiHover:before {
+    background: linear-gradient(90deg, #bed000, #65ab3f);
+}
+
+.btnDefault.hektorHover:before {
+    background: linear-gradient(90deg, #f8b400, #f28300);
+}
+
+.btnDefault.hektorHover.withBorder {
+    box-shadow: inset 0 0 0 3px #f59a00;
+    background: rgba(0, 0, 0, 0);
+}
+
+.btnDefault.lbiHoverRaw {
+    background: #bed000;
+}
+
+.btnDefault.lbiHoverWhite {
+    background: #fff;
+    color: #333;
+}
+
+.btnDefault.lbiRaw:hover {
+    background: #bed000;
+    color: #fff;
+}
+
+.btnDefault:after {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btnDefault:hover {
+    background: #fff;
+    color: #333;
+}
+
+.btnDefault.lbiHoverWhite:hover,
+.btnDefault.lbiHover:hover,
+.btnDefault.hektorHover:hover {
+    background: none;
+}
+
+.btnDefault.lbiHoverWhite:hover:before,
+.btnDefault.lbiHover:hover:before,
+.btnDefault.hektorHover:hover:before {
+    opacity: 1;
+}
+
+.btnDefault.lbiHoverWhite:hover,
+.btnDefault.lbiHover:hover,
+.btnDefault.hektorHover:hover {
+    color: #fff;
+}
+
+.btnDefault.hoverTranslate:hover {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+.textButton {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.btnAppMobilTab {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    background: #202020;
+    padding: 7.5px 25px;
+}
+
+.buttonLink {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+    .btnDefault {
+        font-size: 14px;
+        padding: 15px 50px;
+    }
+    .textButton {
+        font-size: 14px;
+    }
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* PAGE SITE */
+
+body {
+    width: 100%;
+}
+
+.pageContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pageContainer .moduleDefault {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.referencementImportant {
+    width: 1px;
+    font-size: 1px;
+    opacity: 0;
+    display: block;
+    overflow: hidden;
+    padding-left: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+
+/* POPIN */
+
+#containerPopin {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    display: none;
+    opacity: 0;
+    z-index: 99999;
+    background: #111;
+}
+
+#containerPopin.active {
+    display: block;
+}
+
+#containerPopin.active.display {
+    opacity: 1;
+    top: 0;
+}
+
+
+/* popinContactForm */
+
+#containerPopin .structurePopin {
+    max-width: 1440px;
+    margin: auto;
+}
+
+#containerPopin .popinContactForm {
+    padding: 50px;
+}
+
+#containerPopin .headerPopin {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 1620px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#containerPopin .headerPopin .btnClosePopin {
+    color: #fff;
+    width: 32px;
+    height: 31px;
+    background: none;
+    border: none;
+    font-size: 26px;
+}
+
+#containerPopin .popinContactForm .divStructure {
+    flex-direction: column;
+}
+
+#containerPopin .popinContactForm .divStructure .titreSection {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'RalewayBlack';
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure {
+    padding: 50px 0;
+    width: 100%;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent.ColumnStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .inputForm {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .inputForm::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .labelForm {
+    display: flex;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .labelForm .checkboxVue {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    display: block;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .checkboxForm:checked+.checkboxVue {
+    background: red;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .labelForm .textLabel {
+    color: #fff;
+    font-size: 14px;
+}
+
+#containerPopin .popinContactForm .divStructure .formStructure .formContent .textConsigne {
+    color: #fff;
+    font-size: 10px;
+}
+
+.moduleDefault,
+.moduleDefault .moduleDefaultContainer {
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault .moduleDefaultContainer {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* FONT POLICE */
+
+.moduleDefault .moduleDefaultContainer .titrePage,
+.moduleDefault .moduleDefaultContainer .titrePage strong,
+.moduleDefault .moduleDefaultContainer .titrePage .textColor {
+    font-size: 74px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage .textColor {
+    color: #f59a00;
+    font-size: 74px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage .textColor_2 {
+    color: #bed000;
+    font-size: 74px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage_nexa {
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'nexa_light';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage_nexa strong,
+.moduleDefault .moduleDefaultContainer .titrePage_nexa span {
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'nexa_heavy';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage_nexa .textColor {
+    color: #f59a00;
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'nexa_heavy';
+}
+
+.moduleDefault .moduleDefaultContainer .titrePage_nexa .textColor_2 {
+    color: #bed000;
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'nexa_heavy';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection,
+.moduleDefault .moduleDefaultContainer .titreSection strong,
+.moduleDefault .moduleDefaultContainer .titreSection .textColor {
+    font-size: 64px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection .textColor {
+    color: #f59a00;
+    font-size: 64px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection .textColor_2 {
+    color: #bed000;
+    font-size: 64px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection_2,
+.moduleDefault .moduleDefaultContainer .titreSection_2 strong,
+.moduleDefault .moduleDefaultContainer .titreSection_2 .textColor {
+    font-size: 48px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection_2 .textColor {
+    color: #f59a00;
+    font-size: 48px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .titreSection_2 .textColor_2 {
+    color: #bed000;
+    font-size: 48px;
+    line-height: 1;
+    font-family: 'RalewayBlack';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection,
+.moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+.moduleDefault .moduleDefaultContainer .sousTitreSection .textColor {
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection .textColor {
+    color: #f59a00;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2 {
+    color: #bed000;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_2,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_2 strong,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor {
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor {
+    color: #f59a00;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor_2 {
+    color: #bed000;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_3,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_3 strong,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor {
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor {
+    color: #f59a00;
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor_2 {
+    color: #bed000;
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_4,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_4 strong,
+.moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor {
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor {
+    color: #f59a00;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor_2 {
+    color: #bed000;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault .moduleDefaultContainer .textParagraphe,
+.moduleDefault .moduleDefaultContainer .textParagraphe strong {
+    font-size: 16px;
+}
+
+.moduleDefault .moduleDefaultContainer .textParagraphe strong {
+    font-family: 'OpenSans-Bold';
+}
+
+.moduleDefault .moduleDefaultContainer .topLine {
+    text-transform: uppercase;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    white-space: nowrap;
+    font-family: 'OpenSans-Bold';
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+
+.moduleDefault .moduleDefaultContainer .topLine:before {
+    content: '';
+    width: 125px;
+    background: #f59a00;
+    height: 2px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa span,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa strong {
+        font-size: 90px;
+    }
+    .moduleDefault .moduleDefaultContainer .titrePage,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor_2,
+    .moduleDefault .moduleDefaultContainer .titrePage span,
+    .moduleDefault .moduleDefaultContainer .titrePage strong {
+        font-size: 64px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor_2,
+    .moduleDefault .moduleDefaultContainer .titreSection span,
+    .moduleDefault .moduleDefaultContainer .titreSection strong {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa span,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa strong {
+        font-size: 80px;
+    }
+    .moduleDefault .moduleDefaultContainer .titrePage,
+    .moduleDefault .moduleDefaultContainer .titrePage strong,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor_2 {
+        font-size: 60px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection,
+    .moduleDefault .moduleDefaultContainer .titreSection strong,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor_2 {
+        font-size: 48px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection_2,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor_2 {
+        font-size: 44px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2 {
+        font-size: 32px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor_2 {
+        font-size: 28px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor_2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa span,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa strong {
+        font-size: 60px;
+    }
+    .moduleDefault .moduleDefaultContainer .titrePage,
+    .moduleDefault .moduleDefaultContainer .titrePage strong,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor_2 {
+        font-size: 44px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection,
+    .moduleDefault .moduleDefaultContainer .titreSection strong,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor_2 {
+        font-size: 40px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection_2,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor_2 {
+        font-size: 36px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2 {
+        font-size: 28px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor_2 {
+        font-size: 24px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor_2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    /* .moduleDefault .moduleDefaultContainer .titrePage,
+    .moduleDefault .moduleDefaultContainer .titrePage strong,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor_2 {
+        font-size: 36px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection,
+    .moduleDefault .moduleDefaultContainer .titreSection strong,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor_2 {
+        font-size: 32px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2 {
+        font-size: 24px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor_2 {
+        font-size: 20px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor_2 {
+        font-size: 18px;
+    } */
+    .moduleDefault .moduleDefaultContainer .topLine:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault .moduleDefaultContainer {
+        padding: 0 10px;
+    }
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa span,
+    .moduleDefault .moduleDefaultContainer .titrePage_nexa strong {
+        font-size: 36px;
+    }
+    .moduleDefault .moduleDefaultContainer .titrePage,
+    .moduleDefault .moduleDefaultContainer .titrePage strong,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor,
+    .moduleDefault .moduleDefaultContainer .titrePage .textColor_2 {
+        font-size: 32px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection,
+    .moduleDefault .moduleDefaultContainer .titreSection strong,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection .textColor_2 {
+        font-size: 28px;
+    }
+    .moduleDefault .moduleDefaultContainer .titreSection_2,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .titreSection_2 .textColor_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2 {
+        font-size: 22px;
+    }
+    .moduleDefault .moduleDefaultContainer .sousTitreSection,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection .textColor_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_2 .textColor_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_3 .textColor_2,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 strong,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor,
+    .moduleDefault .moduleDefaultContainer .sousTitreSection_4 .textColor_2 {
+        font-size: 16px;
+    }
+    .moduleDefault .moduleDefaultContainer .textParagraphe,
+    .moduleDefault .moduleDefaultContainer .textParagraphe strong,
+    .moduleDefault .moduleDefaultContainer .topLine {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault .imgStructure .image {
+        max-width: 500px;
+        max-height: 500px;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault .imgStructure .image {
+        max-width: 350px;
+        max-height: 350px;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+
+/* DEMO LOGICIEL */
+
+.moduleDefault._demoLogicielContainer {
+    background: #333;
+    padding-top: 500px;
+    margin-top: -500px;
+    z-index: 1;
+    position: relative;
+}
+
+.moduleDefault._demoLogicielContainer .moduleDefaultContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 75px 100px;
+    max-width: 1520px;
+    margin: auto;
+}
+
+.moduleDefault._demoLogicielContainer .moduleDefaultContainer:before {
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+    z-index: -1;
+    content: url(/assets/img/modules/generique/module_demoLogiciel/background_demo.png);
+}
+
+.moduleDefault._demoLogicielContainer .moduleDefaultContainer .titreSection_2 {
+    color: #fff;
+}
+
+.moduleDefault._demoLogicielContainer .moduleDefaultContainer .titreSection_2 .textColor {
+    color: #f59a00;
+}
+
+.moduleDefault._demoLogicielContainer .moduleDefaultContainer .image {
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+    z-index: -1;
+    width: 100%;
+}
+
+.moduleDefault._demoLogicielContainer.orangeType {
+    background: #f59a00;
+    padding-top: 100px;
+    margin-top: -150px;
+    overflow: hidden;
+}
+
+.moduleDefault._demoLogicielContainer.orangeType .moduleDefaultContainer .titreSection_2 {
+    color: #333;
+}
+
+.moduleDefault._demoLogicielContainer.orangeType .moduleDefaultContainer .titreSection_2 .textColor {
+    color: #fff;
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._demoLogicielContainer {
+        padding: 500px 75px 0 75px;
+        margin-bottom: 100px;
+    }
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer {
+        padding: 50px;
+        flex-direction: column;
+    }
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer .titreSection_2 {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._demoLogicielContainer {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer {
+        flex-direction: column;
+        padding: 50px 25px;
+    }
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer .titreSection_2 {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer .image {
+        display: none;
+    }
+    .moduleDefault._demoLogicielContainer.orangeType {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._demoLogicielContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+}
+
+
+/* FORMULAIRE */
+
+.moduleDefault._formulaireContactContainer {
+    background: #f59a00;
+}
+
+.moduleDefault._formulaireContactContainer.greenType {
+    background: linear-gradient(45deg, #bdd000, #63aa41);
+}
+
+.moduleDefault._formulaireContactContainer.blackType {
+    background: #000;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer {
+    padding: 150px 50px;
+    max-width: 1620px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .titreSection {
+    padding-bottom: 50px;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .titreSection .textColor {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .divStructure {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(245, 154, 0, 0.5);
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding: 35px 35px 15px 35px;
+    font-size: 20px;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .divStructure .textParagraphe .textColor {
+    color: #f59a00;
+    padding-top: 10px;
+    display: block;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .divStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure {
+    padding: 35px 0 35px 35px;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .inputForm {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    background: none;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textareaForm {
+    resize: none;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textareaForm:hover,
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textareaForm:focus,
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .inputForm:focus,
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .inputForm:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .inputForm::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .labelForm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .labelForm .textLabel {
+    color: #fff;
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textConsigne {
+    font-size: 10px;
+    color: #fff;
+    font-family: 'OpenSans-Light';
+}
+
+.moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .btnDefault {
+    margin-left: 25px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer {
+        padding: 50px;
+        overflow: hidden;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .titreSection {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .titreSection {
+        display: initial;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding: 25px;
+        text-align: center;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure {
+        padding: 25px 0;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent {
+        padding: 5px 15px 5px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textareaForm {
+        resize: none;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .labelForm {
+        padding: 5px 0;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textConsigne {
+        order: 2;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .btnDefault {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer {
+        padding: 25px 15px;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent {
+        padding: 10px 0;
+    }
+    .moduleDefault._formulaireContactContainer .moduleDefaultContainer .formStructure .formContent .textConsigne {
+        text-align: center;
+    }
+}

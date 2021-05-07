@@ -1,0 +1,132 @@
+{
+    "presentationLogiciel": {
+        "menu": [{
+                "anchor": "gestionBienAnchorSlider",
+                "text": "Gestions des biens"
+            },
+            {
+                "anchor": "gestionContactAnchorSlider",
+                "text": "Gestion des contacts"
+            },
+            {
+                "anchor": "gestionEquipeAnchorSlider",
+                "text": "Gestion d'équipe"
+            },
+            {
+                "anchor": "suiviJuridiqueAnchorSlider",
+                "text": "Suivi Juridique"
+            }
+        ],
+        "infos": {
+            "gestionBienAnchorSlider": {
+                "titreSection": "Gérez <strong class='textColor'>vos biens</strong>",
+                "textSection": "Hektor vous accompagne de la prise du mandat jusqu'a la vente du bien !",
+                "classResponsive": "bxd6",
+                "linklPage": "/gestion-des-biens",
+                "listItems": [{
+                        "img": "pige.svg",
+                        "alt": "",
+                        "titre": "La Pige <strong class='textColor'>totalement intégrée</strong>",
+                        "text": "Certains logiciels de pige comme <strong>Pigimmo ou Directannonces sont directement intégrés à Hektor</strong> et vous permettent de visualiser l'offre de biens de manière globale !"
+                    },
+                    {
+                        "img": "deepflow.svg",
+                        "alt": "",
+                        "titre": "La rédaction d'annonce <strong class='textColor'>avec Deep Flow Realty</strong>",
+                        "text": "Basée sur l'intelligence articficielle, Deep Flow Realty <strong>génère en un clic, un texte et un descriptif de 300 mots pour chacune de vos annonces.</strong> Un outil qui facilitera votre quotidien de professionnels de l'immobilier !"
+                    },
+                    {
+                        "img": "diffusion.svg",
+                        "alt": "",
+                        "titre": "Diffuser ses biens sur <strong class='textColor'>les portails immobiliers</strong>",
+                        "text": "Diffusez <strong>automatiquement vos annonces sur de nombreux portails immobiliers de référence</strong>, en France mais aussi à l'internationnal. Avec Hektor, vous bénificiez gratuitement d'une cinquantaine de portails immobiliers partenaires !"
+                    },
+                    {
+                        "img": "rapprochements_1.svg",
+                        "alt": "",
+                        "titre": "Rapprochements entre <strong class='textColor'>les acquéreurs et les vendeurs</strong>",
+                        "text": "Vous traitez vos rapprochement automatiques entre les acheteurs potentiels et les biens disponibles, <strong>en fonction des critères de chacun</strong>. Vous répondez vite et bien à la demande de vos clients !"
+                    },
+                    {
+                        "img": "fiches.svg",
+                        "alt": "",
+                        "titre": "Les fiches <strong class='textColor'>d'impressions</strong>",
+                        "text": "Créez <strong>vos propres fiches d'impressions de A à Z</strong> ou choisissez parmi une multitude de modèles prêts à l'utilisation: fiches vitrines, fiches publiques, fiches privées ou fiches photos. Les fiches sont personnalisables aux logos et couleurs de votre agence immobilière."
+                    },
+                    {
+                        "img": "livevisit.svg",
+                        "alt": "",
+                        "titre": "Organiser des visites <strong class='textColor'>à distance avec Live Visit</strong>",
+                        "text": "Totalement intégré au logiciel, <strong>cet outil permet, au moyen d'une visio-conférence, de recréer à distance une visite du bien</strong>. Vous pourrez présenter le bien et intéragir en temps réel avec votre prospect tout en étant dans votre agence immobilière !"
+                    }
+                ]
+            },
+            "gestionContactAnchorSlider": {
+                "titreSection": "Gérez <strong class='textColor'>vos contacts</strong>",
+                "textSection": "Acquéreurs, propriétaires, locataires ou encore partenaires, vous gérez votre realtion client depuis le logiciel immobilier Hektor !",
+                "classResponsive": "bxd6",
+                "linklPage": "gestion-des-contacts",
+                "listItems": [{
+                        "img": "rapprochements_2.svg",
+                        "titre": "Rapprochements <strong class='textColor'>automatiques</strong>",
+                        "text": "Tout comme dans les biens, Hektor vous offre un <strong>rapprochement acquéreurs/vendeurs automatique</strong> dès l'enregistrement d'un nouvel acquéreur."
+                    },
+                    {
+                        "img": "espace_personnel.svg",
+                        "titre": "Espace <strong class='textColor'>Personnel</strong>",
+                        "text": "Vous donnez <strong>un accès sécurisé et personnalisé</strong> à tous vos contacts: acquéreurs, propriétaires, partenaires...<br><strong>Conformément au RGPD</strong> (Règlement Général sur la Protection des Données), l'Espace Personnel permet de à vos contacts de consulter, modifier ou supprimer leurs informations personnelles mais également demander l'arrêt de toute communication."
+                    },
+                    {
+                        "img": "demandes.svg",
+                        "titre": "Demandes <strong class='textColor'>reçues</strong>",
+                        "text": "Retrouvez <strong>toutes vos demandes de contact reçues</strong> depuis votre site internet La Boite Immo, vos annonces de location Facebook Marketplace ou encore depuis les portails avec lesquels nous avons un accord. <strong>Plus de double saisie pour créer un contact !</strong>"
+                    },
+                    {
+                        "img": "sms.svg",
+                        "titre": "Envoi <strong class='textColor'>de SMS</strong>",
+                        "text": "Envoyez vos SMS directement <strong>depuis votre logiciel immobilier</strong>: confirmez un rendez-vous, traitez un rapprochement ou communiquez les identifiants d'accès à l'espace propriétaire."
+                    }
+                ]
+            },
+            "gestionEquipeAnchorSlider": {
+                "titreSection": "Gérez <strong class='textColor'>votre équipe</strong>",
+                "textSection": "Hektor permet une gestion sans faille de votre équipe et de votre activité",
+                "classResponsive": "bxd6",
+                "linklPage": "gestion-equipe",
+                "listItems": [{
+                        "img": "reporting.svg",
+                        "titre": "Reporting <strong class='textColor'>d'activité</strong>",
+                        "text": "Suivez <strong>les performances de votre agence immobilière et de votre équipe</strong> avec le Reporting Hektor. Les statistiques sont calculées automatiquement pour l'agence et chaque négociateur: tableau des ventes, suivi des compromis, typologies des biens entrés et vendus..."
+                    },
+                    {
+                        "img": "agenda.svg",
+                        "titre": "Un vrai <strong class='textColor'>agenda métier</strong>",
+                        "text": "Connecté à l'ensemble du logiciel, <strong>l'agenda Hektor permet de créer facilement</strong> tout type de rendez-vous, sélectionner les biens et contacts à associer, génèrer automatiquement des documents et envoyer un sms ou un email de confirmation. L'agenda Hektor est <strong>synchronisable avec Google, Outlook, Thunderbird et Apple.</strong>"
+                    }
+                ]
+            },
+            "suiviJuridiqueAnchorSlider": {
+                "titreSection": "Assurez un <strong class='textColor'>suivi juridique</strong>",
+                "textSection": "",
+                "classResponsive": "bxd4",
+                "linklPage": "suivi-juridique",
+                "listItems": [{
+                        "img": "docstypes.svg",
+                        "titre": "Gérez et imprimer <strong class='textColor'>des documents types</strong>",
+                        "text": "Hektor vous propose une bibliothèque de documents types personnalisables à vos couleurs: bon de visite, mandat simple, compromis de vente... Vos documents se génèrent et se remplissent automatiquement grâce aux données déjà saisies dans le logiciel. Vous pouvez également créer vous-même votre document de A à Z."
+                    },
+                    {
+                        "img": "docs_juridiques.svg",
+                        "titre": "Vos documents <strong class='textColor'>juridiques</strong>",
+                        "text": "Retrouvez des documents juridiques mise à disposition dans votre logiciel immobilier et rédigés par un avocat spécialisé en immobilier.<br>Pour les agences membre FNAIM, connectez-vous à votre compte FNAIM Légal directement depuis Hektor et retrouvez l'intégralité de vos outils juridiques."
+                    },
+                    {
+                        "img": "signature.svg",
+                        "titre": "Signature <strong class='textColor'>électronique</strong>",
+                        "text": "Envoyez et faites signer l'ensemble de vos documents directement depuis votre logiciel Hektor avec la signature électronique."
+                    }
+                ]
+            }
+        }
+    }
+}

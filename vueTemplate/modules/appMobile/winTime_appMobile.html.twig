@@ -1,0 +1,14 @@
+<section id="winTimeAppMobile_anchorId" class="moduleDefault _winTimeAppMobileContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <h2 class="titreSection BxAnim animBxFadeBottom__Out bxd12">{{ winTimeAppMobile.titre|raw }}</h2>
+        <div class="imgStructure bxd6 bxt12">
+            <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/appMobile/module_gagnerTempsPerf/gagnerTempsPerf.png" alt="{{ winTimeAppMobile.altImg }}">
+        </div>
+        <div class="divStructure bxd6 bxt12">
+            {% for item in winTimeAppMobile.listItems %}
+                <h3 class="sousTitreSection BxAnim animBxFadeBottom__Out">{{ item.titre|raw }}</h3>
+                <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ item.text|raw }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</section>

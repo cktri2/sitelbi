@@ -1,0 +1,21 @@
+<section id="pixHdrAppMobile_anchorId" class="moduleDefault _pixHdrAppMobileContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="divStructure bxld13 bxt12">
+            <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ pixHdrAppMobile.titre|raw }}</h2>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ pixHdrAppMobile.text|raw }}</p>
+            <ul class="listItems bxrow">
+                {% for item in pixHdrAppMobile.listItems %}
+                    <li class="item BxAnim animBxFadeBottom__Out bxd6">
+                        <div class="itemContent">
+                            <img class="svg" src="{{ item.icon }}" alt="{{ item.altIcon }}">
+                            <p class="textStrong">{{ item.text|raw }}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="imgStructure bxld11 bxt12">
+            <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/appMobile/module_pixHDR/pixHDR.png" alt="{{ item.altImg }}">
+        </div>
+    </div>
+</section>

@@ -1,0 +1,8 @@
+{
+  "bdd": {
+    "serveur": "localhost",
+    "user": "root",
+    "password": "",
+    "base": "hadrien"
+  }
+}

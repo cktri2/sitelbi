@@ -1,0 +1,170 @@
+{
+    "introductionAccueil": {
+        "titre": "<span>la boîte</span> immo",
+        "sousTitre": "<span class='textSurligne'>l'interlocuteur privilégié</span> des prox de l'imm<span class='textColor_2'>o</span>bilier",
+        "text": "Faites le choix d'un <strong>partenaire solide et un savoir-faire unique</strong>",
+        "textBtn": "Découvrez-nous !",
+        "altImg": "image introduction La boîte Immo"
+    },
+    "logicielHektorAccueil": {
+        "titre": "Hekt<span class='textColor'>o</span>r",
+        "sousTitre": "<span class='textColor'>Logiciel n°1 des agences</span> immobilières indépendantes",
+        "sousTitre2": "<span class='textColor'>6 500 agences</span> lui font confiance !",
+        "text": "<strong>Complet et intuitif</strong>, Hektor vous accompagne au quotidien dans la gestion de votre activité et de votre équipe. En véritable caméléon, Hektor <strong>s’adapte à toutes les typologies</strong> (agence seule, en création, réseau d’agences ou de mandataires, groupement…) et à toutes les activités (transaction, location, location saisonnière, programme neuf, immo pro) !<br><br>Le moustachu le plus connu du monde immobilier, vous accompagne partout grâce à ses <strong>applications mobiles et tablette incluses !</strong>",
+        "textBtn": "Rencontrez Hektor",
+        "altImg": "image introduction La boîte Immo"
+
+    },
+    "fabrikSiteAccueil": {
+        "titre": "Fabr<span class='textColor_2'>i</span>k' à sites",
+        "sousTitre": "Depuis plus de 10 ans,<strong class='textColor_2'>Nous créons des sites adaptés à votre activité !</strong>",
+        "text": "Tous nos sites incluent un <strong>design tendance</strong> et actuel et sont développés en <strong>responsive web design</strong> afin d’être parfaitement adaptés à toutes les tailles d’écrans.<br>Nos équipes assurent un <strong>accompagnement tout au long de votre projet</strong> depuis la phase de conception jusqu’à la mise en ligne.",
+        "textBtn": "Découvrez la Fabrik'",
+        "altImg": "image introduction La boîte Immo"
+    },
+    "referencementAccueil": {
+        "titre": "R<span class='textColor_2'>é</span>férencement",
+        "sousTitre": "être visible c'est bien ! <strong class='textColor_2'>Le reste c'est encore mieux !</strong>",
+        "text": "Notre équipe de référenceurs vous accompagne dans la mise en place de votre <strong>stratégie de visibilité</strong> sur le web ! <strong>Naturel, payant et international</strong>, nous procédons à un audit approfondi afin d’élaborer la meilleure stratégie.",
+        "textBtn": "Gagnez en visibilité",
+        "altImg": "image introduction La boîte Immo"
+
+    },
+    "webmarkImmoAccueil": {
+        "titre": "Webm<span class='textColor'>a</span>rk'immo",
+        "sousTitre": "Optez pour nos solutions<strong class='textColor'> De valorisation de vos mandats !</strong>",
+        "text": "Testez la visite virtuelle avec <strong>Virtual Visit</strong> et augmentez votre visibilité et l’impact de vos annonces. Ou encore transformez vos annonces en vidéo avec les solutions <strong>SpotvidéoTM</strong> et <strong>Mooveo</strong> ! Plus percutant et dynamique qu’une annonce classique, <srong>vous mettez en valeur votre bien !</strong>",
+        "textBtn": "Découvrez nos solutions",
+        "slider": {
+            "slideImg": [{
+                    "img": "/assets/img/modules/accueil/module_WebmarkImmo/VV.png",
+                    "altImg": "illustration"
+                },
+                {
+                    "img": "/assets/img/modules/accueil/module_WebmarkImmo/SV.png",
+                    "altImg": "illustration"
+                },
+                {
+                    "img": "/assets/img/modules/accueil/module_WebmarkImmo/pix.png",
+                    "altImg": "illustration"
+                }
+            ],
+            "slideAnchor": ["Visite<br> Virtuelle", "Vidéo<br> Immobilière", "Photo<br> Immobilière"]
+        }
+    },
+    "interkabAccueil": {
+        "titre": "Inter<span class='textColor'>kab</span>",
+        "sousTitre": "prenez part au plus grand rassemblement de <span class='textColor'>professionels de l'immobilier jamais créé !</span>",
+        "textBtn": "Rejoignez Interkab",
+        "altImg": "Interkab",
+        "elements": [{
+                "text": "<strong><span class='textColor'>+ de 782 000 biens</span>à travers la France</strong> Quel que soit le bien recherché par vos contacts, vous le trouverez sur Interkab !",
+                "img": "/assets/img/modules/accueil/module_Interkab/biens.svg",
+                "altImg": "alt"
+            },
+            {
+                "text": "<strong><span class='textColor'>+ de 6 500 agences</span>immobilières partenaires</strong> Vous trouverez en 1 clic les confrères proches de vous pour établir des collaborations gagnant-gagnant !",
+                "img": "/assets/img/modules/accueil/module_Interkab/agences.svg",
+                "altImg": "alt"
+            },
+            {
+                "text": "<strong><span class='textColor'>+ de 35 000 pros</span>de l’immobilier actifs</strong> Vous ne vous sentirez plus jamais seul pour développer votre business !",
+                "img": "/assets/img/modules/accueil/module_Interkab/pros.svg",
+                "altImg": "alt"
+            }
+        ]
+    },
+    "groupeLbiAccueil": {
+        "titre": "La Boîte Immo <br> est une marque du <span class='textColor'>Groupe La Boîte Immo <span class='barHorizontal BxAnim animBxFadeLeft2__Out'></span></span>",
+        "altImg": "alt",
+        "altImg2": "alt",
+        "text": "Après 11 années de croissance et de multiples acquisitions de sociétés complémentaires ou concurrentes, le Groupe La Boite Immo est aujourd’hui <strong>le leader français sur le marché des solutions immobilières.</strong>",
+        "textBtn": "Explorez la Boite",
+        "elements": [{
+                "value": "5200",
+                "text": "sites immobiliers réalisés",
+                "img": "/assets/img/modules/accueil/module_GroupeLBI/nbr_sites.png",
+                "altImg": "alt",
+                "classResponsive": "bxd4 bxt6 bxm12"
+            },
+            {
+                "value": "35 000",
+                "text": "utilisateurs du logiciel hektor",
+                "img": "/assets/img/modules/accueil/module_GroupeLBI/nbr_hektor.png",
+                "altImg": "alt",
+                "classResponsive": "bxd4 bxt6 bxm12"
+            },
+            {
+                "value": "140",
+                "text": "collaborateurs à votre service",
+                "img": "/assets/img/modules/accueil/module_GroupeLBI/nbr_collaborateurs.png",
+                "altImg": "alt",
+                "classResponsive": "bxd4 bxt12"
+            }
+        ]
+    },
+    "lbiAcademyAccueil": {
+        "titre": "La Boîte Immo<span class='textColor_2'>Academy</span>",
+        "sousTitre": "Découvrez nos formations e-learning <strong class='textColor_2'>certifiés loi alur</strong>",
+        "text": "Elles vous permmettent de justifier très facielement de vos obligations légales de formation <strong>de 14h/ an ou 42h sur 3 années consécutives</strong>. Choisissez à la carte, selon vos besoins, et <strong>formez-vous quand et où vous le souhaitez, sans contraintes.</strong>",
+        "textBtn": "In(formez)-vous",
+        "altImg": "alt",
+        "altImg2": "alt",
+        "elements": [{
+                "text": "organisme <strong>datadocké</strong>",
+                "img": "/assets/img/modules/accueil/module_lbiAcademy/datadocke.svg",
+                "altImg": "alt"
+            },
+            {
+                "text": "certifié <strong>loi alur</strong>",
+                "img": "/assets/img/modules/accueil/module_lbiAcademy/loiAlur.svg",
+                "altImg": "alt"
+            },
+            {
+                "text": "renouvellement <strong>carte professionnelle</strong>",
+                "img": "/assets/img/modules/accueil/module_lbiAcademy/carte_pro.svg",
+                "altImg": "alt"
+            },
+            {
+                "text": "accessible <strong>24h/24 & 7j/7</strong>",
+                "img": "/assets/img/modules/accueil/module_lbiAcademy/accessible.svg",
+                "altImg": "alt"
+            }
+        ]
+    },
+    "actuBlogAccueil": {
+        "titre": "L'actu<br>du bl<span class='textColor_2'>o</span>g",
+        "sousTitre": "Découvrez toute<br>l'actualité",
+        "textBtn": "Le Blog La Boîte Immo",
+        "elements": [{
+                "img": "/assets/img/modules/accueil/module_actuBlog/actuBlog1.png",
+                "altImg": "alt",
+                "date": "2 avril 2020",
+                "titre": "Test",
+                "text": "La période de confinement actuelle entraîne de nombreuses interrogations de la part de vos propriétaires, locataires ou bailleurs soucieux. Pour vous permettre d’y répondre avec plus de sérénité, voici les réponses élaborées par le ministère aux questions les plus fréquentes.",
+                "textBtn": "Lire plus",
+                "href": "/"
+            },
+            {
+                "img": "/assets/img/modules/accueil/module_actuBlog/actuBlog2.png",
+                "altImg": "alt",
+                "date": "2 avril 2020",
+                "titre": "Test",
+                "text": "La période de confinement actuelle entraîne de nombreuses interrogations de la part de vos propriétaires, locataires ou bailleurs soucieux. Pour vous permettre d’y répondre avec plus de sérénité, voici les réponses élaborées par le ministère aux questions les plus fréquentes.",
+                "textBtn": "Lire plus",
+                "href": "/"
+            }
+        ]
+    },
+    "newsletterAccueil": {
+        "titre": "Ne manquez <span class='textColor_2'>rien !</span>",
+        "altImg": "alt",
+        "text": "<strong>Et si on apprenait à se connaître ?</strong> Inscrivez-vous à notre newsletter et recevez cahque mois notre actualité et celle du secteur immobilier !",
+        "textCondition": "Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par La Boite Immo pour la gestion de sa clientèle/prospects. Elles sont conservées jusqu’à demande de suppression et sont destinées à La Boite Immo. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d’accès aux données vous concernant et les faire rectifier en contactant rgpd@la-boite-immo.com. Nous vous informons de l’existence de la liste d’opposition au démarchage téléphonique « Bloctel », sur laquelle vous pouvez vous inscrire ici :<a class='link' href='https://conso.bloctel.fr/'> https://conso.bloctel.fr/</a>",
+        "textBtn": "Je m'inscris !",
+        "placeHolderEmail": "Votre e-mail",
+        "titreBrochure": "Téléchargez <strong class='textColor'>notre brochure !</strong>",
+        "altImgBrochure": "alt",
+        "altImgBrochure2": "alt"
+    }
+}

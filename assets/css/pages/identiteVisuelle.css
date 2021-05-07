@@ -1,0 +1,659 @@
+.moduleDefault._introductionIdentiteVisuelleContainer {
+    width: 100%;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding-left: 30px;
+    min-height: 100vh;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titrePage {
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titrePage .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .sousTitreSection .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    max-width: 80%;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+    justify-content: center;
+    align-items: center;
+}
+
+.moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+    width: calc(100% + 250px);
+    object-fit: contain;
+    margin-right: -100px;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+        width: 100%;
+        margin-right: 0;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        padding: 0;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .pageContainer .moduleDefault {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+        order: -1;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+        padding-top: 100px;
+        max-width: 600px;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        min-height: auto;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+        text-align: center;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titre .textColor {
+        display: initial;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._introductionIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+}
+
+
+/* explication */
+
+.moduleDefault._explicationIdentiteVisuelleContainer {
+    width: 100%;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer {
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent {
+    justify-content: center;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent .titreSection {
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent .titreSection .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure_2 {
+    margin-top: -100px;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure_2 .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure .icon {
+    margin-bottom: 25px;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure .textBottom.titreSection_2 {
+    margin: 50px 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure .textBottom.titreSection_2 .textColor_2 {
+    display: block;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent {
+        order: -3;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent .titre {
+        margin-bottom: 50px;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding: 25px 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        order: -2;
+        padding-right: 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+        order: -1;
+        margin-bottom: 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure_2 {
+        order: 2;
+        margin: 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image,
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure_2 .image {
+        max-width: 600px;
+        margin: auto;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 {
+        order: 1;
+        padding-left: 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure {
+        order: 3;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .titreContent .titreSection {
+        margin-bottom: 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure {
+        padding: 25px 0 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure .textBottom.titreSection_2 {
+        margin: 25px 0;
+    }
+    .moduleDefault._explicationIdentiteVisuelleContainer .moduleDefaultContainer .bottomStructure .textBottom.titreSection_2 .textColor_2 {
+        display: initial;
+    }
+}
+
+
+/* creation logo */
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer {
+    width: 100%;
+    background: #333;
+    padding: 50px 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer:after {
+    z-index: -1;
+    content: url('/assets/img/modules/identiteVisuelle/module_creationLogo/shapeBottom.svg');
+    width: 100vw;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection {
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    color: #fff;
+    width: 75%;
+    padding-bottom: 5px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe strong {
+    color: #fff;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 {
+    margin: auto;
+    max-width: 1320px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #9C9C9C;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent {
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    width: calc(100% - 50px);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent .sousTitreSection_2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent .sousTitreSection_2 .textColor_2 {
+    display: block;
+    text-transform: uppercase;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent .sousTitreSection_2:before {
+    width: 100px;
+    height: 10px;
+    background: #bed000;
+    content: '';
+    margin-bottom: 25px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divImgContent_1 {
+    justify-content: flex-start;
+    padding-right: 100px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divImgContent_2 {
+    justify-content: flex-end;
+    padding: 0 50px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divTextContent_1 {
+    justify-content: flex-start;
+    padding: 0 0 0 50px;
+    margin-top: -150px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divTextContent_2 {
+    justify-content: flex-end;
+    padding: 0 0 0 50px;
+    margin-top: -150px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom {
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1320px;
+    margin-bottom: 300px;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom .textBottom.titreSection_2 {
+    color: #fff;
+}
+
+.moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom .textBottom.titreSection_2 .textColor_2 {
+    display: block;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 600px;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .image {
+        max-width: 400px;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent .sousTitreSection_2 {
+        align-items: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divImgContent_1,
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divImgContent_2 {
+        padding: 0;
+        justify-content: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent .textContent {
+        width: 100%;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divTextContent_1,
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divTextContent_2 {
+        padding: 25px 0 50px;
+        margin: 0;
+        text-align: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divImgContent_1 {
+        order: -2;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 .divContent.divTextContent_1 {
+        order: -1;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure_2 {
+        padding-bottom: 0;
+        margin-bottom: 50px;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom {
+        flex-direction: column;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom .textBottom {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divBottom {
+        margin-bottom: 0;
+    }
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection .textColor_2 {
+        display: initial;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._creationLogoIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+}
+
+
+/* valorisation marque */
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: -200px;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer {
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding: 50px 0 50px 50px;
+    margin-top: -75px;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure:before {
+    content: '';
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+    width: 125%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection_2 {
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titreSection_2 .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 80%;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems {
+    display: flex;
+    padding: 25px 0;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent .textItem {
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -75px;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+    height: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divBottom {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divBottom .textBottom.titreSection_2 .textColor_2 {
+    display: block;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent .textItem {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+        margin: 0;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        padding: 35px 0 35px 35px;
+        margin: 0;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+        height: 80%;
+        width: 100%;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent {
+        padding-right: 30px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divBottom {
+        margin-top: 50px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer {
+        margin-top: -150px;
+        padding-bottom: 50px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent .imgItem {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure:before {
+        width: 100%;
+        height: calc(100% + 150px);
+        top: -150px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        padding: 35px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .titre {
+        text-align: center;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        margin: auto;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure {
+        order: -1;
+        margin-bottom: -50px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 400px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems {
+        justify-content: center;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 15px 35px;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        width: 100%;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems {
+        flex-direction: column;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent {
+        padding: 15px;
+        justify-content: center;
+    }
+    .moduleDefault._valorisationMarqueIdentiteVisuelleContainer .moduleDefaultContainer .divStructure .listItems .itemContent .imgItem {
+        width: 40px;
+    }
+}

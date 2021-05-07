@@ -1,0 +1,74 @@
+{
+  "introductionGestionContacts": {
+    "titre": "Gérez <span class='textColor'>vos contacts</span>",
+    "text": "Hektor vous accompagne au quotidien dans la gestion de vos contacts: acquéreurs, vendeurs, locataires ou partenaires. Accordez un soin particulier à la relation client grâce aux outils mis à disposition dans votre logiciel métier.",
+    "altImg": "illustration gérez vos contacts"
+  },
+  "rapprochementsAutoGestionContacts": {
+    "titre": "Rapprochements <span class='textColor'>automatiques</span>",
+    "text": "Ne vous contentez pas d'un outil de rapprochement sous la forme unique d'un listing, exigez mieux pour votre agence ! Notre logiciel immobilier vous offre un rapprochement acquéreurs/vendeurs automatique dès l'enregistrement d'un nouvel acquéreur.<br><br>Dès l’entrée d’un nouveau contact, Hektor vous propose les biens correspondants à ses critères. Mais Hektor va encore plus loin et génère un email prédéfini avec les informations principales et la fiche du bien. En plus de la version automatique, vous pouvez ajouter manuellement d'autres biens présentant selon vous un intérêt pour l'acquéreur.<br><br>Tous vos rapprochements sont visibles dès votre page d’accueil ! Alors ne perdez plus de temps et soyez le premier à décrocher des visites !",
+    "altImg": "illustration gérez vos contacts"
+  },
+  "espacePersoGestionContacts": {
+    "titre": "Espace personnel <span class='textColor'>& Espace Propriétaire</span>",
+    "text": "Avec l’Espace Personnel, vous donnez un accès sécurisé et personnalisé à tous vos contacts : acquéreurs, propriétaires etc.<br><br>Conformément au RGPD (Règlement Général sur la Protection des Données), l’espace personnel permet à vos contacts de consulter, modifier ou supprimer leurs informations personnelles mais également demander l’arrêt de toute communication.",
+    "text2": "Pour vos Propriétaires, l’espace en ligne permet également de les informer en temps réel des actions réalisées sur leurs mandats :",
+    "altImg": "illustration gérez vos contacts",
+    "listItems": [
+      {
+        "icon": "icon-liste",
+        "titre": "La liste",
+        "text": "des portails partenaires sur lesquels leur bien est diffusé"
+      },
+      {
+        "icon": "icon-actions",
+        "titre": "Les actions",
+        "text": "menées sur leur bien"
+      },
+      {
+        "icon": "icon-visites",
+        "titre": "Les visites",
+        "text": "effectuées et leur compte-rendus"
+      },
+      {
+        "icon": "icon-emails",
+        "titre": "Les e-mails",
+        "text": "échangés via historique"
+      },
+      {
+        "icon": "icon-acces",
+        "titre": "Un accès",
+        "text": "à tous les documents générés ou téléchargés"
+      },
+      {
+        "icon": "icon-com",
+        "titre": "La communication",
+        "text": "via un système de messagerie instantanée"
+      }
+    ]
+  },
+  "demandeRecuGestionContacts": {
+    "titre": "Demandes <span class='textColor'>reçues</span>",
+    "text": "Terminée la double saisie pour créer un contact dans votre logiciel ! En plus, Hektor récupère automatiquement les critères de recherche pour les acquéreurs/locataires.<br><br>Retrouvez toutes vos demandes de contact reçues depuis votre site internet La Boite Immo, vos annonces de location Facebook Marketplace ou encore depuis les portails avec lesquels nous avons un accord (Bien Ici, Bureaux Locaux, Superimmo…)",
+    "altImg": ""
+  },
+  "envoiSmsGestionContacts": {
+    "titre": "Envoi <span class='textColor'>de SMS</span>",
+    "text": "Le SMS présente de nombreux avantages : un message concis et toujours lu, la possibilité de consulter plusieurs fois l’information et un faible coût !<br>Le SMS est donc un bon moyen de construire une relation privilégiée avec ses clients, alors pourquoi s’en priver ?!<br>Avec votre logiciel immobilier Hektor vous envoyez directement des sms à vos contacts pour :",
+    "textBottom": "En plus, chaque agence bénéficie <span class='textColor'>de 50 sms offerts</span> à la création du compte !",
+    "listItems": [
+      {
+        "titre": "Confirmer <strong>un rendez-vous</strong>",
+        "icon": ""
+      },
+      {
+        "titre": "Traiter <strong>vos rapprochements</strong>",
+        "icon": ""
+      },
+      {
+        "titre": "Envoyer <strong>les indentifiants à l'espace propriétaire</strong>",
+        "icon": "Traiter <strong>vos rapprochements</strong>"
+      }
+    ]
+  }
+}

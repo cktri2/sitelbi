@@ -1,0 +1,1100 @@
+.moduleDefault._introductionLogicielImmobilierContainer {
+    min-height: 100vh;
+    background: url('/assets/img/modules/logicielImmobilier/module_hektor/background.svg') 125% 50% no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer {
+    width: 100%;
+    max-width: 1920px;
+    padding-top: 100px
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .shapeAbsolute {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent {
+    width: calc(100% - 200px);
+    margin: auto;
+    padding: 30px;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .logo {
+    width: 100%;
+    object-fit: contain;
+    padding-bottom: 30px;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .btnDefault {
+    margin-top: 50px;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .imageStructure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    order: 1;
+}
+
+.moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .imageStructure .image {
+    width: calc(100% + 200px);
+    margin-right: -200px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent {
+        margin: 0;
+        padding: 0 0 0 75px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .logo {
+        max-width: 400px;
+        padding-bottom: 15px;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .imageStructure .image {
+        width: 100%;
+        margin-right: -50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._introductionLogicielImmobilierContainer .shapeAbsolute {
+        display: none;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer {
+        background: none;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 100px 50px 0;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .imageStructure {
+        order: -1;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .imageStructure .image {
+        max-width: 600px;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .btnDefault {
+        margin-top: 25px;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 100px 15px 50px;
+    }
+    .moduleDefault._introductionLogicielImmobilierContainer .moduleDefaultContainer .divStructure .divContent .logo {
+        max-width: 200px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* Hektor Adapt */
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer {
+    background: #f4f4f4;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer {
+    max-width: 1420px;
+    margin: auto;
+    padding: 100px 50px 0;
+    width: 100%;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .titreSection {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+    background: #fff;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    padding: 10px 0;
+    border: none;
+    background: #f6f6f6;
+    position: relative;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .imageMenu {
+    height: 75px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .sousTitreSection_2.textMenu {
+    text-transform: uppercase;
+    display: block;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent:after {
+    background: #f59a00;
+    width: 0;
+    height: 5px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent:first-child:after {
+    left: inherit;
+    right: 0;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent:hover:after,
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent.active:after {
+    width: 100%;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent:hover .textMenu,
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent.active .textMenu {
+    color: #f59a00;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure {
+    box-shadow: 0 25px 100px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    z-index: -1;
+    min-height: 350px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent.active {
+    position: initial;
+    opacity: 1;
+    z-index: 10;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .textTopSection {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'OpenSans-Extrabold';
+    padding-bottom: 25px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure {
+    width: 100%;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent {
+    justify-content: center;
+    padding: 15px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item {
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent#section_2_HektorAdapt .itemStructure .itemContent .item {
+    width: 510px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .imageItem {
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f38300, #f8b100);
+    width: 110px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .textItem {
+    font-size: 30px;
+    font-family: 'RalewayExtrabold';
+    padding-left: 10px;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .textBottom {
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+    padding: 100px 15px 50px;
+    color: #4b4b4b;
+}
+
+.moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .textBottom .textColor {
+    display: block;
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .imageMenu {
+        width: 75px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .textItem {
+        font-size: 24px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .imageItem {
+        width: 90px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item {
+        width: 275px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent#section_2_HektorAdapt .itemStructure .itemContent .item {
+        width: 450px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .image {
+        width: 75px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .textMenu {
+        font-size: 20px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent {
+        min-height: 125px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent {
+        padding: 15px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent#section_2_HektorAdapt .itemStructure .itemContent .item {
+        width: 100%;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .textItem {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent {
+        flex-direction: row;
+        display: flex;
+        min-height: 60px;
+        padding: 7.5px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .imageMenu {
+        width: 50px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .menuStructure .btnMenuContent .textMenu {
+        font-size: 16px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent {
+        padding: 15px 0;
+        min-height: 300px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .textTopSection {
+        font-size: 14px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .imageItem {
+        width: 45px;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item,
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent#section_2_HektorAdapt .itemStructure .itemContent .item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent .item .textItem {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .textBottom {
+        padding: 25px 0;
+    }
+    .moduleDefault._hektorAdaptLogicielImmobilierContainer .moduleDefaultContainer .divStructure .listItemStructure .listItemContent .itemStructure .itemContent {
+        justify-content: center;
+        padding: 0 0 5px;
+        min-height: auto;
+    }
+}
+
+
+/* Presentation Logiciel */
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer {
+    z-index: 20;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer {
+    max-width: 1820px;
+    padding: 50px 15px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer {
+    padding: 0 50px;
+    width: 100%;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure {
+    z-index: 10;
+    position: relative;
+    max-width: 1620px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink {
+    font-family: 'RalewayBlack';
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink:hover,
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink.active {
+    color: #f59a00;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink:after {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #4b4b4b;
+    content: '';
+    width: 1px;
+    height: calc(100% - 60px);
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink:last-child:after {
+    display: none;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer {
+    background: #efefef;
+    margin-top: -25px;
+    border-radius: 25px;
+    z-index: -1;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure {
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent {
+    max-width: 1300px;
+    margin: auto;
+    padding: 75px 30px 0;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure.active {
+    z-index: 10;
+    opacity: 1;
+    position: initial;
+    top: inherit;
+    left: inherit;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent .titreInfos {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent .textInfos {
+    text-transform: uppercase;
+    color: #4B4B4B;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure {
+    padding: 30px 0;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent {
+    flex-direction: column;
+    padding: 0 15px 30px;
+    align-items: flex-start;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent .image {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent .sousTitreSection_3 {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent .sousTitreSection_3 .textColor {
+    display: block;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    align-items: center;
+}
+
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent:before,
+.moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent:after {
+    content: '';
+    width: calc(50% - 175px);
+    height: 1px;
+    background: #ddd;
+    border-top: 1px solid #fff;
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent {
+        align-items: center;
+        text-align: center;
+        padding: 15px 30px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent .textInfos {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer {
+        padding: 0 25px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer {
+        border-radius: 15px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink {
+        padding: 30px 0;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent .image {
+        width: 90px;
+        height: 90px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent {
+        justify-content: center;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent:before,
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent {
+        padding: 50px 15px 0;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .titreContent .titreInfos .textColor {
+        display: block;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent {
+        padding: 15px 0;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .btnContent {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink:after {
+        display: none;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer .menuStructure .elementLink {
+        padding: 20px 0;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer {
+        margin-top: 15px;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .menuInfosContainer {
+        padding: 0;
+    }
+    .moduleDefault._presentationLogicielLogicielImmobilierContainer .moduleDefaultContainer .divInfosContainer .divInfosStructure .divInfosContent .infosStructure .divContent .image {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+
+/* Interkab */
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer {
+    padding: 150px 0;
+    max-width: 1620px;
+    margin: auto;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .logo {
+    object-fit: contain;
+    width: 90%;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .sousTitreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .btnDefault {
+    margin-top: 50px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 {
+    padding: 0 0 0 75px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure {
+    padding: 0 15px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .image {
+    width: 100%;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .sousTitreSection_3 {
+    text-transform: uppercase;
+    font-family: 'RalewayBlack';
+    padding: 25px 25px 0 25px;
+}
+
+.moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .textParagraphe {
+    padding: 10px 20px 50px 20px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 100px 35px 100px 50px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 {
+        padding-left: 0;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .titreSection_2 {
+        padding-top: 10px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 {
+        padding: 0 0 0 50px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .textParagraphe {
+        padding: 10px 20px 50px 20px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 {
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .logo {
+        max-width: 400px;
+        margin: auto;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .titreSection_2 {
+        text-align: center;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+        text-align: center;
+        width: 100%;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 {
+        padding: 0;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .image {
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .moduleDefault._interkabLogicielImmobilierContainer .moduleDefaultContainer .divStructure_2 .divStructure .divContent .image {
+        max-height: 200px;
+    }
+}
+
+
+/* App Mobile */
+
+.moduleDefault._appMobileLogicielImmobilierContainer {
+    background: #333;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .moduleDefaultContainer {
+    padding: 150px 50px;
+    justify-content: flex-end;
+    max-width: 1620px;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .imageStructure {
+    padding-right: 15px;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection .sousTitreSection {
+    text-transform: uppercase;
+    display: flex;
+    padding-top: 15px;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection .sousTitreSection .textColor {
+    padding-left: 7.5px;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.moduleDefault._appMobileLogicielImmobilierContainer .divStructure .btnDefault {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._appMobileLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 100px 50px;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .divStructure {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._appMobileLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .imageStructure {
+        padding: 0;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .imageStructure .image {
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .divStructure {
+        padding: 0;
+        align-items: center;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection {
+        padding-top: 25px;
+        text-align: center;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .divStructure .textParagraphe {
+        padding-right: 0;
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._appMobileLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._appMobileLogicielImmobilierContainer .divStructure .titreSection .sousTitreSection {
+        display: initial;
+        padding-top: 10px;
+    }
+}
+
+
+/* Lbi Academy */
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer {
+    width: 100%;
+    padding: 200px 0;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 5px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .titreSection {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .titreSection .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px 0;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .logoItem {
+    height: 75px;
+    padding-bottom: 5px;
+    object-fit: contain;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'OpenSans-Extrabold';
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem strong {
+    font-family: 'OpenSans-Extrabold';
+    display: block;
+    font-size: 24px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    width: 100%;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .textParagraphe strong {
+    font-weight: 700;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .btnContent {
+    margin-top: 75px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure {
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent {
+    box-shadow: -12.5px 12.5px 50px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 15px 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent:before {
+    background: linear-gradient(90deg, #bdd000, #63aa41);
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent:after {
+    background: #333;
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 15px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'OpenSans-Extrabold';
+    text-transform: uppercase;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos:nth-child(2n) {
+    border-right: none;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos:nth-child(3),
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos:nth-child(4) {
+    border-bottom: none;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos .textColor_2 {
+    font-family: 'RalewayBlack';
+    font-size: 60px;
+}
+
+.moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgInfoStructure .blockInfosContent .blockInfos .textColor .indice {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1720px) {
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+        padding-left: 25px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgStructure .image {
+        width: 100%;
+        margin-right: 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+        padding-left: 75px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+        padding: 25px 75px 50px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer {
+        padding: 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer {
+        min-height: auto;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 100px 50px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgStructure {
+        padding: 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+        padding: 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .btnContent {
+        margin-top: 50px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+        padding: 50px 0 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem strong,
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem {
+        font-size: 18px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+        align-items: initial;
+        justify-content: space-around;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item {
+        padding: 10px 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem {
+        padding: 10px 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .logoItem {
+        height: 75px;
+        width: 75px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .titre:before {
+        width: 100%;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure {
+        align-items: center;
+        text-align: center;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgStructure {
+        justify-content: center;
+        order: -1;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 500px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .logoContent {
+        justify-content: center;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .logoContent .logoLBIAcademy {
+        margin: 25px 0 0;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .logoContent:after {
+        display: none;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems {
+        justify-content: space-between;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem strong,
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem {
+        font-size: 16px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .logoItem {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer {
+        padding: 50px 15px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 300px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .logoContent {
+        height: 100px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .divStructure .logoContent .logoLBIAcademy {
+        width: 150px;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item {
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem strong,
+    .moduleDefault._lbiAcademyLogicielImmobilierContainer .moduleDefaultContainer .listItems .item .nameItem {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,19 @@
+ <section id="envoiSmsGestionContacts_anchorId" class="moduleDefault _envoiSmsGestionContactsContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <div class="divStructure_1">
+            <h2 class="titreSection BxAnim animBxFadeBottom__Out">{{ envoiSmsGestionContacts.titre|raw }}</h2>
+            <p class="textParagraphe BxAnim animBxFadeBottom__Out">{{ envoiSmsGestionContacts.text|raw }}</p>
+        </div>
+        <div class="divStructure_2 bxrow">
+            {% for key, item in envoiSmsGestionContacts.listItems %}
+                {% set key = key + 1 %}
+                <div class="bxd4 bxt12 divContent step_{{ key }} BxAnim animBxFadeBottom__Out">
+                    <div class="divElement">
+                        <p class="sousTitreSection">{{ item.titre|raw }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <p class="textBottom sousTitreSection_3 BxAnim animBxFadeBottom__Out">{{ envoiSmsGestionContacts.textBottom|raw }}</p>
+    </div>
+</section>

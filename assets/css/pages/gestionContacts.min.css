@@ -1,0 +1,686 @@
+.moduleDefault._introductionGestionContactsContainer {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    max-width: 1920px;
+}
+
+.moduleDefault._introductionGestionContactsContainer:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: url('/assets/img/modules/gestionContacts/module_gererVosContacts/shape_section_1.svg') no-repeat 100% 0%;
+    background-size: contain;
+}
+
+.moduleDefault._introductionGestionContactsContainer:after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer {
+    width: 100%;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure .sousTitreSection_2 {
+    padding-right: 70px;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .imageStructure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+    max-height: 700px;
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._introductionGestionContactsContainer {
+        min-height: 100vh;
+        padding: 0;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        padding: 0;
+        order: -1;
+        max-width: 550px;
+        margin: 0 auto;
+        height: auto;
+        padding: 75px 25px 0 25px;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 25px;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure .sousTitreSection_2 {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        order: -1;
+        padding-top: 75px;
+        padding-right: 0;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .moduleDefault._introductionGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding: 30px 15px;
+    }
+}
+
+
+/* rapprochements auto */
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    max-width: 1620px;
+    margin: auto;
+    align-items: center;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 150px 0 50px;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding: 0 75px 0 50px;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._rapprochementsAutoGestionContactsContainer {
+        min-height: auto;
+        margin-bottom: 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        padding: 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure {
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px 0 0 0;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection .textColor {
+        display: initial;
+    }
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._rapprochementsAutoGestionContactsContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* espace perso */
+
+.moduleDefault._espacePersoGestionContactsContainer {
+    z-index: 10;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+    padding-left: 150px;
+    align-items: center;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .textParagraphe.secondType {
+    padding-top: 100px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .imageStructure {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems {
+    position: relative;
+    z-index: 1;
+    padding: 0 150px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems:after {
+    content: '';
+    bottom: 0;
+    left: 50px;
+    position: absolute;
+    background: #fff;
+    width: calc(100% - 100px);
+    height: 250px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item {
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 25px 15px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent:after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, yellow, orange);
+    content: '';
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .iconContent {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
+    color: #f59a00;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .iconContent .icon {
+    margin-bottom: 10px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .textParagraphe {
+    max-width: 325px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .textParagraphe .titreParagraphe {
+    display: block;
+    font-size: 35px;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent:hover:after {
+    opacity: 1;
+    bottom: 0;
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent:hover .textParagraphe {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent:hover .iconContent {
+    box-shadow: none;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 0 75px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .titreSection {
+        font-size: 50px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems {
+        position: relative;
+        z-index: 1;
+        padding: 100px 75px 0 75px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems:after {
+        bottom: 25px;
+        left: 32.5px;
+        width: calc(100% - 75px);
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .textParagraphe .titreParagraphe {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer {
+        padding: 50px 25px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent {
+        padding: 25px 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .titreSection {
+        font-size: 40px;
+        text-align: center;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .divContent .textParagraphe.secondType {
+        padding-top: 25px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 .imageStructure {
+        order: -1;
+        max-width: 500px;
+        margin: auto;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems {
+        padding: 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems:after {
+        display: none;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item {
+        padding: 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent {
+        align-items: center;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .textParagraphe {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .textParagraphe .titreParagraphe {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item {
+        padding: 15px;
+        margin-bottom: 0;
+    }
+    .moduleDefault._espacePersoGestionContactsContainer .moduleDefaultContainer .listItems .item .itemContent .textParagraphe .titreParagraphe {
+        font-size: 20px;
+    }
+}
+
+
+/* demande recu */
+
+.moduleDefault._demandeRecuGestionContactsContainer {
+    min-height: auto;
+    z-index: 10;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer {
+    padding: 50px 0;
+    width: 100%;
+    max-width: 1620px;
+    margin: auto;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .imageStructure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe.secondType {
+    padding-top: 100px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        padding-left: 75px;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 75px 50px 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer {
+        padding: 50px 25px;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .imageStructure {
+        padding: 0;
+        max-width: 400px;
+        margin: auto;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure {
+        padding: 25px 0 0 0;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        padding-right: 0;
+        text-align: center;
+    }
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer .divStructure .textParagraphe.secondType {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._demandeRecuGestionContactsContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* envoi sms */
+
+.moduleDefault._envoiSmsGestionContactsContainer {
+    margin: auto;
+    max-width: 1620px;
+    z-index: 10;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer {
+    padding: 50px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .titreSection {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 {
+    padding: 50px 0;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent {
+    height: 250px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement .sousTitreSection {
+    color: #fff;
+    max-width: 300px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement .sousTitreSection strong {
+    text-transform: uppercase;
+    font-size: 24px;
+    display: block;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .textBottom.sousTitreSection_3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_1 {
+    padding-right: 12.5px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_2 {
+    padding: 0 12.5px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_3 {
+    padding-left: 12.5px;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_1 .divElement {
+    background: url('/assets/img/modules/gestionContacts/module_envoiSMS/envoiSMS_step_1.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_2 .divElement {
+    background: url('/assets/img/modules/gestionContacts/module_envoiSMS/envoiSMS_step_2.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_3 .divElement {
+    background: url('/assets/img/modules/gestionContacts/module_envoiSMS/envoiSMS_step_3.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .titreSection {
+        font-size: 50px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+        padding-left: 35px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement .sousTitreSection strong {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 0;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .titreSection {
+        font-size: 40px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .sousTitreSection {
+        padding-right: 0;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 {
+        padding: 50px 0;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent {
+        height: 250px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+        display: flex;
+        align-items: center;
+        padding-left: 70px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .textBottom.sousTitreSection_3 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_1,
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_2,
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent.step_3 {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer {
+        padding: 30px 15px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_1 .sousTitreSection {
+        font-size: 16px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 {
+        padding: 30px 0;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent .divElement {
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .moduleDefault._envoiSmsGestionContactsContainer .moduleDefaultContainer .divStructure_2 .divContent {
+        height: 150px;
+    }
+}

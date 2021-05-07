@@ -1,0 +1,23 @@
+<section id="infosEntrepriseLaBoite_anchorId" class="moduleDefault _infosEntrepriseLaBoiteContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="divContainer bxrow">
+            <p class="bxd12 textShadow BxAnim animBxFadeBottom__Out">{{ infosEntrepriseLaBoite.titre|raw }}</p>
+            <div class="imgStructure bxld5 bxt0">
+                <img class="image BxAnim animBxFadeBottom__Out" src="/assets/img/modules/laBoite/module_infosEntreprise/imgLaBoite_1.jpg">
+            </div>
+            <div class="divStructure_1 bxld19 bxt12 bxrow">
+                {% for item in infosEntrepriseLaBoite.listItems %}
+                    <div class="itemStructure BxAnim animBxFadeBottom__Out bxd4 bxt6 bxm12">
+                        <img class="icon" src="{{ item.icon }}">
+                        <p class="sousTitreSection">{{ item.titre|raw }}</p>
+                        <p class="textParagraphe">{{ item.text|raw }}</p>
+                    </div>
+                {% endfor %}
+                <div class="itemStructure BxAnim animBxFadeBottom__Out bxd8 bxt0">
+                    <img class="imageBck" src="/assets/img/modules/laBoite/module_infosEntreprise/imgLaBoite_2.jpg">
+                </div>
+            </div>
+        </div>
+        <span class="divStructure_2"></span>
+    </div>
+</section>

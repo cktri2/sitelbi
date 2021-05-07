@@ -1,0 +1,396 @@
+.moduleDefault._introductionGestionEquipeContainer {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    max-width: 1920px;
+}
+
+.moduleDefault._introductionGestionEquipeContainer:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: url('/assets/img/modules/gestionContacts/module_gererVosContacts/shape_section_1.svg') no-repeat 100% 0%;
+    background-size: contain;
+}
+
+.moduleDefault._introductionGestionEquipeContainer:after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: -1;
+    width: 100%;
+    height: 110%;
+    content: '';
+    background: #f4f4f4;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer {
+    width: 100%;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure .titrePage {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure .titrePage .textColor {
+    display: block;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure .sousTitreSection {
+    padding-right: 70px;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .imageStructure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1600px) {
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure {
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .moduleDefault._introductionGestionEquipeContainer {
+        min-height: 100vh;
+        padding: 0;
+    }
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure {
+        padding: 50px 25px;
+    }
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._introductionGestionEquipeContainer .moduleDefaultContainer .imageStructure {
+        z-index: -1;
+        order: -1;
+        padding-top: 75px;
+        padding-right: 0;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+
+/* reporting */
+
+.moduleDefault._reportingGestionEquipeContainer {
+    margin: auto;
+    max-width: 1720px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer {
+    padding: 100px 0 50px 0;
+    width: 100%;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .titreSection {
+    text-align: center;
+    padding: 0 50px 15px 50px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textParagraphe {
+    text-align: center;
+    padding: 0 50px 10px 50px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure {
+    justify-content: flex-end;
+    padding: 100px 0;
+    position: relative;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection {
+    padding-bottom: 50px;
+    line-height: 1;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .sousTitreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+    padding-bottom: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .imgContent {
+    border-radius: 5px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .imgContent .imageItem {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textParagraphe {
+    text-transform: uppercase;
+    width: calc(100% - 60px);
+    padding-left: 15px;
+    font-family: 'OpenSans-Bold';
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textBottom {
+    text-transform: uppercase;
+    font-family: 'OpenSans-Extrabold';
+    text-align: center;
+    padding: 0 50px 10px 50px;
+}
+
+.moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textBottom .textColor {
+    color: #f59a00;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .titreSection {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure {
+        padding: 0;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure {
+        width: 100%;
+        justify-content: center;
+        padding: 50px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure .image {
+        max-width: 500px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent {
+        width: 100%;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .textContent {
+        text-align: center;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer {
+        padding: 50px 0;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .titreSection {
+        font-size: 40px;
+        padding: 0 25px 15px 25px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textParagraphe {
+        padding: 0 25px 10px 25px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure .image {
+        max-width: 400px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .textContent {
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textBottom {
+        padding: 0 25px 10px 25px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .titreSection {
+        font-size: 30px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .imageStructure {
+        padding: 25px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent {
+        padding: 25px;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item {
+        padding-right: 0;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .divStructure .divContent .listItems .item .textItem {
+        padding-left: 0;
+        padding-top: 15px;
+        width: 100%;
+    }
+    .moduleDefault._reportingGestionEquipeContainer .moduleDefaultContainer .textParagraphe {
+        font-size: 15px;
+    }
+}
+
+
+/* agenda */
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer {
+    width: 100%;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 {
+    max-width: 1620px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure .titreSection {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure .titreSection .textColor {
+    display: block;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure .textParagraphe {
+    padding-bottom: 10px;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .imageStructure {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .imageStructure .image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 {
+    padding: 25px 50px 150px 50px;
+    max-width: 1520px;
+    margin: auto;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure:hover {
+    background: #efefef;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure .imageStructure .image {
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .sousTitreSection {
+    display: block;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .textParagraphe {
+    text-align: center;
+    max-width: 500px;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 75px 0;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure {
+        padding-left: 50px;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure {
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 50px 0;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .imageStructure {
+        order: -2;
+        justify-content: center;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .imageStructure .image {
+        max-width: 500px;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure {
+        padding: 0 50px;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure .titreSection {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 .divStructure .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 {
+        padding: 25px 0 50px 0;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure {
+        padding: 25px;
+    }
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_2 .divStructure .imageStructure .image {
+        height: 125px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._agendaGestionEquipeContainer .moduleDefaultContainer .divStructure_1 {
+        padding: 25px 0;
+    }
+}

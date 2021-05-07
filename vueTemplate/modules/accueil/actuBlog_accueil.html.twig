@@ -1,0 +1,30 @@
+<section id="actuBlogAccueil_anchorId" class="moduleDefault _actuBlogAccueilContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="bxld7 bxt12 actuBlogTitreContent">
+            <h2 class="titrePage BxAnim animBxFadeBottom2__Out">{{ actuBlogAccueil.titre|raw }}</h2>
+            <p class="sousTitreSection_3 BxAnim animBxFadeBottom2__Out">{{ actuBlogAccueil.sousTitre|raw }}</p>
+            <div class="btnContent BxAnim animBxFadeBottom2__Out">
+                <a href="https://www.la-boite-immo.com/blog/" class="btnDefault lbiRaw hoverTranslate transition250">{{ actuBlogAccueil.textBtn|raw }}</a>
+            </div>
+        </div>
+        <div class="bxld17 bxt12 actuBlogSectionInfo BxAnim animBxFadeRight2__Out">
+            <div class="actuBlogSectionInfoStructure bxrow">
+                {% for element in actuBlogAccueil.elements %}
+                    <div class="bxld11 elementBlogContent">
+                        <article class="elementBlog BxAnim animBxFadeRight__Out">
+                            <img class="image" src="{{ element.img }}" alt="{{ element.altImg|raw }}">
+                            <div class="elementBlogData">
+                                <div class="dataBlog">
+                                    <p class="date">{{ element.date|raw }}</p>
+                                    <h3 class="titre">{{ element.titre|raw }}</h3>
+                                    <p class="textParagraphe">{{ element.text|raw }}</p>
+                                </div>
+                                <a href="{{ element.href|raw }}" class="btnRead">{{ element.textBtn|raw }} <span class="icon icon-arrow-right"></span></a>
+                            </div>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

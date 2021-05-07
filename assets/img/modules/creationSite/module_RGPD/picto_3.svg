@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63.968" height="60.03" viewBox="0 0 63.968 60.03">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bed000"/>
+      <stop offset="1" stop-color="#62aa42"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3194" data-name="Rectangle 3194" width="63" height="60" transform="translate(0.124 0.01)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="réglementation" transform="translate(-941 -671.849)">
+    <path id="Tracé_27500" data-name="Tracé 27500" d="M945.412,672.029h55.145a4.4,4.4,0,0,1,4.412,4.411v41.91a4.4,4.4,0,0,1-4.412,4.412H945.412A4.4,4.4,0,0,1,941,718.351V676.44a4.4,4.4,0,0,1,4.412-4.411Zm0,0" transform="translate(0 -0.181)" fill="#efefef"/>
+    <path id="Tracé_27501" data-name="Tracé 27501" d="M1004.968,676.44v4.412H941V676.44a4.411,4.411,0,0,1,4.412-4.411h55.145a4.411,4.411,0,0,1,4.412,4.411Zm0,0" transform="translate(0 -0.181)" fill="#494b52"/>
+    <path id="Tracé_27502" data-name="Tracé 27502" d="M1114.237,691.889h-6.618a1.1,1.1,0,0,0,0,2.206h6.618a1.1,1.1,0,0,0,0-2.206Zm0,0" transform="translate(-137.944 -16.732)" fill="#fff"/>
+    <path id="Tracé_27503" data-name="Tracé 27503" d="M1232.3,691.889h-12.132a1.1,1.1,0,0,0,0,2.206H1232.3a1.1,1.1,0,0,0,0-2.206Zm0,0" transform="translate(-231.748 -16.732)" fill="#fff"/>
+    <path id="Tracé_27504" data-name="Tracé 27504" d="M963.068,692.992a1.1,1.1,0,1,1-1.1-1.1,1.1,1.1,0,0,1,1.1,1.1Zm0,0" transform="translate(-16.554 -16.732)" fill="#ff5364"/>
+    <path id="Tracé_27505" data-name="Tracé 27505" d="M989.55,692.992a1.1,1.1,0,1,1-1.1-1.1,1.1,1.1,0,0,1,1.1,1.1Zm0,0" transform="translate(-38.624 -16.732)" fill="#f0c419"/>
+    <g id="Groupe_17047" data-name="Groupe 17047" transform="translate(941.242 671.868)">
+      <g id="Groupe_17046" data-name="Groupe 17046" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_27506" data-name="Tracé 27506" d="M1016.034,692.992a1.1,1.1,0,1,1-1.1-1.1,1.1,1.1,0,0,1,1.1,1.1Zm0,0" transform="translate(-1001.938 -688.601)" fill="url(#linear-gradient)"/>
+        <path id="Tracé_27507" data-name="Tracé 27507" d="M1069.2,891.639h-2.636a20.955,20.955,0,0,1-37.431,7.911,2.208,2.208,0,1,1,3.6-2.562,16.543,16.543,0,0,0,29.3-5.349h-1.566a1.2,1.2,0,0,1-.871-1.974l2.978-3.629v-.011l1.391-1.69a1.128,1.128,0,0,1,1.741,0l4.368,5.328a1.2,1.2,0,0,1-.871,1.976Zm0,0" transform="translate(-1014.343 -848.646)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Tracé_27508" data-name="Tracé 27508" d="M1028.876,789.9l-.006.007a2.206,2.206,0,0,1-3.547-.214A16.543,16.543,0,0,0,995.38,795.6h1.831a1.2,1.2,0,0,1,.871,1.974l-4.367,5.328a1.128,1.128,0,0,1-1.743,0l-4.368-5.328a1.2,1.2,0,0,1,.871-1.974H990.9a20.944,20.944,0,0,1,38.1-8.333,2.207,2.207,0,0,1-.126,2.628Zm0,0" transform="translate(-38.608 -88.464)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_27509" data-name="Tracé 27509" d="M964.171,753.683h-2.205a1.1,1.1,0,1,1,0-2.205h2.205a1.1,1.1,0,1,1,0,2.205Zm0,0" transform="translate(-16.554 -66.395)" fill="#bed000"/>
+    <path id="Tracé_27510" data-name="Tracé 27510" d="M1011.615,753.683h-9.926a1.1,1.1,0,1,1,0-2.205h9.926a1.1,1.1,0,1,1,0,2.205Zm0,0" transform="translate(-49.66 -66.395)" fill="#1f1f1f"/>
+    <path id="Tracé_27511" data-name="Tracé 27511" d="M970.789,780.165h-8.823a1.1,1.1,0,1,1,0-2.206h8.823a1.1,1.1,0,1,1,0,2.206Zm0,0" transform="translate(-16.554 -88.464)" fill="#1f1f1f"/>
+    <path id="Tracé_27512" data-name="Tracé 27512" d="M1281.964,753.683h-2.205a1.1,1.1,0,1,1,0-2.205h2.205a1.1,1.1,0,1,1,0,2.205Zm0,0" transform="translate(-281.408 -66.395)" fill="#1f1f1f"/>
+    <path id="Tracé_27513" data-name="Tracé 27513" d="M1203.615,753.683h-9.926a1.1,1.1,0,1,1,0-2.205h9.926a1.1,1.1,0,1,1,0,2.205Zm0,0" transform="translate(-209.676 -66.395)" fill="#1f1f1f"/>
+    <path id="Tracé_27514" data-name="Tracé 27514" d="M1248.856,780.165h-8.823a1.1,1.1,0,0,1,0-2.206h8.823a1.1,1.1,0,0,1,0,2.206Zm0,0" transform="translate(-248.3 -88.464)" fill="#bed000"/>
+  </g>
+</svg>

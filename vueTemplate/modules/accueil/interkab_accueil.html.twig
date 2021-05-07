@@ -1,0 +1,25 @@
+<section id="interkabAccueil_anchorId" class="moduleDefault _interkabAccueilContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer bxrow">
+        <div class="divStructure bxd9 bxt12 BxAnim animBxFadeRight__Out">
+            <img class="shape_1" src="/assets/img/modules/accueil/module_Interkab/shape_1.svg">
+            <img class="shape_2" src="/assets/img/modules/accueil/module_Interkab/shape_2.svg">
+            <div class="divContent">
+                <img class="image" src="/assets/img/modules/accueil/module_Interkab/interkabLeft.png" alt="{{ interkabAccueil.altImg|raw }}">
+                <h2 class="titrePage BxAnim animBxFadeBottom2__Out">{{ interkabAccueil.titre|raw }}</h2>
+                <p class="sousTitreSection_2 BxAnim animBxFadeBottom2__Out">{{ interkabAccueil.sousTitre|raw }}</p>
+                <div class="contentParagraphe bxrow">
+                    {% for element in interkabAccueil.elements %}
+                        <div class="bxd4 bxt12 structureParagraphe BxAnim animBxFadeBottom2__Out">
+                            <img class="icon" src="{{ element.img }}" alt="{{ element.altImg|raw }}">
+                            <p class="textParagraphe">{{ element.text|raw }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="btnContent BxAnim animBxFadeBottom2__Out">
+                    <a href="https://www.interkab.fr/" class="btnDefault hektorHover withBorder hoverTranslate transition250">{{ interkabAccueil.textBtn|raw }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

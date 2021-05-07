@@ -1,0 +1,687 @@
+.moduleDefault._introductionLaBoiteContainer {
+    width: 100%;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure {
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding-left: 30px;
+    min-height: 100vh;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .titrePage {
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .titrePage .textColor_2:first-child {
+    display: block;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe {
+    max-width: calc(50% + 100px);
+    padding-left: 100px;
+    position: relative;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: calc(100% - 50px);
+    width: 100vw;
+    height: 2px;
+    background: #bed000;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure {
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    position: relative;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure:after {
+    background: linear-gradient(0deg, #64ab40, #bed000);
+    content: '';
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    border-bottom-left-radius: 200px;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom {
+    padding: 75px 125px;
+    position: relative;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'OpenSans-Light';
+    width: 90%;
+}
+
+.moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic strong {
+    font-family: 'OpenSans-Bold';
+    font-size: 28px;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure {
+        padding: 0 50px 0 0;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        max-width: calc(75% + 50px);
+        padding-left: 75px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        max-width: 100%;
+        padding-left: 75px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom {
+        padding: 50px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic {
+        font-size: 24px;
+        width: 100%;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic strong {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure {
+        padding: 0;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure {
+        order: -1;
+        padding: 100px 0 150px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure .image {
+        max-width: 500px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure:after {
+        left: 50%;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure {
+        min-height: auto;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .titrePage {
+        text-align: center;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe {
+        text-align: center;
+        padding: 0;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divStructure .textParagraphe:before {
+        display: none;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure {
+        padding: 100px 0 50px;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .imgStructure:after {
+        display: none;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom {
+        padding: 50px 0;
+    }
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic,
+    .moduleDefault._introductionLaBoiteContainer .moduleDefaultContainer .divBottom .textItalic strong {
+        font-size: 16px;
+    }
+}
+
+
+/* infosEntreprise */
+
+.moduleDefault._infosEntrepriseLaBoiteContainer {
+    width: 100%;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer {
+    width: 100%;
+    position: relative;
+    padding: 50px 0 0;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer {
+    padding-bottom: 175px;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .textShadow {
+    width: 100%;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    font-family: 'RalewayBlack';
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .imgStructure {
+    justify-content: flex-end;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .imgStructure .image {
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 {
+    padding: 0 100px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .icon {
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .image {
+    height: 150px;
+    padding-bottom: 25px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .sousTitreSection {
+    font-size: 28px;
+    font-family: 'OpenSans-Extrabold';
+    padding-bottom: 10px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .sousTitreSection .textColor_2 {
+    color: #bed000;
+    font-family: 'OpenSans-Extrabold';
+    font-size: 28px;
+    display: block;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .textParagraphe {
+    font-size: 18px;
+    max-width: 80%;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .textParagraphe strong {
+    font-size: 18px;
+    font-family: 'OpenSans-Bold';
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .imageBck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: calc(100% + 300px);
+    height: 700px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divStructure_2 {
+    background: url('/assets/img/modules/laBoite/module_infosEntreprise/imgLaBoite_3.jpg') fixed no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .textShadow {
+        font-size: 80px;
+        padding-bottom: 75px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 {
+        padding: 0 0 0 50px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .icon {
+        height: 75px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .image {
+        height: 125px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .textParagraphe {
+        max-width: 90%;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .imageBck {
+        height: 600px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer {
+        padding-bottom: 50px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divStructure_2 {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .textShadow {
+        font-size: 60px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 {
+        padding: 0 50px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .image {
+        height: 100px;
+        margin-top: -25px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divStructure_2 {
+        height: 400px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divStructure_2 {
+        background: url('/assets/img/modules/laBoite/module_infosEntreprise/imgLaBoite_3.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .textShadow {
+        font-size: 28px;
+        color: #bed000;
+        padding-bottom: 25px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 {
+        padding: 0 15px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure {
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .textParagraphe {
+        max-width: 100%;
+    }
+    .moduleDefault._infosEntrepriseLaBoiteContainer .moduleDefaultContainer .divContainer .divStructure_1 .itemStructure .image {
+        height: 100px;
+        margin-top: 0;
+    }
+}
+
+
+/* groupeLbi */
+
+.moduleDefault._groupeLbiLaBoiteContainer {
+    width: 100%;
+    position: relative;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer:after {
+    position: absolute;
+    top: 0;
+    left: 48.94%;
+    z-index: -1;
+    background: #f1f1f1;
+    width: 100vw;
+    height: 70%;
+    border-bottom-left-radius: 200px;
+    content: '';
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    padding: 0 25px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .titreSection {
+    padding-top: 10px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .titreSection .textColor_2 {
+    display: block;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+    padding: 40px 0 100px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .linkText {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #9c9c9c;
+    font-family: 'OpenSans-Bold';
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure {
+    padding: 25px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure .infoContent {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 325px;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 75px 25px 25px;
+    width: 100%;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    background-color: #fff;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure .infoContent .image {
+    padding-bottom: 15px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure .infoContent .textInfo:before {
+    content: '';
+    background: #bed000;
+    width: 50px;
+    height: 5px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiContent .infoContent {
+    border-bottom-color: #bed000;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiNeufContent .infoContent {
+    border-bottom-color: #2697cf;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiAcademyContent .infoContent {
+    border-bottom-color: #86878c;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.previsiteContent .infoContent {
+    border-bottom-color: #ff9900;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiContent .infoContent .textInfo:before {
+    background: #bed000;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiNeufContent .infoContent .textInfo:before {
+    background: #2697cf;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.lbiAcademyContent .infoContent .textInfo:before {
+    background: #86878c;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure.previsiteContent .infoContent .textInfo:before {
+    background: #ff9900;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom {
+    padding-top: 100px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .imageStructure {
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 100px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .imageStructure .image {
+    width: 200%;
+    height: 175%;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 {
+    flex-direction: column;
+    padding: 100px 100px 0 150px;
+    align-items: flex-start;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .titreSection {
+    padding-bottom: 25px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .titreSection .textColor_2 {
+    display: block;
+    position: relative;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .titreSection .textColor_2:before {
+    background: #bed000;
+    position: absolute;
+    top: calc(50% + 1px);
+    right: calc(100% + 50px);
+    content: '';
+    width: 300px;
+    height: 2px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .textParagraphe {
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .btnDefault {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1720px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure .infoContent .image {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .linkText {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure {
+        padding: 15px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+        padding: 25px 0 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure {
+        align-items: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .titreSection .textColor_2 {
+        display: initial;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .image {
+        max-width: 300px;
+        padding-bottom: 15px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 {
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+        text-align: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .linkText {
+        text-align: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer:after {
+        left: 50%;
+        height: 100%;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 {
+        padding: 0;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 {
+        align-items: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .titreSection {
+        text-align: center;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .titreSection .textColor_2:before {
+        display: none;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom .divStructure_2 .textParagraphe {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer {
+        padding: 0 15px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure {
+        padding-top: 50px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .topStructure .image {
+        width: 100%;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .textParagraphe {
+        padding: 15px 0 25px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divStructure_1 .linkText {
+        font-size: 14px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure .infoContent {
+        min-height: 250px;
+        padding: 25px;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .listCompany .infoStructure {
+        padding: 15px 0;
+    }
+    .moduleDefault._groupeLbiLaBoiteContainer .moduleDefaultContainer .divContainerBottom {
+        padding-top: 50px;
+    }
+}
+
+
+/* nouveau projet */
+
+.moduleDefault._nouveauProjetLaBoiteContainer {
+    width: 100%;
+}
+
+.moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 75px;
+}
+
+.moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer .divStructure {
+    background: url('/assets/img/modules/laBoite/module_nouveauProjet/imgLaBoite.jpg') no-repeat 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+}
+
+.moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer .divStructure .titreSection {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:1440px) {
+    .moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer .divStructure {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    * .moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer .divStructure {
+        min-height: 400px;
+    }
+    .moduleDefault._nouveauProjetLaBoiteContainer .moduleDefaultContainer {
+        padding: 50px 0 0;
+    }
+}

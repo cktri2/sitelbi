@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="456189e4-77fd-4469-b45b-13ab57df79dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fontIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontIcon/fontIcon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontIcon/fonts/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/uikit/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/uikit/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueTemplate/uikit/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vueTemplate/uikit/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueTemplate/uikit/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vueTemplate/uikit/header.html.twig" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1mc1Msa3lRpojHuTACdODCwWXVh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="456189e4-77fd-4469-b45b-13ab57df79dd" name="Default Changelist" comment="" />
+      <created>1609778020415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609778020415</updated>
+      <workItem from="1609778021518" duration="21767000" />
+      <workItem from="1616657188346" duration="25883000" />
+      <workItem from="1616751483900" duration="593000" />
+      <workItem from="1617259017609" duration="28097000" />
+      <workItem from="1618229743076" duration="8096000" />
+      <workItem from="1618309165406" duration="1316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1617269267638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617269267638" />
+    <state x="299" y="74" width="1366" height="852" key="find.popup" timestamp="1618316052270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="299" y="74" width="1366" height="852" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618316052270" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618309508784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618309508784" />
+  </component>
+</project>

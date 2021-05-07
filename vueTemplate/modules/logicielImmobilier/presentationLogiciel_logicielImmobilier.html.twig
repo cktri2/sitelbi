@@ -1,0 +1,35 @@
+<section id="presentationLogicielLogicielImmobilier_anchorId" class="moduleDefault _presentationLogicielLogicielImmobilierContainer BxAnim animBxFade__Out">
+    <div class="moduleDefaultContainer">
+        <div class="menuInfosContainer">
+            <ul class="menuStructure bxrow BxAnim animBxFadeBottom__Out">
+                {% for element in presentationLogicielLogicielImmobilier.menu %}
+                    <li class="elementLink sousTitreSection_4 transition250{% if loop.first %} active{% endif %} bxd3 bxm6 js_selectionInfosPresentation" data-id-link="{{ element.anchor }}_IdLink">{{ element.text|raw }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="divInfosContainer transition1000 BxAnim animBxFadeBottom__Out">
+            {% for key, element in presentationLogicielLogicielImmobilier.infos %}
+            <div class="divInfosStructure transition750{% if loop.first %} active{% endif %}" id="{{ key }}_IdLink">
+                <div class="divInfosContent">
+                    <div class="titreContent">
+                        <h2 class="titreInfos titreSection">{{ element.titreSection|raw }}</h2>
+                        <p class="textInfos sousTitreSection_3">{{ element.textSection|raw }}</p>
+                    </div>
+                    <div class="bxrow infosStructure">
+                    {% for key, item in element.listItems %}
+                            <div class="divContent {{ element.classResponsive }} bxt12">
+                                <img class="image" src="assets/img/modules/logicielImmobilier/module_presentationLogiciel/{{ item.img }}" alt="{{ item.alt }}">
+                                <p class="sousTitreSection_3">{{ item.titre|raw }}</p>
+                                <p class="textParagraphe">{{ item.text|raw }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="btnContent">
+                        <a href="{{ element.href }}" class="btnDefault hektorHover hoverTranslate transition250">{{ element.textBtn|raw }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
